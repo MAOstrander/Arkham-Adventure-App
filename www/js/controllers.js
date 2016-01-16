@@ -76,9 +76,12 @@ angular.module('starter.controllers', [])
     testData.success(function(res) {
 
     console.log("testData", res);
+    var investigators = res.investigators;
+    var amandaHome = investigators['Amanda Sharpe'].home;
+    alert(amandaHome);
     })
     var chosen = chooseMe($scope.allHerald, 1);
-    alert("Chosen Herald: "+chosen);
+    // alert("Chosen Herald: "+chosen);
   }
 
   // Form data for the login modal
