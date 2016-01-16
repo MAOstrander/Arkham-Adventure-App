@@ -1,0 +1,1050 @@
+{
+  "ancient ones" : {
+    "Azathoth" : {
+      "Attack" : "The end is here! Azathoth destroys the world",
+      "Power" : "Absolute Destruction: If Azathoth awakens, the game is over and the investigators lose.",
+      "Worshippers" : "Since Azathoth promises nothing except destruction, only the insane worship him. However, their fanaticism gives them strength. Maniacs have their toughness by 1.",
+      "combat" : -9999,
+      "defense" : "none",
+      "doom" : 14,
+      "magic defense" : "none"
+    },
+    "Cthulu" : {
+      "Attack" : "Each investigator lowers either his maximum Sanity or maximum Stamina by 1 (his choice). After Cthulu attacks, 1 doom token is palced back on Cthulu's doom track if it  isn't already full.",
+      "Power" : "Dreams of Madness: While Cthulu stirs in his slumber, investigators have their maximum Sanity and maximum Stamina reduced by 1.",
+      "Worshippers" : "Cthulu's worshippers often have the Innsmouth Look, a sign of monstrous ancestors. Cultists have a horror rating of -2 and a horror damage of 2 Sanity.",
+      "combat" : -6,
+      "defense" : "none",
+      "doom" : 13,
+      "magic defense" : "none"
+    },
+    "Hastur" : {
+      "Attack" : "Each investigator must pass a Luck (+1) check or lose 2 Sanity. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+      "Power" : "The King in Yellow: While Hastur stirs in his slumber, the cost to seal a gate is 8 Clue tokens instead of 5.",
+      "Start" : "X is set to the current terror level.",
+      "Worshippers" : "Hastur's worshippers ride byakhee mounts that they call with enchanted whistles. Cultists are flying monsters and their combat rating is -2.",
+      "combat" : "-X",
+      "defense" : "Physical Resistance",
+      "doom" : 13,
+      "magic defense" : "none"
+    },
+    "Ithaqua" : {
+      "Attack" : "Each investigator must pass a Fight (+1) check or lose 2 Stamina. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+      "Power" : "Icy Winds: While Ithaqua stirs in his slumber, any investigator in a street at the end of the Mythos Phase loses 1 Stamina. In addition, all Weather cards are discarded without their special effects taking place.",
+      "Start" : "Investigators must roll a die for every item they have, discarding the item on a failure.",
+      "Worshippers" : "Ithaqua's worshippers eat the flesh of their fellow men, gaining supernatural power through their dark practice. Cultists have their toughness increased by 2.",
+      "combat" : -3,
+      "defense" : "none",
+      "doom" : 11,
+      "magic defense" : "none"
+    },
+    "Nyarlathotep" : {
+      "Attack" : "Each investigator must pass a Lore (+1) check or lose 1 Clue token. Any investigator with no Clue tokens left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+      "Power" : "A Thousand Masks: At the start of the game, add the Mask monsters to the cup. Multiple Mask monsters can be in play at once.",
+      "Start" : "Any investigator with no Clue tokens is devoured.",
+      "Worshippers" : "Nyarlathotep has innumerable cults all over the world. Cultists have the Endless ability.",
+      "combat" : -4,
+      "defense" : "none",
+      "doom" : 11,
+      "magic defense" : "Magical Resistance"
+    },
+    "Shub-Niggurath" : {
+      "Attack" : "Each investigator must pass a Sneak (+1) check or lose 1 monster trophy. Any investigator with no monster trophies left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+      "Power" : "Black Goat of the Woods: While Shub-Niggurath stirs in her slumber, all monsters have their toughness increased by 1.",
+      "Start" : "Any investigator with no monster trophies is devoured.",
+      "Worshippers" : "Shub-Niggurath's young are numberless. Dark Young have the Endless ability.",
+      "combat" : -5,
+      "defense" : "Physical Immunity",
+      "doom" : 12,
+      "magic defense" : "none"
+    },
+    "Yig" : {
+      "Attack" : "Each investigator must pass a Speed (+1) check or lose 1 Sanity and 1 Stamina. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+      "Power" : "Yig's Anger: While Yig stirs in his slumber, he gains a doom token whenever a Cultist is defeated or an investigator is lost in time and space.",
+      "Start" : "Every investigator is Cursed. Any investigator that already has a Curse is devoured.",
+      "Worshippers" : "Yig's worshippers are actually disguised serpent people. Their bite is highly poisonous. Cultists have a combat rating of +0 and a combat damage of 4 Stamina.",
+      "combat" : -3,
+      "defense" : "none",
+      "doom" : 10,
+      "magic defense" : "none"
+    },
+    "Yog-Sothoth" : {
+      "Attack" : "Each investigator must pass a Will (+1) check or lose 1 gate trophy. Any investigator with no gate trophies left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+      "Power" : "The Key and the Gate: While Yog-Sothoth stirs in his slumber, the difficulty to close or seal a gate increases by 1. In addition, any investigator lost in time and space is devoured.",
+      "Start" : "Any investigator with no gate trophies is devoured.",
+      "Worshippers" : "Yog-Sothoth's worshippers have powerful magical abilities. Cultists have Magical Immunity and a combat rating of -1.",
+      "combat" : -5,
+      "defense" : "none",
+      "doom" : 12,
+      "magic defense" : "Magical Immunity"
+    }
+  },
+  "investigators" : {
+    "Amanda Sharpe" : {
+      "Fixed Possessions" : {
+        "clues" : 1,
+        "dollars" : 1
+      },
+      "Random Possessions" : {
+        "common item" : 1,
+        "skill" : 2,
+        "spell" : 1,
+        "unique" : 1
+      },
+      "ability" : {
+        "Studious" : "Any Phase: Whenever Amanda draws one or more cards from the Skill deck, she draws one extra card and then discards one of the cards."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "focus" : 3,
+      "home" : "Bank of Arkham",
+      "lore" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "luck" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "mission" : {
+        "Aquatic Destiny" : {
+          "fail" : "Amanda has the Innsmouth Look. Place a Deep One monster token in her current location and add an uprising token to the Deep Ones Rising track. Amanda is devoured.",
+          "text" : "'Ia!Ia! Cthulu phtagn!' Amanda shed her clothing and skin alike as the life-giving water enveloped her. She was, finally, going home."
+        },
+        "Elder Dreams" : {
+          "Fail" : "If there are two open gates to R'lyeh, place 'Aquatic Destiny' in play.",
+          "Pass" : "Each time Amanda draws a Unique Item, put a Clue token on this card. If there are 3 Clue tokens on this card, place 'Head of the Class' in play.",
+          "text" : "In her dreams, she swam among the ancient submerged columns, feeling pure joy and freedom. But when she awoke, she was filled with revulsion and dread. But Amanda had always felt that there was no problem a little research and observation couldn't fix. And if she couldn't solve the problem of her nightmares, she'd just have to learn to adapt."
+        },
+        "Head of the Class" : {
+          "success" : "Amanda's maximum Sanity and Stamina are eached increased by 1. She immediately gains 1 Sanity and 1 Stamina.",
+          "text" : "Finally, Amanda had found a way to silence the whispering voices and stave off the dreams of a life under the waves. For the first time since the dreams begun, she was at peace."
+        }
+      },
+      "sanity" : 5,
+      "sneak" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "speed" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "stamina" : 5,
+      "story" : "Amanda has been a student at Miskatonic University for 2 years now. On her way to talk to one of her professors last month, she saw a painting in the hallway that captured her attention with its hazy depiction of some horrible creature rising up out of the ocean. Ever since, Amanda has heard strange whispers in a foreign language whenever her attention drifts. More disturbingly, she has begun to dream of the vast green depths of the ocean and terrible alien cities that lie in its darkest crevasses. This evening, as she finishes her shift as a bank teller at the First Bank of Arkham, something out in the night calls to her - something dark and sinister that leaves the feel of sea foam in her mind and makes her gasp with the effort of resisting it. Leaning against the brick wall of the bank, Amanda realizes that she has to find out what's happening to her or she's going to fall prey to whatever aliend presence is invading her mind.",
+      "title" : "the Student",
+      "will" : {
+        "max" : 4,
+        "min" : 1
+      }
+    },
+    "Ashcan Pete" : {
+      "Fixed Possessions" : {
+        "ally" : "Duke",
+        "clues" : 3,
+        "dollars" : 1
+      },
+      "Random Possessions" : {
+        "common item" : 1,
+        "skill" : 1,
+        "unique" : 1
+      },
+      "ability" : {
+        "Scrounge" : "When Pete draws from the Common Item, Unique Item, or Spell deck, he may draw from either the top or the bottom of that deck, his choice. Pete may look at the bottom card of those decks at any time."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "focus" : 1,
+      "home" : "River Docks",
+      "lore" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "luck" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "mission" : {
+        "Living Nightmare" : {
+          "fail" : "Pete discards all his Ally cards except Duke. He may no longer gain Allies.",
+          "text" : "Was he asleep? Was he still dreadming? Pete couldn't tell anymore... 'Get away! Get away!' He staggered into the night reeling. With a whine, Duke followed faithfully behind."
+        },
+        "Powerful Nightmares" : {
+          "Fail" : "If there are 5 or more doom tokens on the Ancient One's doom track, place 'Living Nightmare' in play.",
+          "Pass" : "If Pete has a Dreamlands gate trophy, place 'Sweet Dreams' in play.",
+          "text" : "The nightmares just kept getting worse and worse. Last two nights  Pete woke up covered in seat. Even Duke was starting to whimper and whine in his dreams. It had to be more than dreams. There had to be some kinda truth out there, hidden away in his nightmares, and it was time for Ashcan Pete to find out what..."
+        },
+        "Sweet Dreams" : {
+          "success" : "Pete gains +1 Speed and +1 Luck.",
+          "text" : "Pete lay back on the grass and pulled his hat down low over his eyes. For once, he was looking forward to getting a good night's rest."
+        }
+      },
+      "sanity" : 4,
+      "sneak" : {
+        "max" : 6,
+        "min" : 3
+      },
+      "speed" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "stamina" : 6,
+      "story" : "When you've lived on the streets as long as Pete has, you see things. Things that would drive braver men screaming into the night. But you also learn to be quiet, to stay hidden, and to play stupid if all else fails. It also helps to have a good dog, like Duke, to scare away the meaner elements of the street. Unfortunately, this time, Pete can't hide, and there's nothing Duke can do to protect him. His nightmares have been growing steadily worse over the last month, driving him all the way here... to Arkham. Even the whiskey isn't helping much anymore. Soon, he won't be able to sleep at all. Still, there are always opportunities for a man who knows how to stay quiet... as long as he isn't too picky.",
+      "title" : "the Drifter",
+      "will" : {
+        "max" : 5,
+        "min" : 2
+      }
+    },
+    "Bob Jenkins" : {
+      "Fixed Possessions" : {
+        "dollars" : 9
+      },
+      "Random Possessions" : {
+        "common item" : 2,
+        "skill" : 1,
+        "unique" : 2
+      },
+      "ability" : {
+        "Shrewd Dealer" : "Any Phase: Whenever Bob draws one or more cards from the Common item deck, he draws one extra card and then discards one of the cards."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "focus" : 1,
+      "home" : "General Store",
+      "lore" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "luck" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "mission" : {
+        "Jackpot!" : {
+          "success" : "Bob gains $15. Once per turn, during the Upkeep Phase, Bob may spend $3 to gain 1 Clue token.",
+          "text" : "He'd found them. Stacks and stacks of alloyed gold coins, minted by no human hand. Of course, by this time, money was the last thing on Bob Jenkins' mind."
+        },
+        "Living Nightmare" : {
+          "fail" : "Bob is Cursed. He cannot be Blessed while he has any money. If he is Blessed and gains any money, he must discard his Blessed card.",
+          "text" : "The old woman placed a single coin in his hand and cackled. 'Take it, then. And much joy may it bring you!' Her hands were cold and clammy and felt like seawater. Bob fled into the night."
+        },
+        "Old Money" : {
+          "Fail" : "If Bob has 3 or more monster trophies, place 'Greed' in play.",
+          "Pass" : "If Bob has 5 or more Clue tokens, place 'Jackpot!' in play.",
+          "text" : "It cost Bob Jenkins two dollars just to get one of those old coins, but now he had one. He could feel it, heavy and old, in his hand. It was a strange sort of gold, maybe an alloy, and the symbols pressed into its surface didn't resemble any language or art that Bob was familiar with. Well, so it was a funny old coin. That just meant that there was an even bigger market for it! All of Bob's senses told him that he was onto something big. Real big."
+        }
+      },
+      "sanity" : 4,
+      "sneak" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "speed" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "stamina" : 6,
+      "story" : "As a traveling salesman, Bob is always on the go. But yesterday, he saw something that made him decide to stay in Arkham and miss his train. While he was in the General Store selling his wares, a robed man came in and bought several items, paying with old gold coins. Astounded, Bob turned to the shopkeeper for an explanation, but the man just ignored his questions, simply saying, 'That happens, sometimes.' Now, Bob isn't leaving until he figues out where those gold coins came from. If he plays his cards right, maybe this will be the big score. Maybe he'll finally be able to retire and buy that boat he's had his eye on and spend the rest of his days fishing in a tropical paradise. Then again, moybe Bob will finally come to see that all that glitters is not gold.",
+      "title" : "the Salesman",
+      "will" : {
+        "max" : 6,
+        "min" : 3
+      }
+    },
+    "Carolyn Fern" : {
+      "Fixed Possessions" : {
+        "clues" : 1,
+        "dollars" : 7
+      },
+      "Random Possessions" : {
+        "common item" : 2,
+        "skill" : 1,
+        "unique" : 2
+      },
+      "ability" : {
+        "Psychology" : "Upkeep: Dr. Fern may restore 1 Sanity to herself or another character in her location. She cannot raise a character's Sanity higher than that character's maximum Sanity."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "focus" : 2,
+      "home" : "Arkham Asylum",
+      "lore" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "luck" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "mission" : {
+        "Cured" : {
+          "success" : "Carolyn immediately gains 3 Clue tokens and is Blessed.",
+          "text" : "The bribe worked, and Carolyn quickly began cross-referencing names, dates, and room numbers. She not only identified her patient's murderer, she discovered fresh information regarding the dark events in Arkham."
+        },
+        "Final Analysis" : {
+          "Fail" : "If Carolyn has 6 or more Clue tokens, place 'Followed' in play.",
+          "Pass" : "If Carolyn is at Arkham Asylum during the Upkeep Phase, she may spend $15 to place 'Cured' in play.",
+          "text" : "Carolyn Fern read over the frustratingly obtuse paperwork in her room. Getting record from Arkham Asylum had turned into a bureaucratic nightmare. It was going to take a hefty amount of bribery to grease the wheels. But even as she filled in all the blanks, she worried that she was too close to whatever it was that had killed her patient. It wasn't safe to be here."
+        },
+        "Followed" : {
+          "fail" : "Carolyn receives a -1 penalty to all Sneak checks.",
+          "text" : "Carolyn knew her patient was murdered to protect some dark secret, and she now found herself in a similar position. Everywhere she went, she could hear the footsteps behind her. She could feel the eyes watching her. It was just a matter of time, she knew."
+        }
+      },
+      "sanity" : 6,
+      "sneak" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "speed" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "stamina" : 4,
+      "story" : "Carolyn is a first year resident at a sanitarium in Providence. Over the past six months, she has been studying the dreams of her patients using hypnosis. One patient in particular gave her vivid and disturbing descriptions of his dreams, right up until he was murdered with a strange knife that closely resembled something from one of his nightmares. Disturbed and frightened by his murder, Carolyn dug back through her notes, poring over them late into the night. Finally, she found some subtle clues that led her here, to Arkham, where he was previously an inmate in Arkham Asylum. Someone here has to know why a harmless man was murdered for talking about his dreams to his psychologist.",
+      "title" : "the Psychologist",
+      "will" : {
+        "max" : 4,
+        "min" : 1
+      }
+    },
+    "Darrell Simmons" : {
+      "Fixed Possessions" : {
+        "clues" : 1,
+        "dollars" : 4,
+        "special" : "Retainer"
+      },
+      "Random Possessions" : {
+        "common item" : 1,
+        "skill" : 1,
+        "unique" : 2
+      },
+      "ability" : {
+        "Hometown Advantage" : "Town Encounter: When drawing location encounters in Arkham, Darrell draws two cards and may choose whichever one of the two he wants. This ability does not work when drawing gate encounters in Other Worlds."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "focus" : 2,
+      "home" : "Newspaper",
+      "lore" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "luck" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "mission" : {
+        "A Thousand Words" : {
+          "Fail" : "If Darrell has 5 or more Clue tokens, place 'The Film is Ruined!' in play.",
+          "Pass" : "If Darrell has 2 or more gate trophies, place 'Theres Your Proof!' in play.",
+          "text" : "The closer Darrell had gotten to his quarry the more problems he'd been having. Flash bulbs turned up inexplicably crushed. His lens fogged over. Innumerable mechanical failures conspired to thwart his efforts. But now he was heading into the darkroom to develop what would be the perfect shot. This would be the one that vindicated him."
+        },
+        "The Film is Ruined!" : {
+          "fail" : "Darrell must immediately discard a Retainer if he has one and may no longer receive a Retainer or Bank Loan.",
+          "text" : "Inside the darkroom, Simmons pulled the photo out of the chemicals and examined it. Nothing. Blurs and smears. After all of his promises, he knew he'd never work again."
+        },
+        "Theres Your Proof" : {
+          "success" : "Darrell gains a Retainer if he does not already have one. Darrell keeps his Retainer for the rest of the game.",
+          "text" : "The editor's scepticism washed away quickly. What he was looking at was just too horrible. There was no way Simmons could have doctored a photo to this extent. 'This is one heck of a picture, Kid. I'm sorry I doubted you,' he said. 'I wont ever make that mistake again."
+        }
+      },
+      "sanity" : 4,
+      "sneak" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "speed" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "stamina" : 6,
+      "story" : "Even while growing up in Arkham, Darrell always knew that there was something not quite right about the strange little town. After graduating from high school, he went to work for the Arkham Advertiser as a photographer, and in the years since, he's crawled over every square inch of the city. Last night, however, Darrell saw something horrible-- something that has shaken his world to its core and torn away the safe illusions we all foster to protect our minds and our souls. His editor says he was just seeing things, but as he leaves the newspaper building, he knows just what he saw and he intends to show the world! This time he'll be more careful. This time he'll take pictures and prove that things are not normal in Arkham.",
+      "title" : "the Photographer",
+      "will" : {
+        "max" : 4,
+        "min" : 1
+      }
+    },
+    "Dexter Drake" : {
+      "Fixed Possessions" : {
+        "dollars" : 5,
+        "spell" : "Shrivelling"
+      },
+      "Random Possessions" : {
+        "common item" : 1,
+        "skill" : 1,
+        "spell" : 2,
+        "unique" : 1
+      },
+      "ability" : {
+        "Magical Gift" : "Any Phase: Whenever 'The Great' Drake draws one or more cards from the Spell deck, he draws one extra card and then discards one of the cards."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "focus" : 2,
+      "home" : "Ye Olde Magick Shoppe",
+      "lore" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "luck" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "mission" : {
+        "Phony" : {
+          "fail" : "Dexter must discard 1 Spell of his choice.",
+          "text" : "'Is it really magic?' The boy gazed up, his eyes wide. 'You dont want to see real magic, kid. No one does.'"
+        },
+        "Sorcerer" : {
+          "success" : "Dexter reduces all Sanity costs to cast Spells by 1 (to a minimum of 0).",
+          "text" : "Thumbing through the John Dee edition of the Necronomicon, Dexter smiled. 'Ahh..' he said. 'Just the thing.'"
+        },
+        "The Great Drake" : {
+          "Fail" : "If Dexter is driven insane, place 'Phony' in play.",
+          "Pass" : "Each time Dexter draws a Tome, put a Clue token on this card. If there are 2 Clue tokens on this card, place 'Sorcerer' in play.",
+          "text" : "It was clear that the Great Drake was in over his head. There was no one to equal him for stagecraft and illusions, but when it came to the real thing... Well, Dexter had to admit, when it came to genuine magic, he was a talented amateur at best. Unfortunately, it had become abundantly clear that a talented amateur was not what the world needed now. It was sink or swim time."
+        }
+      },
+      "sanity" : 5,
+      "sneak" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "speed" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "stamina" : 5,
+      "story" : "After returning from his stint in the army during WWI, Dexter became a stage magician, and proved to be very successful at his trade, but he always longed to find real magic. As they say, be careful what you wish for. Years later, in a rundown store, Dexter came across a burnt and torn fragment of the Necronomicon itself. Intrigued by this ancient piece of occult knowledge, Dexter began to use his wealth in search of the truth about the ancient lore, and what he found horrified him. Now, the more he learns, the less he wants to know, but his studies have led him to believe that a great evil will soon arise in Arkham. He knows that he may well be the only person with the ability to stop this evil from swallowing the world, so he has come to that sleepy town to speak with the proprietor of Ye Olde Magick Shoppe, one of the few magic shops that contain true lore, and not merely the stage tricks he once studied.",
+      "title" : "the Magician",
+      "will" : {
+        "max" : 3,
+        "min" : 0
+      }
+    },
+    "Gloria Goldberg" : {
+      "Fixed Possessions" : {
+        "clues" : 2,
+        "dollars" : 7
+      },
+      "Random Possessions" : {
+        "common item" : 2,
+        "skill" : 1,
+        "spell" : 2
+      },
+      "ability" : {
+        "Psychic Sensitivity" : "Other World Encounter: When drawing gate encounters in Other Worlds, Gloria draws two cards that match the color of one of the Other World's encounter symbols, then chooses whichever one of the two she wants. This ability does not work when drawing location encounters in Arkham."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "focus" : 2,
+      "home" : "Velma's Diner",
+      "lore" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "luck" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "mission" : {
+        "Based on a True Story" : {
+          "Fail" : "If Gloria is driven insane, place 'Its Writing Me' in play.",
+          "Pass" : "If Gloria has 5 Clue tokens, place 'Im Writing It' in play.",
+          "text" : "Gloria looked around the room at the nervous faces. Why wouldn't they believe her visions? Why couldn't they see the horrors she saw? Or maybe they could and they were working against her, trying to convince her that she was crazy. 'I assure you I am in total control of my faculties.' They seemed unconvinced. And to be honest, it had been increasingly difficult lately to seperate the visions from reality."
+        },
+        "Im Writing It" : {
+          "success" : "Gloria gains +1 Fight.",
+          "text" : "All the plot threads were coming together. Gloria now knew exactly what she needed to do."
+        },
+        "Its Writing Me" : {
+          "fail" : "Gloria receives a -1 penalty to all Will checks.",
+          "text" : "Gloria could see it now. She was just a character in a story, and her fate was determined long ago."
+        }
+      },
+      "sanity" : 6,
+      "sneak" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "speed" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "stamina" : 4,
+      "story" : "As a young girl, Gloria was haunted by terrible visions. After years of visiting doctors and some therapy, she learned to control her visions somewhat by writing stories. Her weird and disturbing fiction somehow spoke to the public in these troubled times, and has made her a bestselling writer. This evening, while leaving a book signing she's attending in Arkham, she was knocked to the ground by the most powerful vision she's ever experienced. Gloria saw the sky tear open, and a huge and montrous form pour out of the very air itself, wreaking untold havoc and killing thousands. As she sat on the ground with her arms wrapped around herself, Gloria knew, somehow, that this vision was real, and that it would come to pass unless she did something about it. Now, she finds herself in a run-down diner, sipping coffee and trying to decide what to do.",
+      "title" : "the Author",
+      "will" : {
+        "max" : 5,
+        "min" : 2
+      }
+    },
+    "Harvey Walters" : {
+      "Fixed Possessions" : {
+        "clues" : 1,
+        "dollars" : 5
+      },
+      "Random Possessions" : {
+        "skill" : 1,
+        "spell" : 2,
+        "unique" : 2
+      },
+      "ability" : {
+        "Strong Mind" : "Any Phase: Harvey reduces all Sanity losses he suffers by 1, to a minimum of 0."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "focus" : 2,
+      "home" : "Administration Building",
+      "lore" : {
+        "max" : 6,
+        "min" : 3
+      },
+      "luck" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "mission" : {
+        "Eureka!" : {
+          "success" : "Harvey's maximum Stamina is increased by 1. He immediately gains 1 Stamina. Harvey reduces the Sanity costs to cast Spells by 1, to a minimum of 0.",
+          "text" : "'Good Lord!' Professor Walters leapt up from his desk. He grabbed his notes and his equipment, then rushed to the door. He had to take action immediately!"
+        },
+        "Higher Education" : {
+          "Fail" : "If Harvey is lost in time and space, place 'Its Worse Than I Feared' in play.",
+          "Pass" : "If Harvey has at least 1 Clue token, 1 Unique Item, 1 gate trophy, and 1 monster trophy, place 'Eureka!' in play.",
+          "text" : "Professor Walters sat in his office surrounded by the mountain of research he had amassed books, clippings, photographs, plaster molds of footprints, etc. How could he have been so wrong about so many things when he began? He'd been a fool. But now, he was on the edge. The final answer was here, right in front of him. These things were trying to tell him a story, and he could almost hear it."
+        },
+        "Its Worse Than I Feared" : {
+          "fail" : "Walters may never have more than 5 Clue tokens at once.",
+          "text" : "Slowly, numbly, Harvey pushed his chair back away from the desk. If this were true - but no, it couldn't be!"
+        }
+      },
+      "sanity" : 7,
+      "sneak" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "speed" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "stamina" : 3,
+      "story" : "Harvey is a visiting Professor at Miskatonic University. With Doctorates in History and Archaeology, he has uncovered several interesting artifacts over the years and learned a little of the arcane arts. Recently, by carefully studying the papers and talking to people in the streets, he has begun to detect a disturbance in the city-- something that could potentially herald the arrival of something unthinkable from beyond time and space. Checking his notes, Professor Walters prepares himself for one last trip into the streets of Arkham to confirm his theory. If he's right, it could spell the end of everything.",
+      "title" : "the Professor",
+      "will" : {
+        "max" : 3,
+        "min" : 0
+      }
+    },
+    "Jenny Barnes" : {
+      "Fixed Possessions" : {
+        "dollars" : 10
+      },
+      "Random Possessions" : {
+        "common item" : 2,
+        "skill" : 1,
+        "spell" : 1,
+        "unique" : 1
+      },
+      "ability" : {
+        "Trust Fund" : "Upkeep: Jenny gains $1."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "focus" : 1,
+      "home" : "Train Station",
+      "lore" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "luck" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "mission" : {
+        "Isabelle" : {
+          "Fail" : "If the terror level reaches 3 or higher, place 'Too Late!' in play.",
+          "Pass" : "If Jenny is at the Unvisited Isle during the Upkeep Phase, she may spend 5 Clue tokens to place 'Reunited' in play.",
+          "text" : "She was just off the train here in Arkham and already Jenny hated this town. Of course, she'd had a few weeks on the trip from Paris to build the hate and fear. In truth, Arkham doesn't seem as bad in person as it did in her imagination. The gabled roofs and New England architecture were actually fairly charming, and the people didn't seem too horrid... untl she started asking questions, that is..."
+        },
+        "Reunited" : {
+          "success" : "This card counts as Isabelle Barnes, an Ally card. Jenny gains +1 Speed and +1 Lore while Isabelle is with her.",
+          "text" : "'Jenny! Jenny! Thank God you've come!' Isabelle's crying and Jenny's crying, too. 'You're safe now.' says Jenny, rubbing her sister's shoulder. 'No' Isabelle shakes her head and tries to dry her eyes. 'None of us are.'"
+        },
+        "Too Late!" : {
+          "fail" : "If players are using Madness Cards, Jenny may draw a Madness card instead of putting this card in play. If she does, discard this card. While this card is in play, Jenny's maximum Sanity is reduced by 2.",
+          "text" : "The last envelope had conatined a finger. The one before that, a toe. When she saw the box sitting outside her door, Jenny started wailing in horror."
+        }
+      },
+      "sanity" : 6,
+      "sneak" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "speed" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "stamina" : 4,
+      "story" : "Several months ago, Jenny was visiting Paris when she received a letter from her sister, Isabelle. In it, Isabelle rambled incoherantly, writing about men in dark cloaks following her wherever she went, and of hoofprints in the woods, left by an enormous goat. The outside of the envelope was partailly stained with blood, and it was mailed from Arkham. That was the last letter from Isabelle she received. Jenny has since returned to the States, coming to Arkham to find her missing sister. Stepping off the train from Boston into the dark autumn night, she believes that her sister was abducted by a strange cult, and is determined to find her and thwart the plans of those that took her... even if she has to save all of Arkham in the process.",
+      "title" : "the Dilettante",
+      "will" : {
+        "max" : 5,
+        "min" : 2
+      }
+    },
+    "Joe Diamond" : {
+      "Fixed Possessions" : {
+        "clues" : 3,
+        "common item" : ".45 Automatic",
+        "dollars" : 8
+      },
+      "Random Possessions" : {
+        "common item" : 2,
+        "skill" : 1
+      },
+      "ability" : {
+        "Hunches" : "Any Phase: Joe rolls one extra bonus die when he spends a Clue token to add to a roll."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "focus" : 3,
+      "home" : "Police Station",
+      "lore" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "luck" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "mission" : {
+        "Finish the Job" : {
+          "success" : "Joe Diamond immediately gains $15.",
+          "text" : "'There you are, Sanford. Just like I said. Now pay me.' Sanford didn't respond to Diamond right away. He was too engrossed in the package Joe had just handed him. 'Well done, Mr. Diamond. Very well done.' Sanford called for the Lodge's security. 'You've earned this'"
+        },
+        "Hard-boiled" : {
+          "Fail" : "If Joe discards a Unique Item, place 'No Dice' in play.",
+          "Pass" : "If Joe is at the Silver Twilight Lodge during the Upkeep Phase, he may spend 5 toughness worth of monster trophies and 1 Unique Item to place 'Finish the Job' in play.",
+          "text" : "'It's not the statue itself, Mr. Diamond. It's what's inside that's important.' Carl Sanford say behind his dark oak desk, looking cooly at Joe. 'I'll get it back.' spat Joe. 'And those goons that took it, I'll add them on as a bonus.' 'That would be just fine with us.' Sanford narrowed his eyes. 'We here at the Lodge are anxious to meet these thieves.'"
+        },
+        "No Dice" : {
+          "fail" : "If players are using Injury Cards, Joe may draw an Injury card instead of putting this card in play. If he does, discard this card. While this card is in play, Joe's maximum Stamina is reduced by 2.",
+          "text" : "'It was destroyed? You're certain?' Car Sanford's questions seemed eerily calm. 'Never fear, Mr. Diamond. You will be appropriately compensated for your efforts.'"
+        }
+      },
+      "sanity" : 4,
+      "sneak" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "speed" : {
+        "max" : 6,
+        "min" : 3
+      },
+      "stamina" : 6,
+      "story" : "The job sounded simple enough-- pick up a statue at the Providence Museum and deliver it to a guy at the Silver Twilight Lodge. The money was good, and the dame who gave him the job seemed sincere. Sadly, things never seem to work out that easily for Joe. Now the statue is missing, two people are dead, strange cultists are on his tail, and all clues lead to Arkham. Lady Luck can be funny that way. He's already tried talking to the Sheriff, but that flatfoot proved to be worse than useless. Looks like it's once again going to be up to Joe Diamond to solve the case.",
+      "title" : "the Private Eye",
+      "will" : {
+        "max" : 3,
+        "min" : 0
+      }
+    },
+    "Kate Winthrop" : {
+      "Fixed Possessions" : {
+        "clues" : 2,
+        "dollars" : 7
+      },
+      "Random Possessions" : {
+        "common item" : 1,
+        "skill" : 1,
+        "spell" : 2,
+        "unique" : 1
+      },
+      "ability" : {
+        "Science!" : "Any Phase: Gates and monsters cannot appear in Kate's location due to her flux stabilizer. Monsters and gates do not disappear if the enters their location, however, and monsters can move into her location as usual."
+      },
+      "errata" : "Do not place a Clue token on the Science Building to start the game.",
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "focus" : 1,
+      "home" : "Science Building",
+      "lore" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "luck" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "mission" : {
+        "Its Working!" : {
+          "success" : "It takes one more open gate to awaken the Ancient One.",
+          "text" : "Yes! The improved flux stabilizer seemed to be diminishing the effects of the gates!"
+        },
+        "Resonance" : {
+          "Fail" : "If the doom track has 6 or more doom tokens on it, place 'This Is No Good' in play.",
+          "Pass" : "If Kate has 2 or more gate trophies, place 'Its Working!' in play.",
+          "text" : "If only she could find a way to increase the resonance of her flux stabilizer, Kate was certain that her device would begin to heal the damage being caused by the gates. But in order to do that, she'd need some samples of matter brought back from beyond several of the gates."
+        },
+        "This Is No Good" : {
+          "fail" : "Kate can no longer spend Clue tokens to add to skill checks made to close or seal gates.",
+          "text" : "I don't understand it. The theory is sound, but nothing is happening!"
+        }
+      },
+      "sanity" : 6,
+      "sneak" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "speed" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "stamina" : 4,
+      "story" : "A brilliant researcher, but a shy, lonely person, Kate Winthrop has been working at the Miskatonic Science Labs for 4 years now and her supervisor still doesn't know her name. That doesn't matter to her though, as she has been working to complete a private quest for most of that time. Almost 3 years ago, she watched as a device malfunctioned, and Professor Young, her long-time mentor and friend, was torn apart by an indistinct creature that shrieked and gibbered before vanishing into the night. Since then, she has delved into darker scientific studies, always hoping to find something that would allow her to find and defeat that creature along with the others of its kind. Tonight, her research has finally paid off, allowing her to create a device that can defeat the alien beings she has detected in Arkham!",
+      "title" : "the Scientist",
+      "will" : {
+        "max" : 3,
+        "min" : 0
+      }
+    },
+    "Mandy Thompson" : {
+      "Fixed Possessions" : {
+        "clues" : 4,
+        "dollars" : 6
+      },
+      "Random Possessions" : {
+        "common item" : 2,
+        "skill" : 1,
+        "unique" : 1
+      },
+      "ability" : {
+        "Research" : "Any Phase: Once per turn, Mandy can activate this ability after any investigator (including herself) makes a skill check. That investigator then re-rolls all of the dice rolled for that check that did not result in successes."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "focus" : 2,
+      "home" : "Library",
+      "lore" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "luck" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "mission" : {
+        "Breaking the Chain" : {
+          "Fail" : "If the terror level reaches 5, place 'Inevitability' in play.",
+          "Pass" : "Each time a gate is prevented from opening by an Elder Sign token, put a Clue token on this card. If there are 5 Clue tokens on this card, place 'Broken Chain' in play.",
+          "text" : "The prophecies were starting to come to pass. If something wasn't done soon to disrupt the sequence, events would start falling into palce like dominoes, gathering more and more momentum as they went until they became completely unstoppable."
+        },
+        "Broken Chain" : {
+          "success" : "Immediately close and seal one open gate of your choice.",
+          "text" : "Mandy laughed and cheered. Finally, fate had been denied. Perhaps they had a chance after all."
+        },
+        "Inevitability" : {
+          "fail" : "One less open gate is required to awaken the Ancient One.",
+          "text" : "No matter what we do, the prophecies keep coming to pass. I'm afraid that the sequence of events is already unalterable."
+        }
+      },
+      "sanity" : 5,
+      "sneak" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "speed" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "stamina" : 5,
+      "story" : "Mandy came to Arkham several years ago looking for work as a researcher for Miskatonic University. Since then, she has worked with many of the University professors, delving into esoteric tomes filled with scientific information, historical reports, and sometimes even occult ramblings. It was while reading an old book of prophecies last week that she first felt that she had stumbled onto something big. Mandy came to believe that certain signs and portents described in the book were taking place in Arkham right now-- omens that indicated the return of a terrible being reffered to as an Ancient One, which would grind the cities of Man beneath its loathsome tread. Tonight, the full moon has turned blood red, which is the final omen of the return of the Ancient One. Slipping into the night, and armed with her knowledge of the prophecy, Mandy has decided to see if she can defy fate and stop these events from taking place.",
+      "title" : "the Researcher",
+      "will" : {
+        "max" : 5,
+        "min" : 2
+      }
+    },
+    "Michael McGlen" : {
+      "Fixed Possessions" : {
+        "common item" : "Tommy Gun",
+        "common item2" : "Dynamite",
+        "dollars" : 8
+      },
+      "Random Possessions" : {
+        "skill" : 1,
+        "unique" : 1
+      },
+      "ability" : {
+        "Strong Body" : "Any Phase: Michael reduces all Stamina losses he suffers by 1, to a minimum of 0."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 6,
+        "min" : 3
+      },
+      "focus" : 1,
+      "home" : "Ma's Boarding House",
+      "lore" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "luck" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "mission" : {
+        "Crime Doesn't Pay" : {
+          "fail" : "Michael immediately loses all money and may not gain any more money for the duration of the game.",
+          "text" : "'Mr. McGlen, you're being charged with the crime of income tax evasion.'"
+        },
+        "For a Friend" : {
+          "Fail" : "If Michael gains $5 or more, place 'Crime Doesn't Pay' in play.",
+          "Pass" : "If Michael has 5 or more monster trophies, place 'This One's for Louis!' in play.",
+          "text" : "'Is this your fiend?' The orderly pulled back the sheet. It wasn't a pretty sight. 'He was found in the water last night. We have no clue what these marks indicate.' 'Don't you worry about that. I think I got a pretty good idea. Thanks, Rudy.' 'I owe you, Mr. McGlen. You know that.' 'Yeah I know that, Rudy, but thanks anyway."
+        },
+        "This One's for Louis!" : {
+          "success" : "Michael's maximum Sanity is increased by 1. He immediately gains 1 Sanity. In addition, each time he claims a monster trophy, Michael gains 1 Sanity.",
+          "text" : "McGlen stepped out onto the streets if Arkham with vicious purpose. For too long these things had been hiding in the shadows, out of reach. It was time ot show them who really ran Arkham."
+        }
+      },
+      "sanity" : 3,
+      "sneak" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "speed" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "stamina" : 7,
+      "story" : "As a soldier in the O'Bannion gang, Michael didn't really believe in all this voodoo mumbo jumbo around town. Or at least, he didn't until the night of the Foreman job, when he saw Fast Louie Farrell pulled screaming into the river by a scaly green creature. As they say, seeing is believing and Michael is starting to believe. Now, he has gathered his belongings together in the room that he rents at Ma's Boarding House. Louie was a friend of his, and he won't rest until he finds out what's happening in this town and avenges his buddy...",
+      "title" : "the Gangster",
+      "will" : {
+        "max" : 4,
+        "min" : 1
+      }
+    },
+    "Monterey Jack" : {
+      "Fixed Possessions" : {
+        "clues" : 1,
+        "common item" : "Bull Whip",
+        "common item2" : ".38 Revolver",
+        "dollars" : 7
+      },
+      "Random Possessions" : {
+        "skill" : 1,
+        "unique" : 2
+      },
+      "ability" : {
+        "Archaeology" : "Any Phase: Whenever Monterey draws one or more cards from the Unique item deck, he draws one extra card and then discards one of the cards."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "focus" : 2,
+      "home" : "Curiositie Shoppe",
+      "lore" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "luck" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "mission" : {
+        "Digging Too Deep" : {
+          "Fail" : "If Monterey has 5 or more Clue tokens, place 'Lost to the Ages' in play.",
+          "Pass" : "If Monterey has 3 or more monster trophies, place 'Nothing Stays Hidden' in play.",
+          "text" : "'Your father was no stranger to Arkham. Let me show you some photos.' Monterey thumbed through the black and white images. In the background, he could see several valuable artifacts that he didn't recognize. 'These things. Why aren't they in a museum. My father would have insisted.' The elderly gentleman simply stared back at Monterey sadly. The time for discussion was over. It was time for action."
+        },
+        "Lost to the Ages" : {
+          "fail" : "Monterey must pay 1 Clue token to use his Archaeology ability.",
+          "text" : "Monterey Jack finally had his answer. His father had been killed for collecting antiquities to be used against the powers of darkness. But where this collection was now, no one could say."
+        },
+        "Nothing Stays Hidden" : {
+          "success" : "Monterey's maximum Sanity is increased by 1. In addition, each time Monterey uses his Archaeology ability, he gains 1 Clue token as well.",
+          "text" : "There was no doubt. The lifeless thing on the ground had been responsible for his father's death, and the things around the room were unmistakably his father's most prized possessions, long thought lost."
+        }
+      },
+      "sanity" : 3,
+      "sneak" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "speed" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "stamina" : 7,
+      "story" : "Monterey has been a globe-trotting treasure hunter and adventurer for many years. Following in his father's footsteps, he's always tried to ensure that the specific value of his finds is preserved. Recently, he followed a lead on an odd prehistoric statue to Arkham. However, when he arrived, the man he came to buy the statue from was locked up in the asylum. Monterey was just about to give up and go home in disgust when a robed figure pushed past him. For just an instant, there was a flash of a silver pendant with a symbol on it Monterey would never forget. That symbol had been carved into his murdered father's forehead, and had haunted his dreams for years. Chasing after the mysterious figure, he turned a corner only to discover that he had lost his quarry. However, Monterey knows that somewhere in Arkham may lie the answer to the mystery of his father's murder, and he's not leaving until he finds it.",
+      "title" : "the Archaeologist",
+      "will" : {
+        "max" : 3,
+        "min" : 0
+      }
+    },
+    "Sister Mary" : {
+      "Fixed Possessions" : {
+        "common item" : "Cross",
+        "dollars" : 0,
+        "unique" : "Holy Water"
+      },
+      "Random Possessions" : {
+        "skill" : 1,
+        "spell" : 2
+      },
+      "ability" : {
+        "Guardian Angel" : "Any Phase: Sister Mary is never Lost in Time and Space. Instead, if her Sanity is 0, she returns to Arkham Asylum. If her Stamina is 0, she returns to St. Mary's Hospital. If neither her Sanity or her Stamina are 0, she returns to South Church."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "focus" : 1,
+      "home" : "South Church",
+      "lore" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "luck" : {
+        "max" : 6,
+        "min" : 3
+      },
+      "mission" : {
+        "Fear No Evil" : {
+          "success" : "Sister Mary is Blessed and may not be Cursed. Once per turn, Sister Mary may exhaust this card to re-roll a die rolled during the Upkeep Phase.",
+          "text" : "As the thing moved in the darkness, Mary turned, smiled gently, and began reciting Psalm 23."
+        },
+        "He Is My Shepherd" : {
+          "Fail" : "If Mary gains a Curse card, place 'I Shall Not Want' in play.",
+          "Pass" : "Each time an investigator is Blessed, put a Clue token on this card. If there are 2 Clue tokens on this card, place 'Fear No Evil' in play.",
+          "text" : "How could this be? Had she become a modern-day Job, cursed and tested in her faith? The works of dread pagan gods and heretical cults were rampant in this town. Even Father Michael was shaken in his faith. How could Mary, humble servant of God that she was, hope to persevere? 'Father, into your arms I commend my spirit.' Mary tightened her grip on her cross and marched out into the night. If this was a test of faith, she intended to see it through."
+        },
+        "I Shall Not Want" : {
+          "fail" : "Sister Mary discards her Curse card and gains a Blessing card instead.",
+          "text" : "'Why do bad things happen to good people?' It is a simple question, yet it is also one of the most difficult to answer. Mary felt that she had found an answer at last. 'Because the do.'"
+        }
+      },
+      "sanity" : 7,
+      "sneak" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "speed" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "stamina" : 1,
+      "story" : " Sister Mary has served the Church faithfully for many years, so when she was sent to Arkham to work with Father Michael, a man whose writings she had admired for many years, she felt that she was truly blessed. Now, after witnessing Father Michael's strange mood swings and seeing some of the bizarre practices that go on in this town, she's beginning to feel that she may have been a bit too hasty... For instance, last night, there was a knock on the door of the church, and when she answered it, there was nothing but a handwritten journal laying on the steps outside. Reading it, she learned of strange cults and terrible creatures that lurk in the darkness. Worse, when she laughingly showed it to Father Michael, he turned pale and threw it into the fire, yelling at her to forget what she'd seen. Now, gathering her things and quietly leaving South Church, Sister Mary has decided to investigate this town, and in so doing, reaffirm her faith.",
+      "title" : "the Nun",
+      "will" : {
+        "max" : 4,
+        "min" : 1
+      }
+    },
+    "Vincent Lee" : {
+      "Fixed Possessions" : {
+        "clues" : 1,
+        "dollars" : 9
+      },
+      "Random Possessions" : {
+        "common item" : 2,
+        "skill" : 1,
+        "spell" : 2
+      },
+      "ability" : {
+        "Physician" : "Upkeep: Dr. Lee may restore 1 Stamina to himself or another character in his location. He cannot raise a character's Stamina higher than that character's maximum Stamina."
+      },
+      "expansion" : "Arkham",
+      "fight" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "focus" : 2,
+      "home" : "St Marys Hospital",
+      "lore" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "luck" : {
+        "max" : 4,
+        "min" : 1
+      },
+      "mission" : {
+        "Do No Harm" : {
+          "Fail" : "If Vincent has 3 or more monster trophies, place 'What Have I Done?' in play.",
+          "Pass" : "If Vincent discards 5 Clue tokens in a street area during the Upkeep Phase, place 'The Doctor Is In' in play.",
+          "text" : "Although such a matter would normally be left up to the police, Vincent felt that he owed it to his patients to track down the source of the strange deaths in Arkham. To sit back and do nothing was simply too foreign to his way of thinking. He just had to be careful and call the authorities if things got too hot to handle."
+        },
+        "The Doctor Is In" : {
+          "success" : "Vincent receives 2 extra movement points each turn. Also he may use his Physician ability on any investigator in his current neighborhood.",
+          "text" : "Doctor Lee examined the wound again with a relieved sigh. His patient would be fine, and the source of the injuries seemed consistent with his earlier findings. If he moved fast enough, he could get rid of the source of this vile infection once and for all."
+        },
+        "What Have I Done" : {
+          "fail" : "Vincent's maximum Sanity is reduced by 1",
+          "text" : "Vincent wiped the sweat from his brow with his bloody hand. 'I had to defend myself,' he said to the unmoving body. But he had broken his most sacred oath to protect life, and he hated himself for doing so."
+        }
+      },
+      "sanity" : 5,
+      "sneak" : {
+        "max" : 5,
+        "min" : 2
+      },
+      "speed" : {
+        "max" : 3,
+        "min" : 0
+      },
+      "stamina" : 5,
+      "story" : "A Yale graduate of Medicine, Vincent has recently moved to Arkham from Boston to practice at St. Mary's Hospital. Since his coming to Arkham, he has seen far too many horrible and unexplained deaths -an elderly victim torn apart by unknown wild animals, a healthy young man whose heart exploded, and so many others. Their faces haunt his dreams, especially the young man's terrified expression. After all this, small wonder that Vinent has begun to wonder if there's something sinister going on in this quiet Massachusetts town. Tonight, Dr. Lee made the decision to investigate the mysteries of Arkham and stop the strange deaths. He is determined to see this through, even if in so doing he becomes another puzzle for the next doctor who comes to Arkham.",
+      "title" : "the Doctor",
+      "will" : {
+        "max" : 4,
+        "min" : 1
+      }
+    }
+  }
+}
