@@ -9,6 +9,20 @@ angular.module('starter.controllers', [])
   //$scope.$on('$ionicView.enter', function(e) {
   //});
 
+    var testData = mainInfoFactory.getMainInfo();
+    testData.success(function(res) {
+
+      console.log("testData", res);
+      var investigators = res.investigators;
+      $scope.testTheFactory = [];
+      for (var thing in investigators) {
+        console.log("What is this?", thing);
+        $scope.testTheFactory.push(thing);
+      }
+      // var amandaHome = investigators['Amanda Sharpe'].home;
+    alert($scope.testTheFactory);
+    })
+
   $scope.allCharacters = [
     { title: 'Amanda Sharpe', id: 0 },
     { title: 'Ashcane Pete', id: 1 },
@@ -52,7 +66,8 @@ angular.module('starter.controllers', [])
     random = Math.floor(Math.random()* checkedArray.length);
 
     // Store which investigator that is
-    chosenPlayers[i] = checkedArray[random].title;
+    // chosenPlayers[i] = checkedArray[random].title;
+    chosenPlayers[i] = checkedArray[random];
 
     //Use splice to remove chosen player from selected array for next player
     checkedArray.splice(random, 1);
@@ -72,16 +87,10 @@ angular.module('starter.controllers', [])
   }
 
   $scope.pickHerald = function(){
-    var testData = mainInfoFactory.getMainInfo();
-    testData.success(function(res) {
 
-    console.log("testData", res);
-    var investigators = res.investigators;
-    var amandaHome = investigators['Amanda Sharpe'].home;
-    alert(amandaHome);
-    })
-    var chosen = chooseMe($scope.allHerald, 1);
-    // alert("Chosen Herald: "+chosen);
+    var chosen = chooseMe($scope.testTheFactory, 1);
+    // var chosen = chooseMe($scope.allHerald, 1);
+    alert("Chosen Herald: "+chosen);
   }
 
   // Form data for the login modal
