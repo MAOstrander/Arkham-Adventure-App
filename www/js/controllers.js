@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
+.controller('AppCtrl', function($scope, $ionicModal, $timeout, mainInfoFactory) {
 
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
@@ -72,6 +72,11 @@ angular.module('starter.controllers', [])
   }
 
   $scope.pickHerald = function(){
+    var testData = mainInfoFactory.getMainInfo();
+    testData.success(function(res) {
+
+    console.log("testData", res);
+    })
     var chosen = chooseMe($scope.allHerald, 1);
     alert("Chosen Herald: "+chosen);
   }
@@ -104,7 +109,7 @@ angular.module('starter.controllers', [])
     alert("You rolled "+numDice+" and got the following: " + random);
     //return random;
   };
-  
+
   // Triggered in the login modal to close it
   $scope.closeLogin = function() {
     $scope.modal.hide();
@@ -128,7 +133,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('ResearchCtrl', function($scope) {
-  
+
 })
 
 .controller('CharCtrl', function($scope, $stateParams) {
