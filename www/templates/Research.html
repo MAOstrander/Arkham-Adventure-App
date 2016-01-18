@@ -4,20 +4,20 @@
     <ion-item class="item-divider">
       Characters
     </ion-item>
-    <ion-item ng-repeat="character in allCharacters" href="#/app/research/{{character.id}}">
-      {{character.title}}
+    <ion-item ng-repeat="character in mainMenu.allCharacters" href="#/app/research/{{character.id}}">
+      {{character.name}}
     </ion-item>
     <ion-item class="item-divider">
       Ancient Ones
     </ion-item>
-    <ion-item ng-repeat="ancient in allAncient" href="#/app/research/{{ancient.id}}">
-      {{ancient.title}}
+    <ion-item ng-repeat="ancient in mainMenu.allAncient" href="#/app/research/{{ancient.id}}">
+      {{ancient.name}}
     </ion-item>
     <ion-item class="item-divider">
       Heralds
     </ion-item>
     <ion-item ng-repeat="herald in allHerald" href="#/app/research/{{herald.id}}">
-      {{herald.title}}
+      {{herald.name}}
     </ion-item>
   </ion-content>
 </ion-view>

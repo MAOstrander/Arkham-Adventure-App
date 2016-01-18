@@ -7,7 +7,9 @@
       "combat" : -9999,
       "defense" : "none",
       "doom" : 14,
-      "magic defense" : "none"
+      "id" : 0,
+      "magic defense" : "none",
+      "name" : "Azathoth"
     },
     "Cthulu" : {
       "Attack" : "Each investigator lowers either his maximum Sanity or maximum Stamina by 1 (his choice). After Cthulu attacks, 1 doom token is palced back on Cthulu's doom track if it  isn't already full.",
@@ -16,7 +18,9 @@
       "combat" : -6,
       "defense" : "none",
       "doom" : 13,
-      "magic defense" : "none"
+      "id" : 1,
+      "magic defense" : "none",
+      "name" : "Cthulu"
     },
     "Hastur" : {
       "Attack" : "Each investigator must pass a Luck (+1) check or lose 2 Sanity. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
@@ -26,7 +30,9 @@
       "combat" : "-X",
       "defense" : "Physical Resistance",
       "doom" : 13,
-      "magic defense" : "none"
+      "id" : 2,
+      "magic defense" : "none",
+      "name" : "Hastur"
     },
     "Ithaqua" : {
       "Attack" : "Each investigator must pass a Fight (+1) check or lose 2 Stamina. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
@@ -36,7 +42,9 @@
       "combat" : -3,
       "defense" : "none",
       "doom" : 11,
-      "magic defense" : "none"
+      "id" : 3,
+      "magic defense" : "none",
+      "name" : "Ithaqua"
     },
     "Nyarlathotep" : {
       "Attack" : "Each investigator must pass a Lore (+1) check or lose 1 Clue token. Any investigator with no Clue tokens left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
@@ -46,7 +54,9 @@
       "combat" : -4,
       "defense" : "none",
       "doom" : 11,
-      "magic defense" : "Magical Resistance"
+      "id" : 4,
+      "magic defense" : "Magical Resistance",
+      "name" : "Nyarlathotep"
     },
     "Shub-Niggurath" : {
       "Attack" : "Each investigator must pass a Sneak (+1) check or lose 1 monster trophy. Any investigator with no monster trophies left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
@@ -56,7 +66,9 @@
       "combat" : -5,
       "defense" : "Physical Immunity",
       "doom" : 12,
-      "magic defense" : "none"
+      "id" : 5,
+      "magic defense" : "none",
+      "name" : "Shub-Niggurath"
     },
     "Yig" : {
       "Attack" : "Each investigator must pass a Speed (+1) check or lose 1 Sanity and 1 Stamina. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
@@ -66,7 +78,9 @@
       "combat" : -3,
       "defense" : "none",
       "doom" : 10,
-      "magic defense" : "none"
+      "id" : 6,
+      "magic defense" : "none",
+      "name" : "Yig"
     },
     "Yog-Sothoth" : {
       "Attack" : "Each investigator must pass a Will (+1) check or lose 1 gate trophy. Any investigator with no gate trophies left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
@@ -76,7 +90,9 @@
       "combat" : -5,
       "defense" : "none",
       "doom" : 12,
-      "magic defense" : "Magical Immunity"
+      "id" : 7,
+      "magic defense" : "Magical Immunity",
+      "name" : "Yog-Sothoth"
     }
   },
   "investigators" : {
@@ -101,6 +117,7 @@
       },
       "focus" : 3,
       "home" : "Bank of Arkham",
+      "id" : 0,
       "lore" : {
         "max" : 4,
         "min" : 1
@@ -124,6 +141,7 @@
           "text" : "Finally, Amanda had found a way to silence the whispering voices and stave off the dreams of a life under the waves. For the first time since the dreams begun, she was at peace."
         }
       },
+      "name" : "Amanda Sharpe",
       "sanity" : 5,
       "sneak" : {
         "max" : 4,
@@ -162,6 +180,7 @@
       },
       "focus" : 1,
       "home" : "River Docks",
+      "id" : 1,
       "lore" : {
         "max" : 3,
         "min" : 0
@@ -185,6 +204,7 @@
           "text" : "Pete lay back on the grass and pulled his hat down low over his eyes. For once, he was looking forward to getting a good night's rest."
         }
       },
+      "name" : "Ashcan Pete",
       "sanity" : 4,
       "sneak" : {
         "max" : 6,
@@ -221,6 +241,7 @@
       },
       "focus" : 1,
       "home" : "General Store",
+      "id" : 2,
       "lore" : {
         "max" : 3,
         "min" : 0
@@ -244,6 +265,7 @@
           "text" : "It cost Bob Jenkins two dollars just to get one of those old coins, but now he had one. He could feel it, heavy and old, in his hand. It was a strange sort of gold, maybe an alloy, and the symbols pressed into its surface didn't resemble any language or art that Bob was familiar with. Well, so it was a funny old coin. That just meant that there was an even bigger market for it! All of Bob's senses told him that he was onto something big. Real big."
         }
       },
+      "name" : "Bob Jenkins",
       "sanity" : 4,
       "sneak" : {
         "max" : 3,
@@ -281,6 +303,7 @@
       },
       "focus" : 2,
       "home" : "Arkham Asylum",
+      "id" : 3,
       "lore" : {
         "max" : 5,
         "min" : 2
@@ -304,6 +327,7 @@
           "text" : "Carolyn knew her patient was murdered to protect some dark secret, and she now found herself in a similar position. Everywhere she went, she could hear the footsteps behind her. She could feel the eyes watching her. It was just a matter of time, she knew."
         }
       },
+      "name" : "Carolyn Fern",
       "sanity" : 6,
       "sneak" : {
         "max" : 3,
@@ -342,6 +366,7 @@
       },
       "focus" : 2,
       "home" : "Newspaper",
+      "id" : 4,
       "lore" : {
         "max" : 3,
         "min" : 0
@@ -365,6 +390,7 @@
           "text" : "The editor's scepticism washed away quickly. What he was looking at was just too horrible. There was no way Simmons could have doctored a photo to this extent. 'This is one heck of a picture, Kid. I'm sorry I doubted you,' he said. 'I wont ever make that mistake again."
         }
       },
+      "name" : "Darrell Simmons",
       "sanity" : 4,
       "sneak" : {
         "max" : 3,
@@ -403,6 +429,7 @@
       },
       "focus" : 2,
       "home" : "Ye Olde Magick Shoppe",
+      "id" : 5,
       "lore" : {
         "max" : 5,
         "min" : 2
@@ -426,6 +453,7 @@
           "text" : "It was clear that the Great Drake was in over his head. There was no one to equal him for stagecraft and illusions, but when it came to the real thing... Well, Dexter had to admit, when it came to genuine magic, he was a talented amateur at best. Unfortunately, it had become abundantly clear that a talented amateur was not what the world needed now. It was sink or swim time."
         }
       },
+      "name" : "Dexter Drake",
       "sanity" : 5,
       "sneak" : {
         "max" : 4,
@@ -463,6 +491,7 @@
       },
       "focus" : 2,
       "home" : "Velma's Diner",
+      "id" : 6,
       "lore" : {
         "max" : 4,
         "min" : 1
@@ -486,6 +515,7 @@
           "text" : "Gloria could see it now. She was just a character in a story, and her fate was determined long ago."
         }
       },
+      "name" : "Gloria Goldberg",
       "sanity" : 6,
       "sneak" : {
         "max" : 3,
@@ -523,6 +553,7 @@
       },
       "focus" : 2,
       "home" : "Administration Building",
+      "id" : 7,
       "lore" : {
         "max" : 6,
         "min" : 3
@@ -546,6 +577,7 @@
           "text" : "Slowly, numbly, Harvey pushed his chair back away from the desk. If this were true - but no, it couldn't be!"
         }
       },
+      "name" : "Harvey Walters",
       "sanity" : 7,
       "sneak" : {
         "max" : 5,
@@ -583,6 +615,7 @@
       },
       "focus" : 1,
       "home" : "Train Station",
+      "id" : 8,
       "lore" : {
         "max" : 4,
         "min" : 1
@@ -606,6 +639,7 @@
           "text" : "The last envelope had conatined a finger. The one before that, a toe. When she saw the box sitting outside her door, Jenny started wailing in horror."
         }
       },
+      "name" : "Jenny Barnes",
       "sanity" : 6,
       "sneak" : {
         "max" : 4,
@@ -643,6 +677,7 @@
       },
       "focus" : 3,
       "home" : "Police Station",
+      "id" : 9,
       "lore" : {
         "max" : 3,
         "min" : 0
@@ -666,6 +701,7 @@
           "text" : "'It was destroyed? You're certain?' Car Sanford's questions seemed eerily calm. 'Never fear, Mr. Diamond. You will be appropriately compensated for your efforts.'"
         }
       },
+      "name" : "Joe Diamond",
       "sanity" : 4,
       "sneak" : {
         "max" : 4,
@@ -705,6 +741,7 @@
       },
       "focus" : 1,
       "home" : "Science Building",
+      "id" : 10,
       "lore" : {
         "max" : 5,
         "min" : 2
@@ -728,6 +765,7 @@
           "text" : "I don't understand it. The theory is sound, but nothing is happening!"
         }
       },
+      "name" : "Kate Winthrop",
       "sanity" : 6,
       "sneak" : {
         "max" : 5,
@@ -765,6 +803,7 @@
       },
       "focus" : 2,
       "home" : "Library",
+      "id" : 11,
       "lore" : {
         "max" : 4,
         "min" : 1
@@ -788,6 +827,7 @@
           "text" : "No matter what we do, the prophecies keep coming to pass. I'm afraid that the sequence of events is already unalterable."
         }
       },
+      "name" : "Mandy Thompson",
       "sanity" : 5,
       "sneak" : {
         "max" : 5,
@@ -825,6 +865,7 @@
       },
       "focus" : 1,
       "home" : "Ma's Boarding House",
+      "id" : 12,
       "lore" : {
         "max" : 3,
         "min" : 0
@@ -848,6 +889,7 @@
           "text" : "McGlen stepped out onto the streets if Arkham with vicious purpose. For too long these things had been hiding in the shadows, out of reach. It was time ot show them who really ran Arkham."
         }
       },
+      "name" : "Michael McGlen",
       "sanity" : 3,
       "sneak" : {
         "max" : 4,
@@ -886,6 +928,7 @@
       },
       "focus" : 2,
       "home" : "Curiositie Shoppe",
+      "id" : 13,
       "lore" : {
         "max" : 4,
         "min" : 1
@@ -909,6 +952,7 @@
           "text" : "There was no doubt. The lifeless thing on the ground had been responsible for his father's death, and the things around the room were unmistakably his father's most prized possessions, long thought lost."
         }
       },
+      "name" : "Monterey Jack",
       "sanity" : 3,
       "sneak" : {
         "max" : 3,
@@ -946,6 +990,7 @@
       },
       "focus" : 1,
       "home" : "South Church",
+      "id" : 14,
       "lore" : {
         "max" : 4,
         "min" : 1
@@ -969,6 +1014,7 @@
           "text" : "'Why do bad things happen to good people?' It is a simple question, yet it is also one of the most difficult to answer. Mary felt that she had found an answer at last. 'Because the do.'"
         }
       },
+      "name" : "Sister Mary",
       "sanity" : 7,
       "sneak" : {
         "max" : 4,
@@ -1006,6 +1052,7 @@
       },
       "focus" : 2,
       "home" : "St Marys Hospital",
+      "id" : 15,
       "lore" : {
         "max" : 5,
         "min" : 2
@@ -1029,6 +1076,7 @@
           "text" : "Vincent wiped the sweat from his brow with his bloody hand. 'I had to defend myself,' he said to the unmoving body. But he had broken his most sacred oath to protect life, and he hated himself for doing so."
         }
       },
+      "name" : "Vincent Lee",
       "sanity" : 5,
       "sneak" : {
         "max" : 5,
