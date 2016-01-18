@@ -31,25 +31,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories'])
     templateUrl: 'templates/menu.html',
     controller: 'AppCtrl'
   })
-
-  .state('app.research', {
-    url: '/research',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/search.html',
-        controller: 'ResearchCtrl'
-      }
-    }
-  })
-
-  .state('app.browse', {
-      url: '/browse',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/browse.html'
-        }
-      }
-    })
     .state('app.home', {
       url: '/home',
       views: {
@@ -59,15 +40,27 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories'])
       }
     })
 
-  .state('app.single', {
-    url: '/research/:id',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/character.html',
-        controller: 'CharCtrl'
+    .state('app.research', {
+      url: '/research',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/Research.html',
+          controller: 'ResearchCtrl'
+        }
       }
-    }
-  });
+    })
+
+    .state('app.single', {
+      url: '/research/:id',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/character.html',
+          controller: 'CharCtrl'
+        }
+      }
+    });
+
+
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');
 });
