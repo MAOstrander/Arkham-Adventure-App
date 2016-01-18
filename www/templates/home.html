@@ -1,11 +1,11 @@
 <ion-view view-title="Home (Quick Tools)">
   <ion-content>
     <ion-list>
-      <ion-item class="bar bar-balanced" ng-click="newGame()">
+      <ion-item class="bar bar-balanced" ng-click="mainMenu.newGame()">
         Start New Game
       </ion-item>
       <div class="item range">
-			  <button class="button button-balanced" ng-click="rollDice(manyDice)">
+			  <button class="button button-balanced" ng-click="mainMenu.rollDice(manyDice)">
 				  Dice Me!
 				</button>
 				{{manyDice}}:
@@ -15,20 +15,20 @@
       	Quick Pick Randomizers
     	</ion-item>
   	  <ion-item class="row">
-        <button class="button col col-50 button-balanced" ng-click="pickCharacters(1)">
+        <button class="button col col-50 button-balanced" ng-click="mainMenu.pickCharacters(1)">
           1 Character
         </button>
-        <button class="button col col-50 button-balanced" ng-click="pickCharacters(8)">
+        <button class="button col col-50 button-balanced" ng-click="mainMenu.pickCharacters(8)">
           8 Characters
         </button>
       </ion-item>
       <ion-item>
-      	<button class="button button-block button-balanced" ng-click="pickAncientOne()">
+      	<button class="button button-block button-balanced" ng-click="mainMenu.pickAncientOne()">
           Ancient One
         </button>
       </ion-item>
       <ion-item>
-      	<button class="button button-block button-balanced" ng-click="pickHerald()">
+      	<button class="button button-block button-balanced" ng-click="mainMenu.pickHerald()">
           Quick Setup
         </button>
       </ion-item>

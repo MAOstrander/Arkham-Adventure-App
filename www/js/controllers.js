@@ -2,6 +2,8 @@ angular.module('starter.controllers', [])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout, mainInfoFactory) {
 
+  var mainMenu = this;
+
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
   // To listen for when this page is active (for example, to refresh data),
@@ -14,16 +16,16 @@ angular.module('starter.controllers', [])
 
       console.log("testData", res);
       var investigators = res.investigators;
-      $scope.testTheFactory = [];
+      mainMenu.testTheFactory = [];
       for (var thing in investigators) {
         console.log("What is this?", thing);
-        $scope.testTheFactory.push(thing);
+        mainMenu.testTheFactory.push(thing);
       }
       // var amandaHome = investigators['Amanda Sharpe'].home;
-    alert($scope.testTheFactory);
+    // alert(mainMenu.testTheFactory);
     })
 
-  $scope.allCharacters = [
+  mainMenu.allCharacters = [
     { title: 'Amanda Sharpe', id: 0 },
     { title: 'Ashcane Pete', id: 1 },
     { title: 'Bob Jenkins', id: 2 },
@@ -41,7 +43,7 @@ angular.module('starter.controllers', [])
     { title: 'Sister Mary', id: 14 },
     { title: 'Vincent Lee', id: 15 }
   ];
-  $scope.allAncient = [
+  mainMenu.allAncient = [
     { title: 'Azathoth', id: 0 },
     { title: 'Cthulu', id: 1 },
     { title: 'Hastur', id: 2 },
@@ -51,7 +53,7 @@ angular.module('starter.controllers', [])
     { title: 'Yig', id: 6 },
     { title: 'Yog-Sothoth', id: 7 }
   ];
-  $scope.allHerald = [
+  mainMenu.allHerald = [
     { title: 'Father Dagon', id: 0 },
     { title: 'Mother Hydra', id: 1 },
     { title: 'Bast', id: 2 }
@@ -76,41 +78,31 @@ angular.module('starter.controllers', [])
     return chosenPlayers;
   }
 
-  $scope.pickCharacters = function(numPlayers) {
-    var chosen = chooseMe($scope.allCharacters, numPlayers);
+  mainMenu.pickCharacters = function(numPlayers) {
+    var chosen = chooseMe(mainMenu.allCharacters, numPlayers);
     alert(chosen);
   };
 
-  $scope.pickAncientOne = function(){
-    var chosen = chooseMe($scope.allAncient, 1);
+  mainMenu.pickAncientOne = function(){
+    var chosen = chooseMe(mainMenu.allAncient, 1);
     alert("Chosen Ancient One: "+chosen);
   }
 
-  $scope.pickHerald = function(){
+  mainMenu.pickHerald = function(){
 
-    var chosen = chooseMe($scope.testTheFactory, 1);
-    // var chosen = chooseMe($scope.allHerald, 1);
+    var chosen = chooseMe(mainMenu.testTheFactory, 1);
+    // var chosen = chooseMe(mainMenu.allHerald, 1);
     alert("Chosen Herald: "+chosen);
   }
 
-  // Form data for the login modal
-  $scope.loginData = {};
-
-  // Create the login modal that we will use later
-  $ionicModal.fromTemplateUrl('templates/login.html', {
-    scope: $scope
-  }).then(function(modal) {
-    $scope.modal = modal;
-  });
-
-  $scope.newGame = function() {
+  mainMenu.newGame = function() {
     alert("This will eventually start a new game");
   }
-  $scope.oldGame = function() {
+  mainMenu.oldGame = function() {
     alert("This will eventually allow you to continue your oldGame");
   }
 
-  $scope.rollDice = function(numDice) {
+  mainMenu.rollDice = function(numDice) {
     if (numDice === undefined) {
       numDice = 1;
     }
@@ -121,6 +113,19 @@ angular.module('starter.controllers', [])
     alert("You rolled "+numDice+" and got the following: " + random);
     //return random;
   };
+
+
+  //This is example code for a login modal
+  // Form data for the login modal
+  $scope.loginData = {};
+
+  // Create the login modal that we will use later
+  $ionicModal.fromTemplateUrl('templates/login.html', {
+    scope: $scope
+  }).then(function(modal) {
+    $scope.modal = modal;
+  });
+
 
   // Triggered in the login modal to close it
   $scope.closeLogin = function() {
@@ -142,6 +147,8 @@ angular.module('starter.controllers', [])
       $scope.closeLogin();
     }, 1000);
   };
+  //END login modal example code
+
 })
 
 .controller('ResearchCtrl', function($scope) {
