@@ -61,12 +61,12 @@ angular.module('starter.controllers', [])
 
   mainMenu.pickAncientOne = function(){
     var foe = mainMenu.quickPick(mainMenu.allAncient, 1);
-    alert("Chosen investigator(s): "+foe);
+    alert("Chosen Ancient One: "+foe);
   }
 
   mainMenu.pickHerald = function(){
     var herald = mainMenu.quickPick(mainMenu.allHerald, 1);
-    alert("Chosen investigator(s): "+herald);
+    alert("Chosen Herald: "+herald);
   }
 
   mainMenu.quickStart = function(){
@@ -135,8 +135,25 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('CharCtrl', function($scope, $stateParams) {
-  console.log("WHAT DOES IT LOOK LIKE WHEN I ARRIVE", $stateParams);
-  console.log("mainMenu.allCharacters", $scope.$parent.mainMenu.allCharacters);
-   $scope.where = $stateParams.id;
+.controller('CharCtrl', function($scope, $stateParams, mainInfoFactory) {
+  var chara = this;
+
+  var newCall = mainInfoFactory.getMainInfo();
+  newCall.success(function(res) {
+
+    console.log("newCall", res);
+
+    for (var key in res.investigators) {
+     if (res.investigators.hasOwnProperty(key)) {
+      var obj = res.investigators[key];
+       if (obj.id === parseInt($stateParams.id)) {
+          chara.loaded = obj;
+          console.log("HEY!");
+        }
+      }
+    }
+
+    console.log("chara.loaded", chara.loaded);
+    console.log("$stateParams", $stateParams);
+  })
 });

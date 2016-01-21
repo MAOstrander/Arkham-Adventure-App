@@ -1,6 +1,6 @@
-<ion-view view-title="Character">
+<ion-view view-title="Character: {{chara.loaded.name}}" ng-controller="CharCtrl as chara">
   <ion-content>
-    <h1>{{mainMenu.allCharacters[where].name}}</h1>
+    <h1>{{chara.loaded.name}}</h1>
 
   </ion-content>
 </ion-view>
