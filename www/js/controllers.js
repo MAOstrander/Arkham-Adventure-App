@@ -31,49 +31,42 @@ angular.module('starter.controllers', [])
     var random;
 
     for (var i = 0; i < numChoices; i++){
-    // Get a random index from the array of checked investigators
-    random = Math.floor(Math.random()* checkedArray.length);
+      // Get a random index from the array of checked investigators
+      random = Math.floor(Math.random()* checkedArray.length);
 
-    // Store which investigator that is
-    // chosenPlayers[i] = checkedArray[random].name;
-    chosenPlayers[i] = checkedArray[random];
+      // Store which investigator that is
+      chosenPlayers[i] = checkedArray[random];
 
-    //Use splice to remove chosen player from selected array for next player
-    checkedArray.splice(random, 1);
+      //Use splice to remove chosen player from selected array for next player
+      checkedArray.splice(random, 1);
     }
 
     return chosenPlayers;
   }
 
-  mainMenu.pickCharacters = function(numPlayers) {
-      var charChoices = [];
-      for (var each in mainMenu.allCharacters) {
-        charChoices.push(each);
+  mainMenu.quickPick = function(sourceArray, numPlayers) {
+    var choices = [];
+      for (var each in sourceArray) {
+        choices.push(each);
       }
-    var chosen = chooseMe(charChoices, numPlayers);
-    alert("Chosen investigator(s): "+chosen);
+    var chosen = chooseMe(choices, numPlayers);
+    return chosen;
+  }
+
+
+  mainMenu.pickCharacters = function(numPlayers) {
+    var hero = mainMenu.quickPick(mainMenu.allCharacters, numPlayers);
+    alert("Chosen investigator(s): "+hero);
   };
 
   mainMenu.pickAncientOne = function(){
-    var foeChoices = [];
-    for (var each in mainMenu.allAncient) {
-      foeChoices.push(each);
-    }
-
-    var chosen = chooseMe(foeChoices, 1);
-    alert("Chosen Ancient One: "+chosen);
+    var foe = mainMenu.quickPick(mainMenu.allAncient, 1);
+    alert("Chosen investigator(s): "+foe);
   }
 
   mainMenu.pickHerald = function(){
-    var heraldChoice = [];
-    console.log("mainMenu.allHerald", mainMenu.allHerald);
-    for (var each in mainMenu.allHerald) {
-      console.log("ea", each.name);
-      heraldChoice.push(each);
-    }
-
-    var chosen = chooseMe(heraldChoice, 1);
-    alert("Chosen Herald: "+chosen);
+    var herald = mainMenu.quickPick(mainMenu.allHerald, 1);
+    alert("Chosen investigator(s): "+herald);
   }
 
   mainMenu.quickStart = function(){
