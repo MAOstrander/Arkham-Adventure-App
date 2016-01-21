@@ -21,12 +21,12 @@ angular.module('starter.controllers', [])
       console.log("mainMenu.allCharacters", mainMenu.allCharacters);
       console.log("mainMenu.allAncient", mainMenu.allAncient);
       //  investigators = res.investigators;
-      // mainMenu.testTheFactory = [];
-      // for (var thing in investigators) {
-      //   console.log("What is this?", thing);
-      //   mainMenu.testTheFactory.push(thing);
-      // }
-      // var amandaHome = investigators['Amanda Sharpe'].home;
+      mainMenu.testTheFactory = [];
+      for (var thing in mainMenu.allCharacters) {
+        console.log("What is this?", thing);
+        mainMenu.testTheFactory.push(thing);
+      }
+      var amandaHome = mainMenu.allCharacters['Amanda Sharpe'].home;
     // alert(mainMenu.testTheFactory);
     })
 
@@ -84,12 +84,21 @@ angular.module('starter.controllers', [])
   }
 
   mainMenu.pickCharacters = function(numPlayers) {
-    var chosen = chooseMe(mainMenu.allCharacters, numPlayers);
-    alert(chosen);
+      var charChoices = [];
+      for (var each in mainMenu.allCharacters) {
+        charChoices.push(each);
+      }
+    var chosen = chooseMe(charChoices, numPlayers);
+    alert("Chosen investigator(s): "+chosen);
   };
 
   mainMenu.pickAncientOne = function(){
-    var chosen = chooseMe(mainMenu.allAncient, 1);
+    var foeChoices = [];
+    for (var each in mainMenu.allAncient) {
+      foeChoices.push(each);
+    }
+
+    var chosen = chooseMe(foeChoices, 1);
     alert("Chosen Ancient One: "+chosen);
   }
 
