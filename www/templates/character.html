@@ -3,96 +3,113 @@
   <ion-content>
     <div class="name">
       <h1>{{chara.loaded.name}}</h1>
+      <h3>{{chara.loaded.title}}</h3>
     </div>
-    <div class="sheet-info">
-        <div class="ability"><h2>Abilities</h2>
-            <b>Studious</b> <br />Whenever Amanda draws one or more cards from the Skill
-            deck, she draws one extra card and then discards one of the cards.
-        </div>
-        <div class="stats"><h2>Status</h2>
-                <p>Home: Bank of Arkham<br />Sanity: 5 <br /> Stamina: 5 <br />Focus: 3</p>
-        </div>
-        <div class="possessions"><h2>Possessions</h2>
-            <div class="fixed"><h3>Fixed Possessions</h3>
-                <ul>
-                    <li>$1</li>
-                    <li>1 Clue Token</li>
-                </ul>
-            </div>
-             <div class="random"><h3>Random Possesions</h3>
-                <ul>
-                    <li>1 Common Item</li>
-                    <li>1 Unique Item</li>
-                    <li>1 Spell</li>
-                    <li>2 Skills</li>
-                </ul>
-            </div>
-        </div>
-        <div class="skill"><h2>Skills</h2></div>
-        <div class="skill-table">
-            <table border="1" style="width: 30%">
-                <tbody>
-                    <tr>
-                        <td>Speed</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>Sneak</td>
-                        <td>4</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>Fight</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>Will</td>
-                        <td>4</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>Lore</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>Luck</td>
-                        <td>4</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>1</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+    <div class="basic-info row">
+      <img src="http://lorempixel.com/g/200/200/" class="col-50">
+      <div class="stats col-50">
+        <h2>Status</h2>
+          <h4>Sanity: {{chara.loaded.sanity}}</h4>
+          <h4>Stamina: {{chara.loaded.stamina}}</h4>
+          <h4>Focus: {{chara.loaded.focus}}</h4>
+          <h4>Home: {{chara.loaded.home}}</h4>
+      </div>
     </div>
+    <div class="ability" ng-repeat="(key,value) in chara.loaded.ability">
+      <h2>Abilities</h2>
+      {{key}}: {{value}}
+    </div>
+    <h2>Possessions</h2>
+    <div class="possessions row">
+      <div class="fixed col-50">
+        <h3>Fixed Possessions</h3>
+          <ul>
+              <li ng-repeat="(fkey,fvalue) in chara.loaded['Fixed Possessions']">{{fkey}}: {{fvalue}}</li>
+          </ul>
+      </div>
+       <div class="random col-50">
+        <h3>Random Possesions</h3>
+          <ul>
+              <li ng-repeat="(rkey,rvalue) in chara.loaded['Random Possessions']">{{rkey}}: {{rvalue}}</li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h2>Skills</h2>
+
+      <div class="skill-table">
+        <table border="1" style="width: 30%">
+          <tbody>
+            <tr>
+              <td>Speed</td>
+              <td>{{chara.loaded.speed.min}}</td>
+              <td>{{chara.loaded.speed.min+1}}</td>
+              <td>{{chara.loaded.speed.max-1}}</td>
+              <td>{{chara.loaded.speed.max}}</td>
+            </tr>
+            <tr>
+              <td>Sneak</td>
+              <td>{{chara.loaded.sneak.max}}</td>
+              <td>{{chara.loaded.sneak.max-1}}</td>
+              <td>{{chara.loaded.sneak.min+1}}</td>
+              <td>{{chara.loaded.sneak.min}}</td>
+            </tr>
+            <tr>
+              <td>Fight</td>
+              <td>{{chara.loaded.fight.min}}</td>
+              <td>{{chara.loaded.fight.min+1}}</td>
+              <td>{{chara.loaded.fight.max-1}}</td>
+              <td>{{chara.loaded.fight.max}}</td>
+            </tr>
+            <tr>
+              <td>Will</td>
+              <td>{{chara.loaded.will.max}}</td>
+              <td>{{chara.loaded.will.max-1}}</td>
+              <td>{{chara.loaded.will.min+1}}</td>
+              <td>{{chara.loaded.will.min}}</td>
+            </tr>
+            <tr>
+              <td>Lore</td>
+              <td>{{chara.loaded.lore.min}}</td>
+              <td>{{chara.loaded.lore.min+1}}</td>
+              <td>{{chara.loaded.lore.max-1}}</td>
+              <td>{{chara.loaded.lore.max}}</td>
+            </tr>
+            <tr>
+              <td>Luck</td>
+              <td>{{chara.loaded.luck.max}}</td>
+              <td>{{chara.loaded.luck.max-1}}</td>
+              <td>{{chara.loaded.luck.min+1}}</td>
+              <td>{{chara.loaded.luck.min}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="mission" ng-repeat="(mkey,mvalue) in chara.loaded.mission">
+      <h4>{{mkey}}</h4>
+      <p ng-if="mvalue.Pass">
+        Pass: {{mvalue.Pass}}
+      </p>
+      <p ng-if="mvalue.Fail">
+        Fail: {{mvalue.Fail}}
+      </p>
+      <p ng-if="mvalue.success">
+        Success: {{mvalue.success}}
+      </p>
+      <p ng-if="mvalue.fail">
+        Fail: {{mvalue.fail}}
+      </p>
+      <p>
+        Text: {{mvalue.text}}
+      </p>
+    </div>
+
     <div class="story">
-        <h2>The Story So Far</h2>
-        <p>Amanda has been a student at Miskatonic University for 2 years now.
-        On her way to talk to one of her professors last month, she saw a painting
-        in the hallway that captured her attention with its hazy depiction of some
-        horrible creature rising up out of the ocean. Ever since, Amanda has heard
-        strange whispers in a foreign language whenever her attention drifts. More
-        disturbingly, she has begun to dream of the vast green depths of the ocean
-        and terrible alien cities that lie in its darkest crevasses.</p>
-        <p>This evening, as she finishes her shift as a bank teller at the First Bank
-        of Arkham, something out of the night calls to her-- something dark and sinister
-        that leaves the feel of sea foam in her mind and makes her gasp with the effort
-        of resisting it. Leaning against the brick wall of the bank, Amanda realizes that
-        she has to find out what's happening to her or she's going to fall prey to whatever
-        alien presence is invading her mind.</p>
+      <h2>The Story So Far</h2>
+      {{chara.loaded.story}}
     </div>
 
   </ion-content>

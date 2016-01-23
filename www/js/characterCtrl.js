@@ -3,6 +3,8 @@ angular.module('starter.characterCtrl', [])
 .controller('CharCtrl', function($scope, $stateParams, mainInfoFactory) {
   var chara = this;
 
+
+
   var newCall = mainInfoFactory.getMainInfo();
   newCall.success(function(res) {
 
@@ -22,5 +24,7 @@ angular.module('starter.characterCtrl', [])
     console.log("$stateParams", $stateParams);
 
     // $scope.$apply();
+    chara.fixed = chara.loaded['Fixed Possessions'];
+    console.log("chara.fixed", chara.fixed);
   })
 });
