@@ -14,7 +14,7 @@ angular.module('starter.controllers', [])
   var testData = mainInfoFactory.getMainInfo();
   testData.success(function(res) {
 
-    console.log("testData", res);
+    // console.log("testData", res);
 
     mainMenu.allCharacters = res.investigators;
     mainMenu.allAncient = res['ancient ones'];
