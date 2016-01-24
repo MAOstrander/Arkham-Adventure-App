@@ -2,6 +2,25 @@
   <ion-content>
     <div class="name">
       <h1>{{foe.loaded.name}}</h1>
+
+      <h3>Doom Track: {{foe.loaded.doom}}</h3>
+      <h3>Combat Rating: {{foe.loaded.combat}}</h3>
+      <h4 ng-if="foe.loaded.defense !=='none'">Defenses: {{foe.loaded.defense}}</h4>
+      <h4 ng-if="foe.loaded['magic defense'] !=='none'">Magic Defenses: {{foe.loaded['magic defense']}}</h4>
+
+      <h4>Power</h4>
+      <p>{{foe.loaded.Power}}</p>
+
+      <h4>Worshippers:</h4>
+      <p>{{foe.loaded.Worshippers}}</p>
+
+      <div ng-if="foe.loaded.Start">
+        <h4>Start of Battle:</h4>
+        <p>{{foe.loaded.Start}}</p>
+      </div>
+
+      <h4>Attack</h4>
+      <p>{{foe.loaded.Attack}}</p>
     </div>
 
   </ion-content>
