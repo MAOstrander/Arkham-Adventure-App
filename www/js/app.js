@@ -58,6 +58,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories', 
           controller: 'CharCtrl'
         }
       }
+    })
+
+    .state('app.ancient', {
+      url: '/research/ancient/:id',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/ancientOne.html',
+          controller: 'AncientCtrl'
+        }
+      }
     });
 
 
