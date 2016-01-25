@@ -26,23 +26,6 @@ angular.module('starter.controllers', [])
     'Bast': 2
   };
 
-  // function chooseMe(checkedArray, numChoices) {
-  //   var chosenPlayers = [];
-  //   var random;
-
-  //   for (var i = 0; i < numChoices; i++){
-  //     // Get a random index from the array of checked investigators
-  //     random = Math.floor(Math.random()* checkedArray.length);
-
-  //     // Store which investigator that is
-  //     chosenPlayers[i] = checkedArray[random];
-
-  //     //Use splice to remove chosen player from selected array for next player
-  //     checkedArray.splice(random, 1);
-  //   }
-
-  //   return chosenPlayers;
-  // }
 
   mainMenu.quickPick = function(sourceArray, numPlayers) {
     var choices = Object.keys(sourceArray).slice(0);
