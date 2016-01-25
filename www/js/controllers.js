@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout, mainInfoFactory) {
+.controller('AppCtrl', function($scope, $ionicModal, $timeout, mainInfoFactory, randomizer) {
 
   var mainMenu = this;
 
@@ -26,30 +26,29 @@ angular.module('starter.controllers', [])
     'Bast': 2
   };
 
-  function chooseMe(checkedArray, numChoices) {
-    var chosenPlayers = [];
-    var random;
+  // function chooseMe(checkedArray, numChoices) {
+  //   var chosenPlayers = [];
+  //   var random;
 
-    for (var i = 0; i < numChoices; i++){
-      // Get a random index from the array of checked investigators
-      random = Math.floor(Math.random()* checkedArray.length);
+  //   for (var i = 0; i < numChoices; i++){
+  //     // Get a random index from the array of checked investigators
+  //     random = Math.floor(Math.random()* checkedArray.length);
 
-      // Store which investigator that is
-      chosenPlayers[i] = checkedArray[random];
+  //     // Store which investigator that is
+  //     chosenPlayers[i] = checkedArray[random];
 
-      //Use splice to remove chosen player from selected array for next player
-      checkedArray.splice(random, 1);
-    }
+  //     //Use splice to remove chosen player from selected array for next player
+  //     checkedArray.splice(random, 1);
+  //   }
 
-    return chosenPlayers;
-  }
+  //   return chosenPlayers;
+  // }
 
   mainMenu.quickPick = function(sourceArray, numPlayers) {
-    var choices = sourceArray.slice(0);
-    var chosen = chooseMe(choices, numPlayers);
+    var choices = Object.keys(sourceArray).slice(0);
+    var chosen = randomizer.chooseMe(choices, numPlayers);
     return chosen;
-  }
-
+  };
 
   mainMenu.pickCharacters = function(numPlayers) {
     var hero = mainMenu.quickPick(mainMenu.allCharacters, numPlayers);
