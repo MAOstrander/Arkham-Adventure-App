@@ -45,10 +45,7 @@ angular.module('starter.controllers', [])
   }
 
   mainMenu.quickPick = function(sourceArray, numPlayers) {
-    var choices = [];
-      for (var each in sourceArray) {
-        choices.push(each);
-      }
+    var choices = sourceArray.slice(0);
     var chosen = chooseMe(choices, numPlayers);
     return chosen;
   }
