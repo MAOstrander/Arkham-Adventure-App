@@ -17,4 +17,30 @@ angular.module('starter.factories', [])
 
     return factory; // returning factory to make it ready to be pulled by the controller
 
+})
+
+.factory('randomizer', function() {
+
+  var factory = {}; // define factory object
+
+  factory.chooseMe = function(checkedArray, numChoices) {
+    var chosenPlayers = [];
+    var random;
+
+    for (var i = 0; i < numChoices; i++){
+      // Get a random index from the array of checked investigators
+      random = Math.floor(Math.random()* checkedArray.length);
+
+      // Store which investigator that is
+      chosenPlayers[i] = checkedArray[random];
+
+      //Use splice to remove chosen player from selected array for next player
+      checkedArray.splice(random, 1);
+    }
+
+    return chosenPlayers;
+  }
+
+  return factory; // returning factory to make it ready to be pulled by the controller
+
 });

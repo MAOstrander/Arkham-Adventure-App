@@ -136,17 +136,23 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('PickerCtrl', function($scope) {
+.controller('PickerCtrl', function($scope, randomizer) {
   var picker = this;
   picker.testArray = [];
 
-  picker.test = function(isChecked, testName){
+  picker.playerChoice = function(isChecked, aName){
     if (isChecked) {
-      picker.testArray.push(testName);
+      picker.testArray.push(aName);
     } else {
-      picker.testArray.splice(picker.testArray.indexOf(testName), 1);
+      picker.testArray.splice(picker.testArray.indexOf(aName), 1);
     }
-  }
+  };
+
+  picker.fireaway = function(checkedArray){
+    var chooseFromThis = checkedArray.slice(0);
+    var testAlert = randomizer.chooseMe(chooseFromThis, 1);
+    alert(testAlert);
+  };
 
 
 });

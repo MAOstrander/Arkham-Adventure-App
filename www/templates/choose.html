@@ -3,14 +3,14 @@
     <h1>Choose</h1>
 
     <div>
-      <label ng-repeat="thing in mainMenu.allCharacters">
+      <label ng-repeat="eachCharacter in mainMenu.allCharacters">
       <input type="checkbox"
        ng-model="isChecked"
-       ng-change="picker.test(isChecked, thing.name)">
-        {{thing.name}}
+       ng-change="picker.playerChoice(isChecked, eachCharacter.name)">
+        {{eachCharacter.name}}
       </label>
        <h2>Test: {{picker.testArray}}</h2>
     </div>
-
+    <button ng-click="picker.fireaway(picker.testArray)">Yarp</button>
   </ion-content>
 </ion-view>
