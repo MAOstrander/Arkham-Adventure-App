@@ -137,6 +137,16 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PickerCtrl', function($scope) {
+  var picker = this;
+  picker.testArray = [];
+
+  picker.test = function(isChecked, testName){
+    if (isChecked) {
+      picker.testArray.push(testName);
+    } else {
+      picker.testArray.splice(picker.testArray.indexOf(testName), 1);
+    }
+  }
 
 
 });

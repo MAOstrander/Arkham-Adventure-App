@@ -1,16 +1,15 @@
 <ion-view view-title="Randomizers">
-  <ion-content>
+  <ion-content ng-controller="PickerCtrl as picker">
     <h1>Choose</h1>
 
     <div>
       <label ng-repeat="thing in mainMenu.allCharacters">
       <input type="checkbox"
-       ng-model="testInvest"
-       name="random-heroes"
-       ng-change="alert('testInvest')">
+       ng-model="isChecked"
+       ng-change="picker.test(isChecked, thing.name)">
         {{thing.name}}
       </label>
-       <h2>A + {{testInvest}}</h2>
+       <h2>Test: {{picker.testArray}}</h2>
     </div>
 
   </ion-content>
