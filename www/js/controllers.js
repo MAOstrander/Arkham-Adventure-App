@@ -131,6 +131,12 @@ angular.module('starter.controllers', [])
 
 })
 
+
 .controller('ResearchCtrl', function($scope) {
+
+})
+
+.controller('PickerCtrl', function($scope) {
+
 
 });

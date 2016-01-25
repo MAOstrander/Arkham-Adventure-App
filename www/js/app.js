@@ -50,6 +50,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories', 
       }
     })
 
+    .state('app.choose', {
+      url: '/choose',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/choose.html',
+          controller: 'PickerCtrl'
+        }
+      }
+    })
+
     .state('app.single', {
       url: '/research/:id',
       views: {
