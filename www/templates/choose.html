@@ -1,6 +1,25 @@
 <ion-view view-title="Randomizers">
   <ion-content ng-controller="PickerCtrl as picker">
     <h3 ng-click="picker.fireaway(picker.testArray)">Choose from the checked investigators</h3>
+    <div class="list">
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Players
+        </div>
+        <select>
+          <option selected>1 Player</option>
+          <option >2 Players</option>
+          <option >3 Players</option>
+          <option >4 Players</option>
+          <option >5 Players</option>
+          <option >6 Players</option>
+          <option >7 Players</option>
+          <option >8 Players</option>
+        </select>
+      </label>
+
+    </div>
     <ion-list>
 
       <ion-checkbox ng-repeat="eachCharacter in mainMenu.allCharacters"
