@@ -127,9 +127,13 @@ angular.module('starter.controllers', [])
     }
   };
 
-  picker.fireaway = function(checkedArray){
+  picker.checkAll = function(){
+
+  };
+
+  picker.fireaway = function(checkedArray, playerToChoose){
     var chooseFromThis = checkedArray.slice(0);
-    var testAlert = randomizer.chooseMe(chooseFromThis, 1);
+    var testAlert = randomizer.chooseMe(chooseFromThis, playerToChoose);
     alert(testAlert);
   };
 
