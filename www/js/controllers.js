@@ -118,6 +118,7 @@ angular.module('starter.controllers', [])
 .controller('PickerCtrl', function($scope, randomizer) {
   var picker = this;
   picker.testArray = [];
+  picker.playerToChoose = "1";
 
   picker.playerChoice = function(isChecked, aName){
     if (isChecked) {
@@ -131,9 +132,10 @@ angular.module('starter.controllers', [])
 
   };
 
-  picker.fireaway = function(checkedArray, playerToChoose){
+  picker.fireaway = function(checkedArray){
     var chooseFromThis = checkedArray.slice(0);
-    var testAlert = randomizer.chooseMe(chooseFromThis, playerToChoose);
+    console.log(picker.playerToChoose)
+    var testAlert = randomizer.chooseMe(chooseFromThis, picker.playerToChoose);
     alert(testAlert);
   };
 

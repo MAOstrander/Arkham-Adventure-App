@@ -2,13 +2,12 @@
   <ion-content ng-controller="PickerCtrl as picker">
     <h3 ng-click="picker.fireaway(picker.testArray)">Choose from the checked investigators</h3>
     <div class="list">
-
-<!--       <label class="item item-input item-select">
+      <label class="item item-input item-select">
         <div class="input-label">
           Players
         </div>
-        <select>
-          <option value="1" selected>1 Player</option>
+        <select ng-model="picker.playerToChoose">
+          <option value="1">1 Player</option>
           <option value="2">2 Players</option>
           <option value="3">3 Players</option>
           <option value="4">4 Players</option>
@@ -17,36 +16,23 @@
           <option value="7">7 Players</option>
           <option value="8">8 Players</option>
         </select>
-      </label> -->
-
-      <ion-item>
-        <ion-label>Players</ion-label>
-        <ion-select [(ngModel)]="playerToChoose">
-          <ion-option value="1" checked="true">1 Player</ion-option>
-          <ion-option value="2">2 Players</ion-option>
-          <ion-option value="3">3 Players</ion-option>
-          <ion-option value="4">4 Players</ion-option>
-          <ion-option value="5">5 Players</ion-option>
-          <ion-option value="6">6 Players</ion-option>
-          <ion-option value="7">7 Players</ion-option>
-          <ion-option value="8">8 Players</ion-option>
-        </ion-select>
-      </ion-item>
-
+      </label>
     </div>
-    <ion-list>
 
+<!--     <button class="button button-block button-balanced" ng-click="picker.checkAll()">
+      Check All
+    </button> -->
+
+    <ion-list>
       <ion-checkbox ng-repeat="eachCharacter in mainMenu.allCharacters"
         ng-model="isChecked"
-        ng-change="picker.playerChoice(isChecked, eachCharacter.name)">
+        ng-change="picker.playerChoice(isChecked, eachCharacter.name)"
+        name="baseSet">
         {{eachCharacter.name}}
         </ion-checkbox>
-
     </ion-list>
-    <button class="button button-block button-balanced" ng-click="picker.checkAll()">
-      Check All
-    </button>
-    <button class="button button-block button-balanced" ng-click="picker.fireaway(picker.testArray, playerToChoose)">
+
+    <button class="button button-block button-balanced" ng-click="picker.fireaway(picker.testArray)">
       Choose from checked
     </button>
 
