@@ -51,10 +51,24 @@ You will also need Git/Github
 4. To install this on your android device you will need to download the proper Android SDK as well as enable developer mode on your device
 
 ## Usage
-First priority was to get a few quick-tools complete, things that help speed up game setup for indecisive people. Randomizers to select an investigator, select every investigator, or an ancient one, as well as a complete select all option.
+First priority was to get a few quick-tools complete, things that help speed up game setup for indecisive people. Randomizers to select an investigator, select every investigator, or an ancient one, as well as a complete select all option. This serves as the Home screen.
+
+![Home Screen](doc-images/Home-tools.png)
+
+On this screen you can roll a selected number of dice,
+![Roll Dice](doc-images/Roll-dice.png)
+
+Or you can press a button to randomly select options for the game
+![Choose investigator](doc-images/Pick-chara.png)
+![Choose Ancient One](doc-images/Pick-ancient.png)
+
+You can also see the limits of the game based on how many players there are, as a quick reference.
+![Limit Reference](doc-images/Player-limits.png)
+
+The menu slides out from the left revealing navigation options.
+![Menu](doc-images/Menu.png)
+
 
 Character status and information is also available in the Research section, so that you can review and research which characters you like (in case another player is hogging the stack).
 
-
-
-
+![Research](doc-images/Character-profile.png)
