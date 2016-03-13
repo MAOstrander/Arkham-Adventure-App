@@ -56,16 +56,19 @@ First priority was to get a few quick-tools complete, things that help speed up 
 ![Home Screen](doc-images/Home-tools.png)
 
 On this screen you can roll a selected number of dice,
+
 ![Roll Dice](doc-images/Roll-dice.png)
 
 Or you can press a button to randomly select options for the game
+
 ![Choose investigator](doc-images/Pick-chara.png)
 ![Choose Ancient One](doc-images/Pick-ancient.png)
 
 You can also see the limits of the game based on how many players there are, as a quick reference.
+
 ![Limit Reference](doc-images/Player-limits.png)
 
-The menu slides out from the left revealing navigation options.
+The menu slides out from the left revealing navigation options. 
 ![Menu](doc-images/Menu.png)
 
 
