@@ -55,7 +55,8 @@ angular.module('starter.controllers', [])
   }
 
   mainMenu.newGame = function() {
-    alert("This will eventually start a new game");
+    // alert("This will eventually start a new game");
+    window.location.href='#/app/create';
   }
   mainMenu.oldGame = function() {
     alert("This will eventually allow you to continue your oldGame");
@@ -112,6 +113,10 @@ angular.module('starter.controllers', [])
 
 
 .controller('ResearchCtrl', function($scope) {
+
+})
+
+.controller('newGameCtrl', function($scope) {
 
 })
 

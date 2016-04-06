@@ -50,6 +50,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories', 
       }
     })
 
+    .state('app.create', {
+      url: '/create',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/createGame.html',
+          controller: 'newGameCtrl'
+        }
+      }
+    })
+
     .state('app.choose', {
       url: '/choose',
       views: {
