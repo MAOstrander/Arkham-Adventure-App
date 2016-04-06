@@ -117,6 +117,8 @@ angular.module('starter.controllers', [])
 })
 
 .controller('newGameCtrl', function($scope) {
+  var creator = this;
+  creator.playerToChoose = "1";
 
 })
 

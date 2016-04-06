@@ -1,6 +1,42 @@
 <ion-view view-title="NewGame">
-  <ion-content>
-    <h1>Create a New Game</h1>
+  <ion-content ng-controller="newGameCtrl as creator">
+    <h1 class="list">Create a New Game</h1>
+    <form class="list" name="newGameInput">
+      <label class="item item-input">
+        <input ng-model="creator.gameName" type="text" placeholder="Name of Game" required>
+      </label>
+    <div class="list">
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Number of Players
+        </div>
+        <select ng-model="creator.playerToChoose">
+          <option value="1">1 Player</option>
+          <option value="2">2 Players</option>
+          <option value="3">3 Players</option>
+          <option value="4">4 Players</option>
+          <option value="5">5 Players</option>
+          <option value="6">6 Players</option>
+          <option value="7">7 Players</option>
+          <option value="8">8 Players</option>
+        </select>
+      </label>
+    </div>
+    <div class="list">
+      {{creator.playerToChoose}} player(s)
+    </div>
+<!--       <label class="item item-input">
+        <textarea ng-model="creator.contentInput" placeholder="Content" rows="5" required></textarea>
+      </label>
+      <div class="button-bar">
+        <a class="button button-balanced button-full" ng-disabled="noteInput.$invalid" ng-click="creator.addNote()">Save</a>
+        <a class="button button-assertive button-full" ng-click="creator.clear()">Clear</a>
+      </div>
+    </form> -->
+
+
+
+
 <!--     <ion-item class="item-divider">
       Characters
     </ion-item>
