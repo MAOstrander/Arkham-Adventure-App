@@ -5,26 +5,30 @@
       <label class="item item-input">
         <input ng-model="creator.gameName" type="text" placeholder="Name of Game" required>
       </label>
-    <div class="list">
-      <label class="item item-input item-select">
-        <div class="input-label">
-          Number of Players
-        </div>
-        <select ng-model="creator.playerToChoose">
-          <option value="1">1 Player</option>
-          <option value="2">2 Players</option>
-          <option value="3">3 Players</option>
-          <option value="4">4 Players</option>
-          <option value="5">5 Players</option>
-          <option value="6">6 Players</option>
-          <option value="7">7 Players</option>
-          <option value="8">8 Players</option>
-        </select>
+      <div class="list">
+        <label class="item item-input item-select">
+          <div class="input-label">
+            Number of Players
+          </div>
+          <select ng-model="creator.playerToChoose">
+            <option value="1">1 Player</option>
+            <option value="2">2 Players</option>
+            <option value="3">3 Players</option>
+            <option value="4">4 Players</option>
+            <option value="5">5 Players</option>
+            <option value="6">6 Players</option>
+            <option value="7">7 Players</option>
+            <option value="8">8 Players</option>
+          </select>
+        </label>
+      </div>
+      <label class="item item-input">
+        <input ng-model="creator.p1Name" type="text" placeholder="Player 1 name" required>
       </label>
-    </div>
     <div class="list">
       {{creator.playerToChoose}} player(s)
     </div>
+    <div ng-repeat="t in creator.players">Player {{creator.players}}</div>
 <!--       <label class="item item-input">
         <textarea ng-model="creator.contentInput" placeholder="Content" rows="5" required></textarea>
       </label>

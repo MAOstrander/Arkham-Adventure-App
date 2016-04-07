@@ -120,6 +120,18 @@ angular.module('starter.controllers', [])
   var creator = this;
   creator.playerToChoose = "1";
 
+  creator.getTimes=function(n){
+    console.log("n >>>>", n);
+    n = parseInt(n);
+    return new Array(n);
+  };
+  creator.players = creator.getTimes(1);
+
+  $scope.$watch(creator.playerToChoose, function(newValue, oldValue) {
+    creator.players = creator.getTimes(newValue);
+  });
+
+
 })
 
 .controller('PickerCtrl', function($scope, randomizer) {
