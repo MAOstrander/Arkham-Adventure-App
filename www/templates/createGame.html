@@ -24,6 +24,23 @@
       </div>
       <label class="item item-input">
         <input ng-model="creator.p1Name" type="text" placeholder="Player 1 Name" required>
+        <div ng-show="creator.p1Name">
+          <label class="item item-input item-select">
+            <div class="input-label">
+              Player Choice
+            </div>
+            <select ng-model="creator.p1Char">
+              <option value="1">Amanda</option>
+              <option value="2">Bob</option>
+              <option value="3">Carolyn</option>
+              <option value="4">Dexter</option>
+              <option value="5">Evelyn</option>
+              <option value="6">Frank</option>
+              <option value="7">Gerald</option>
+              <option value="8">Mandy</option>
+            </select>
+          </label>
+        </div>
       </label>
       <label class="item item-input">
         <input ng-model="creator.p2Name" type="text" placeholder="Player 2 Name" required>
