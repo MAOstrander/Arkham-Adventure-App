@@ -116,9 +116,16 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('newGameCtrl', function($scope) {
+.controller('newGameCtrl', function($scope, mainInfoFactory) {
   var creator = this;
   creator.playerToChoose = "1";
+  creator.allPlayers = ["Player 1","Player 2","Player 3","Player 4"];
+
+  var gameInfo = mainInfoFactory.getMainInfo();
+  gameInfo.success(function(res) {
+    creator.allCharacters = res.investigators;
+    creator.allAncient = res['ancient ones'];
+  })
 
 })
 
