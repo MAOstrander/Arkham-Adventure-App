@@ -118,41 +118,42 @@ angular.module('starter.controllers', [])
 
 .controller('newGameCtrl', function($scope, mainInfoFactory) {
   var creator = this;
-  creator.playerToChoose = "1";
   creator.game = {
-    numPlayers: 1,
+    numPlayers: "1",
     foe: "",
-    player1: {
-      name: "",
-      char: ""
-    },
-    player2: {
-      name: "",
-      char: ""
-    },
-    player3: {
-      name: "",
-      char: ""
-    },
-    player4: {
-      name: "",
-      char: ""
-    },
-    player5: {
-      name: "",
-      char: ""
-    },
-    player6: {
-      name: "",
-      char: ""
-    },
-    player7: {
-      name: "",
-      char: ""
-    },
-    player8: {
-      name: "",
-      char: ""
+    players: {
+      p1: {
+        name: "",
+        char: ""
+      },
+      p2: {
+        name: "",
+        char: ""
+      },
+      p3: {
+        name: "",
+        char: ""
+      },
+      p4: {
+        name: "",
+        char: ""
+      },
+      p5: {
+        name: "",
+        char: ""
+      },
+      p6: {
+        name: "",
+        char: ""
+      },
+      p7: {
+        name: "",
+        char: ""
+      },
+      p8: {
+        name: "",
+        char: ""
+      }
     }
   }
   creator.allPlayers = ["Player 1","Player 2","Player 3","Player 4"];
