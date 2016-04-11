@@ -3,7 +3,7 @@
     <h1 class="list">Create a New Game</h1>
     <form class="list" name="newGameInput">
       <label class="item item-input">
-        <input ng-model="creator.gameName" type="text" placeholder="Name of Game" required>
+        <input ng-model="creator.game.name" type="text" placeholder="Name of Game" required>
       </label>
       <div class="list">
         <label class="item item-input item-select">
@@ -23,9 +23,21 @@
         </label>
       </div>
 
-    <div class="list">
+    <div class="list item item-input">
       {{creator.game.numPlayers}} player(s)
     </div>
+
+    <div class="list">
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Ancient One
+        </div>
+        <select ng-model="creator.game.foe">
+          <option ng-repeat="ancientOne in creator.allAncient" value="{{ancientOne.id}}">{{ancientOne.name}}</option>
+        </select>
+      </label>
+    </div>
+
     <div ng-repeat="t in creator.game.players">
       <label class="item item-input">
         <input ng-model="t.name" type="text" placeholder="Player Name" required>

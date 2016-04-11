@@ -119,8 +119,11 @@ angular.module('starter.controllers', [])
 .controller('newGameCtrl', function($scope, mainInfoFactory) {
   var creator = this;
   creator.game = {
+    name: "",
+    expansions: [],
     numPlayers: "1",
     foe: "",
+    herald: "",
     players: {
       p1: {
         name: "",
@@ -156,7 +159,6 @@ angular.module('starter.controllers', [])
       }
     }
   }
-  creator.allPlayers = ["Player 1","Player 2","Player 3","Player 4"];
 
   var gameInfo = mainInfoFactory.getMainInfo();
   gameInfo.success(function(res) {
