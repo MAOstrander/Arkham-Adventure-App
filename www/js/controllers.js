@@ -166,6 +166,9 @@ angular.module('starter.controllers', [])
     creator.allAncient = res['ancient ones'];
   })
 
+  creator.saveGame = function(){
+    localStorage.setItem('savedGames', JSON.stringify(creator.game));
+  }
 })
 
 .controller('PickerCtrl', function($scope, randomizer) {

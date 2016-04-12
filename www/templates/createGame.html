@@ -23,68 +23,44 @@
         </label>
       </div>
 
-    <div class="list item item-input">
-      {{creator.game.numPlayers}} player(s)
-    </div>
+      <div class="list item item-input">
+        {{creator.game.numPlayers}} player(s)
+      </div>
 
-    <div class="list">
-      <label class="item item-input item-select">
-        <div class="input-label">
-          Ancient One
-        </div>
-        <select ng-model="creator.game.foe">
-          <option ng-repeat="ancientOne in creator.allAncient" value="{{ancientOne.id}}">{{ancientOne.name}}</option>
-        </select>
-      </label>
-    </div>
-
-    <div ng-repeat="t in creator.game.players">
-      <label class="item item-input">
-        <input ng-model="t.name" type="text" placeholder="Player Name" required>
-      </label>
-      <div ng-show="t.name">
+      <div class="list">
         <label class="item item-input item-select">
           <div class="input-label">
-            Player's Character
+            Ancient One
           </div>
-          <select ng-model="t.char">
-            <option ng-repeat="character in creator.allCharacters" value="{{character.id}}">{{character.name}}</option>
+          <select ng-model="creator.game.foe" required>
+            <option ng-repeat="ancientOne in creator.allAncient" value="{{ancientOne.id}}">{{ancientOne.name}}</option>
           </select>
         </label>
       </div>
-    </div>
-    <div class="list">
-      Total: {{creator.game}}
-    </div>
-<!--       <label class="item item-input">
-        <textarea ng-model="creator.contentInput" placeholder="Content" rows="5" required></textarea>
-      </label>
-      <div class="button-bar">
-        <a class="button button-balanced button-full" ng-disabled="noteInput.$invalid" ng-click="creator.addNote()">Save</a>
-        <a class="button button-assertive button-full" ng-click="creator.clear()">Clear</a>
+
+      <div ng-repeat="t in creator.game.players">
+        <label class="item item-input">
+          <input ng-model="t.name" type="text" placeholder="Player Name">
+        </label>
+        <div ng-show="t.name">
+          <label class="item item-input item-select">
+            <div class="input-label">
+              Player's Character
+            </div>
+            <select ng-model="t.char">
+              <option ng-repeat="character in creator.allCharacters" value="{{character.id}}">{{character.name}}</option>
+            </select>
+          </label>
+        </div>
       </div>
-    </form> -->
+      <div class="list">
+        Total: {{creator.game}}
+      </div>
 
+      <div class="button-bar">
+        <a class="button button-balanced button-full" ng-disabled="newGameInput.$invalid" ng-click="creator.saveGame()">Save</a>
+      </div>
+    </form>
 
-
-
-<!--     <ion-item class="item-divider">
-      Characters
-    </ion-item>
-    <ion-item ng-repeat="character in mainMenu.allCharacters" href="#/app/research/{{character.id}}">
-      {{character.name}}
-    </ion-item>
-    <ion-item class="item-divider">
-      Ancient Ones
-    </ion-item>
-    <ion-item ng-repeat="ancient in mainMenu.allAncient" href="#/app/research/ancient/{{ancient.id}}">
-      {{ancient.name}}
-    </ion-item>
-    <ion-item class="item-divider">
-      Heralds
-    </ion-item>
-    <ion-item ng-repeat="herald in allHerald" href="#/app/research/{{herald.id}}">
-      {{herald.name}}
-    </ion-item> -->
   </ion-content>
 </ion-view>
