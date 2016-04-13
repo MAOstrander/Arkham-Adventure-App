@@ -75,6 +75,7 @@ angular.module('starter.controllers', [])
   };
 
 
+  //Experiments inconclusive, reverting back to 'login' modal instead of 'load game' modal
   //This is example code for a login modal
   // Form data for the login modal
   $scope.loginData = {};
