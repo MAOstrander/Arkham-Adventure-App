@@ -26,6 +26,7 @@ angular.module('starter.controllers', [])
     'Bast': 2
   };
 
+  mainMenu.savedGames = JSON.parse(localStorage.getItem("savedGames")) || {};
 
   mainMenu.quickPick = function(sourceArray, numPlayers) {
     var choices = Object.keys(sourceArray).slice(0);
@@ -81,7 +82,7 @@ angular.module('starter.controllers', [])
   $scope.loginData = {};
 
   // Create the login modal that we will use later
-  $ionicModal.fromTemplateUrl('templates/login.html', {
+  $ionicModal.fromTemplateUrl('templates/loadgame.html', {
     scope: $scope
   }).then(function(modal) {
     $scope.modal = modal;

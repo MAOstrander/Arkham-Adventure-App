@@ -1,0 +1,33 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Load Game</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeLogin()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <ion-item menu-close ng-repeat="(key, value) in mainMenu.savedGames" ng-click="menu.loadNote(key, value)" href="" class="item-button-right">
+      {{key}}
+      <button class="button button-assertive" ng-click="">
+        <i class="icon ion-trash-a"></i>
+      </button>
+    </ion-item>
+
+    <form ng-click="doLogin()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">YARP</span>
+          <input type="text" ng-model="loginData.username">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">TEST</span>
+          <input type="password" ng-model="loginData.password">
+        </label>
+        <label class="item">
+          <button class="button button-block button-positive" type="submit">Log in</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view>
+
