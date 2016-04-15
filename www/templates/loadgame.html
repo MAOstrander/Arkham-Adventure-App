@@ -6,8 +6,8 @@
     </div>
   </ion-header-bar>
   <ion-content>
-    <ion-item menu-close ng-repeat="(key, value) in mainMenu.savedGames" ng-click="menu.loadNote(key, value)" href="" class="item-button-right">
-      {{key}}
+    <ion-item menu-close ng-repeat="game in mainMenu.savedGames" ng-click="menu.loadNote(key, value)" href="" class="item-button-right">
+      {{game.name}}
       <button class="button button-assertive" ng-click="">
         <i class="icon ion-trash-a"></i>
       </button>

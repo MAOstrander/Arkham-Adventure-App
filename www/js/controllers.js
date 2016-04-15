@@ -169,9 +169,44 @@ angular.module('starter.controllers', [])
   })
 
   creator.saveGame = function(){
-    localStorage.setItem('savedGames', JSON.stringify(creator.game));
+    var appendGame =  JSON.parse(localStorage.getItem("savedGames")) || {};
+    appendGame += creator.game;
+    localStorage.setItem('savedGames', JSON.stringify(appendGame));
   }
 })
+
+
+// ~~~~~~~~~
+
+// menu.savedNotes = JSON.parse(localStorage.getItem("savedNotes"));
+//     var title = menu.loadedKey;
+//     var content = menu.loadedValue;
+//       if (menu.savedNotes.hasOwnProperty(title) === false) {
+//         menu.savedNotes[title] = content;
+//         localStorage.setItem('savedNotes', JSON.stringify(menu.savedNotes));
+//         menu.editMode = false;
+//         menu.clear();
+//         menu.refreshMenu();
+//         $ionicHistory.nextViewOptions({
+//           disableBack: true
+//         });
+//         $state.go('app.playlists');
+//         // menu.savedNotes = JSON.parse(localStorage.getItem("savedNotes"));
+//       } else {
+//         console.log("you already have a note by this title");
+//           // menu.tempValue = menu.loadedValue;
+//           // menu.tempTitle = menu.loadedKey;
+//           // menu.loadedValue = menu.tempValue;
+//           menu.loadedKey = menu.tempTitle;
+//           menu.savedNotes[menu.tempTitle] = menu.tempValue;
+//           localStorage.setItem('savedNotes', JSON.stringify(menu.savedNotes));
+//           menu.refreshMenu();
+
+//       }
+//   };
+
+// ~~~~~~~~
+
 
 .controller('PickerCtrl', function($scope, randomizer) {
   var picker = this;
