@@ -1,0 +1,67 @@
+<ion-view view-title="Score Game">
+  <ion-content ng-controller="endGameCtrl as victory">
+    <form id="scoreForm">
+      <div id="gamestate">
+        <label for="ancient-foe">Ancient One Faced:
+          <select name="ancient-foe" class="selectpicker">
+            <option>Azathoth</option>
+            <option>Cthulu</option>
+            <option>Hastur</option>
+            <option>Yig</option>
+          </select>
+        </label>
+        <label for="terror">Terror Level:
+          <select name="terror" class="selectpicker">
+            <option value="0" selected="selected">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </label>
+      </div>
+      <div id="player1">
+        <label>Player 1 Name:
+          <input type="text" name="player1">
+        </label>
+        <label>Played as:
+          <select name="investigator1" class="selectpicker">
+            <option>Amanda Sharpe</option>
+            <option>Bob Jenkins</option>
+            <option>Mandy Thompson</option>
+            <option>Ashcan Pete</option>
+          </select>
+        </label>
+        <label>
+          <input type="radio" name="loan1" value="1">Bank Loan/Bankrupt
+        </label>
+        <label>
+          <input type="radio" name="loan1" value="0" checked>No Loan
+        </label>
+        <label>
+          Number of Eldersigns Used:
+          <input type="number" name="elder1" value="0" min="0">
+        </label>
+        <label>
+          Number of Gate Trophies:
+          <input type="number" name="gate1" value="0" min="0">
+        </label>
+        <label>
+          Number of Monster Trophies:
+          <input type="number" name="monster1" value="0" min="0">
+        </label>
+        <label>
+          <input type="radio" name="survive1" value="1" checked>I survived!
+        </label>
+        <label>
+          <input type="radio" name="survive1" value="0">I was Devoured
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>
