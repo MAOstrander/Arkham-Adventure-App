@@ -208,6 +208,11 @@ angular.module('starter.controllers', [])
 // ~~~~~~~~
 
 
+.controller('endGameCtrl', function($scope) {
+
+})
+
+
 .controller('PickerCtrl', function($scope, randomizer) {
   var picker = this;
   picker.testArray = [];

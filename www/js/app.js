@@ -70,6 +70,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories', 
       }
     })
 
+    .state('app.score', {
+      url: '/score',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/score.html',
+          controller: 'endGameCtrl'
+        }
+      }
+    })
+
     .state('app.single', {
       url: '/research/:id',
       views: {
