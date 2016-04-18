@@ -19,6 +19,23 @@ angular.module('starter.factories', [])
 
 })
 
+.factory('loader', function($http) {
+  var currentGame;
+
+  var activeGame = {};
+
+  activeGame.setCurrentGame = function(loadThis) {
+    currentGame = loadThis;
+  };
+
+  activeGame.getCurrentGame = function() {
+    return mainInfo;
+  };
+
+  return activeGame;
+
+})
+
 .factory('randomizer', function() {
 
   var factory = {}; // define factory object

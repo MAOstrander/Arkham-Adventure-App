@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout, mainInfoFactory, randomizer) {
+.controller('AppCtrl', function($scope, $ionicModal, $timeout, mainInfoFactory, randomizer, loader) {
 
   var mainMenu = this;
 
@@ -87,6 +87,11 @@ angular.module('starter.controllers', [])
   }).then(function(modal) {
     $scope.modal = modal;
   });
+
+  $scope.loadGameFromModal = function(loadThisGame) {
+    console.log("loadThisGame", loadThisGame);
+
+  }
 
 
   // Triggered in the login modal to close it
