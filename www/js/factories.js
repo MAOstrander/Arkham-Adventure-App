@@ -26,10 +26,11 @@ angular.module('starter.factories', [])
 
   activeGame.setCurrentGame = function(loadThis) {
     currentGame = loadThis;
+    // console.log("loadThis", loadThis);
   };
 
   activeGame.getCurrentGame = function() {
-    return mainInfo;
+    return currentGame;
   };
 
   return activeGame;

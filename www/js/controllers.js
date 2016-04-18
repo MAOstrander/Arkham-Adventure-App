@@ -89,8 +89,16 @@ angular.module('starter.controllers', [])
   });
 
   $scope.loadGameFromModal = function(loadThisGame) {
-    console.log("loadThisGame", loadThisGame);
+    // console.log("loadThisGame", loadThisGame);
+    loader.setCurrentGame(loadThisGame);
 
+    $timeout(function() {
+      console.log(loader.getCurrentGame());
+    }, 500);
+
+    $timeout(function() {
+      $scope.closeLogin();
+    }, 1000);
   }
 
 
