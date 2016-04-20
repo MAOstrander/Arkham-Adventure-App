@@ -15,46 +15,32 @@
           <input type="range" name="terror" min="0" max="10" ng-model="terrorLevel" ng-init="terrorLevel=0">
         </label>
       </div>
-      <ion-item ng-repeat="player in victory.playingGame.players">
-        {{player.name}} played as {{player.char}}
-      </ion-item>
-      <div id="player1">
-        <label>Player 1 Name:
-          <input type="text" name="player1">
-        </label>
-        <label>Played as:
-          <select name="investigator1" class="selectpicker">
-            <option>Amanda Sharpe</option>
-            <option>Bob Jenkins</option>
-            <option>Mandy Thompson</option>
-            <option>Ashcan Pete</option>
-          </select>
-        </label>
-        <label>
-          <input type="radio" name="loan1" value="1">Bank Loan/Bankrupt
-        </label>
-        <label>
-          <input type="radio" name="loan1" value="0" checked>No Loan
-        </label>
+      <ion-item ng-repeat="player in victory.playingGame.players" ng-if="player.name">
+        <p>
+          {{player.name}} played as {{player.char}}
+        </p>
         <label>
           Number of Eldersigns Used:
-          <input type="number" name="elder1" value="0" min="0">
+          <input type="number" ng-model="player.eldersigns" value="0" min="0">
         </label>
         <label>
           Number of Gate Trophies:
-          <input type="number" name="gate1" value="0" min="0">
+          <input type="number" ng-model="player.gates" value="0" min="0">
         </label>
         <label>
           Number of Monster Trophies:
-          <input type="number" name="monster1" value="0" min="0">
+          <input type="number" ng-model="player.trophies" value="0" min="0">
         </label>
         <label>
-          <input type="radio" name="survive1" value="1" checked>I survived!
+          <input type="checkbox" ng-model="player.loan" value="true">Bank Loan/Bankrupt
         </label>
         <label>
-          <input type="radio" name="survive1" value="0">I was Devoured
+          <input type="checkbox" ng-model="player.lived" value="true">Survived?
         </label>
-      </div>
+      </ion-item>
+      <ion-item ng-click="victory.testPrint()">
+        What did we type in?
+      </ion-item>
     </form>
   </ion-content>
 </ion-view>

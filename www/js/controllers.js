@@ -203,6 +203,7 @@ angular.module('starter.controllers', [])
   var victory = this;
   victory.playingGame = {name: "None"};
 
+
   if (!loader.getCurrentGame()) {
       $ionicHistory.nextViewOptions({
         disableBack: true
@@ -214,6 +215,9 @@ angular.module('starter.controllers', [])
     console.log("WHAT?", victory.playingGame);
   }
 
+  victory.testPrint = function() {
+    console.log(">>>>>>>>", victory.playingGame);
+  };
 })
 
 
