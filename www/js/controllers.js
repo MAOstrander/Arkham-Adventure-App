@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout, mainInfoFactory, randomizer, loader) {
+.controller('AppCtrl', function($scope, $ionicModal, $timeout, $state, $ionicHistory, mainInfoFactory, randomizer, loader) {
 
   var mainMenu = this;
 
@@ -93,7 +93,10 @@ angular.module('starter.controllers', [])
     loader.setCurrentGame(loadThisGame);
 
     $timeout(function() {
-      console.log(loader.getCurrentGame());
+      $ionicHistory.nextViewOptions({
+        disableBack: true
+      });
+      $state.go('app.score');
     }, 500);
 
     $timeout(function() {
@@ -196,7 +199,20 @@ angular.module('starter.controllers', [])
 })
 
 
-.controller('endGameCtrl', function($scope) {
+.controller('endGameCtrl', function($scope, $state, $ionicHistory, loader) {
+  var victory = this;
+  victory.playingGame = {name: "None"};
+
+  if (!loader.getCurrentGame()) {
+      $ionicHistory.nextViewOptions({
+        disableBack: true
+      });
+      $state.go('app.home');
+  } else {
+    victory.playingGame = loader.getCurrentGame();
+    console.log("Current Game is:", loader.getCurrentGame());
+    console.log("WHAT?", victory.playingGame);
+  }
 
 })
 
