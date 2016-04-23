@@ -1,0 +1,194 @@
+{
+  "arkham": {
+    "administration": {
+      "id": 0,
+      "name": "Administration Building",
+      "street": "Miskatonic University",
+      "stable": true,
+      "cards": {}
+    },
+    "asylum": {
+      "id": 1,
+      "name": "Arkham Asylum",
+      "street": "Downtown",
+      "stable": true,
+      "cards": {}
+    },
+    "bank": {
+      "id": 2,
+      "name": "Bank of Arkham",
+      "street": "Downtown",
+      "stable": true,
+      "cards": {}
+    },
+    "cave": {
+      "id": 3,
+      "name": "Black Cave",
+      "street": "Rivertown",
+      "stable": false,
+      "cards": {}
+    },
+    "curiositie": {
+      "id": 4,
+      "name": "Curiositie Shoppe",
+      "street": "Northside",
+      "stable": true,
+      "cards": {}
+    },
+    "general": {
+      "id": 5,
+      "name": "General Store",
+      "street": "Rivertown",
+      "stable": true,
+      "cards": {}
+    },
+    "graveyard": {
+      "id": 6,
+      "name": "Graveyard",
+      "street": "Rivertown",
+      "stable": false,
+      "cards": {}
+    },
+    "hibbs": {
+      "id": 7,
+      "name": "Hibb's Roadhouse",
+      "street": "Easttown",
+      "stable": false,
+      "cards": {}
+    },
+    "historical": {
+      "id": 8,
+      "name": "Historical Society",
+      "street": "Southside",
+      "stable": false,
+      "cards": {}
+    },
+    "independence": {
+      "id": 9,
+      "name": "Independence Square",
+      "street": "Downtown",
+      "stable": false,
+      "cards": {}
+    },
+    "innersanctum": {
+      "id": 10,
+      "name": "Inner Sanctum",
+      "street": "French Hill",
+      "stable": false,
+      "cards": {}
+    },
+    "library": {
+      "id": 11,
+      "name": "Library",
+      "street": "Miskatonic University",
+      "stable": true,
+      "cards": {}
+    },
+    "ma": {
+      "id": 12,
+      "name": "Ma's Boarding House",
+      "street": "Southside",
+      "stable": true,
+      "cards": {}
+    },
+    "newspaper": {
+      "id": 13,
+      "name": "Newspaper",
+      "street": "Northside",
+      "stable": true,
+      "cards": {}
+    },
+    "police": {
+      "id": 14,
+      "name": "Police Station",
+      "street": "Easttown",
+      "stable": true,
+      "cards": {}
+    },
+    "docks": {
+      "id": 15,
+      "name": "River Docks",
+      "street": "Merchant District",
+      "stable": true,
+      "cards": {}
+    },
+    "science": {
+      "id": 16,
+      "name": "Science Building",
+      "street": "Miskatonic University",
+      "stable": false,
+      "cards": {}
+    },
+    "lodge": {
+      "id": 17,
+      "name": "Silver Twilight Lodge",
+      "street": "French Hill",
+      "stable": false,
+      "cards": {}
+    },
+    "church": {
+      "id": 18,
+      "name": "South Curch",
+      "street": "Southside",
+      "stable": true,
+      "cards": {}
+    },
+    "hospital": {
+      "id": 19,
+      "name": "St. Mary's Hospital",
+      "street": "Uptown",
+      "stable": true,
+      "cards": {}
+    },
+    "unnamable": {
+      "id": 20,
+      "name": "The Unnamable",
+      "street": "Merchant District",
+      "stable": false,
+      "cards": {}
+    },
+    "witch": {
+      "id": 21,
+      "name": "The Witch House",
+      "street": "French Hill",
+      "stable": false,
+      "cards": {}
+    },
+    "train": {
+      "id": 22,
+      "name": "Train Station",
+      "street": "Northside",
+      "stable": true,
+      "cards": {}
+    },
+    "unvisited": {
+      "id": 23,
+      "name": "Unvisited Isle",
+      "street": "Merchant District",
+      "stable": false,
+      "cards": {}
+    },
+    "velmas": {
+      "id": 24,
+      "name": "Velma's Diner",
+      "street": "Easttown",
+      "stable": false,
+      "cards": {}
+    },
+    "woods": {
+      "id": 25,
+      "name": "Woods",
+      "street": "Uptown",
+      "stable": false,
+      "cards": {}
+    },
+    "magic": {
+      "id": 26,
+      "name": "Ye Olde Magick Shoppe",
+      "street": "Uptown",
+      "stable": true,
+      "cards": {}
+    }
+  },
+  "dunwich": {}
+}
