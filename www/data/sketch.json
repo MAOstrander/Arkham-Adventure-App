@@ -1,0 +1,18 @@
+{
+  "ancientOnes": [
+    //Instead of having named objects, reduce a layer by getting rid of the names and using the 'ids' as the index in the array. This will also allow for 'easy?' combination of arrays later when using multiple expansions.
+  ],
+  "ancientOnesIndexMap": {
+    //For human readable lookup, go ahead and keep the names in their own object matched with the appropriate id/index
+    },
+  "investigators": [],
+  "investigatorsIndexMap": {},
+  "locations": [],
+  "locationsIndexMap": {},
+  "otherworlds": [],
+  "otherworldsIndexMap": {},
+  "items": [],
+  "itemsIndexMap": {},
+  "mythos": [],
+  "mythosIndexMap": {},
+}
