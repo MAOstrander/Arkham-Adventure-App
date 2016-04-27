@@ -1,9 +1,102 @@
 {
   "ancientOnes": [
-    //Instead of having named objects, reduce a layer by getting rid of the names and using the 'ids' as the index in the array. This will also allow for 'easy?' combination of arrays later when using multiple expansions.
+    {
+      "Attack" : "The end is here! Azathoth destroys the world",
+      "Power" : "Absolute Destruction: If Azathoth awakens, the game is over and the investigators lose.",
+      "Worshippers" : "Since Azathoth promises nothing except destruction, only the insane worship him. However, their fanaticism gives them strength. Maniacs have their toughness by 1.",
+      "combat" : -9999,
+      "defense" : "none",
+      "doom" : 14,
+      "id" : 0,
+      "magic defense" : "none",
+      "name" : "Azathoth"
+    },
+    {
+      "Attack" : "Each investigator lowers either his maximum Sanity or maximum Stamina by 1 (his choice). After Cthulu attacks, 1 doom token is palced back on Cthulu's doom track if it  isn't already full.",
+      "Power" : "Dreams of Madness: While Cthulu stirs in his slumber, investigators have their maximum Sanity and maximum Stamina reduced by 1.",
+      "Worshippers" : "Cthulu's worshippers often have the Innsmouth Look, a sign of monstrous ancestors. Cultists have a horror rating of -2 and a horror damage of 2 Sanity.",
+      "combat" : -6,
+      "defense" : "none",
+      "doom" : 13,
+      "id" : 1,
+      "magic defense" : "none",
+      "name" : "Cthulu"
+    },
+    {
+      "Attack" : "Each investigator must pass a Luck (+1) check or lose 2 Sanity. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+      "Power" : "The King in Yellow: While Hastur stirs in his slumber, the cost to seal a gate is 8 Clue tokens instead of 5.",
+      "Start" : "X is set to the current terror level.",
+      "Worshippers" : "Hastur's worshippers ride byakhee mounts that they call with enchanted whistles. Cultists are flying monsters and their combat rating is -2.",
+      "combat" : "-X",
+      "defense" : "Physical Resistance",
+      "doom" : 13,
+      "id" : 2,
+      "magic defense" : "none",
+      "name" : "Hastur"
+    },
+    {
+      "Attack" : "Each investigator must pass a Fight (+1) check or lose 2 Stamina. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+      "Power" : "Icy Winds: While Ithaqua stirs in his slumber, any investigator in a street at the end of the Mythos Phase loses 1 Stamina. In addition, all Weather cards are discarded without their special effects taking place.",
+      "Start" : "Investigators must roll a die for every item they have, discarding the item on a failure.",
+      "Worshippers" : "Ithaqua's worshippers eat the flesh of their fellow men, gaining supernatural power through their dark practice. Cultists have their toughness increased by 2.",
+      "combat" : -3,
+      "defense" : "none",
+      "doom" : 11,
+      "id" : 3,
+      "magic defense" : "none",
+      "name" : "Ithaqua"
+    },
+    {
+      "Attack" : "Each investigator must pass a Lore (+1) check or lose 1 Clue token. Any investigator with no Clue tokens left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+      "Power" : "A Thousand Masks: At the start of the game, add the Mask monsters to the cup. Multiple Mask monsters can be in play at once.",
+      "Start" : "Any investigator with no Clue tokens is devoured.",
+      "Worshippers" : "Nyarlathotep has innumerable cults all over the world. Cultists have the Endless ability.",
+      "combat" : -4,
+      "defense" : "none",
+      "doom" : 11,
+      "id" : 4,
+      "magic defense" : "Magical Resistance",
+      "name" : "Nyarlathotep"
+    },
+    {
+      "Attack" : "Each investigator must pass a Sneak (+1) check or lose 1 monster trophy. Any investigator with no monster trophies left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+      "Power" : "Black Goat of the Woods: While Shub-Niggurath stirs in her slumber, all monsters have their toughness increased by 1.",
+      "Start" : "Any investigator with no monster trophies is devoured.",
+      "Worshippers" : "Shub-Niggurath's young are numberless. Dark Young have the Endless ability.",
+      "combat" : -5,
+      "defense" : "Physical Immunity",
+      "doom" : 12,
+      "id" : 5,
+      "magic defense" : "none",
+      "name" : "Shub-Niggurath"
+    },
+    {
+      "Attack" : "Each investigator must pass a Speed (+1) check or lose 1 Sanity and 1 Stamina. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+      "Power" : "Yig's Anger: While Yig stirs in his slumber, he gains a doom token whenever a Cultist is defeated or an investigator is lost in time and space.",
+      "Start" : "Every investigator is Cursed. Any investigator that already has a Curse is devoured.",
+      "Worshippers" : "Yig's worshippers are actually disguised serpent people. Their bite is highly poisonous. Cultists have a combat rating of +0 and a combat damage of 4 Stamina.",
+      "combat" : -3,
+      "defense" : "none",
+      "doom" : 10,
+      "id" : 6,
+      "magic defense" : "none",
+      "name" : "Yig"
+    },
+    {
+      "Attack" : "Each investigator must pass a Will (+1) check or lose 1 gate trophy. Any investigator with no gate trophies left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+      "Power" : "The Key and the Gate: While Yog-Sothoth stirs in his slumber, the difficulty to close or seal a gate increases by 1. In addition, any investigator lost in time and space is devoured.",
+      "Start" : "Any investigator with no gate trophies is devoured.",
+      "Worshippers" : "Yog-Sothoth's worshippers have powerful magical abilities. Cultists have Magical Immunity and a combat rating of -1.",
+      "combat" : -5,
+      "defense" : "none",
+      "doom" : 12,
+      "id" : 7,
+      "magic defense" : "Magical Immunity",
+      "name" : "Yog-Sothoth"
+    }
   ],
   "ancientOnesIndexMap": {
-    //For human readable lookup, go ahead and keep the names in their own object matched with the appropriate id/index
+
     },
   "investigators": [],
   "investigatorsIndexMap": {},
@@ -14,5 +107,7 @@
   "items": [],
   "itemsIndexMap": {},
   "mythos": [],
+    //Instead of having named objects, reduce a layer by getting rid of the names and using the 'ids' as the index in the array. This will also allow for 'easy?' combination of arrays later when using multiple expansions.
   "mythosIndexMap": {},
+    //For human readable lookup, go ahead and keep the names in their own object matched with the appropriate id/index
 }
