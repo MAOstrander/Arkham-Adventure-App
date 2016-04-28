@@ -23,19 +23,56 @@
           "Science Building": "A chemical brew bubbles on a nearby Bunsen burner. It smells delicious. If you drink it, make a Luck (+0) check. If you pass, the strange liquid fortifies you. Roll a die and gain that many points, split between your Stamina and Sanity however you like. If you fail, the liquid turns out to be coffee. Gain 1 Stamina."
         },
         {
-          "Administration Building": "",
-          "Library": "",
-          "Science Building": ""
+          "Administration Building": "Pass a Will (-1) check to get the Dean to offer you a retainer to write a manuscript for the college. Gain a Retainer card.",
+          "Library": "You find an unusual book that radiates evil at the touch. You begin to read and are drawn into it. Make a Lore (-2) check. If you pass, you obtain vast knowledge of the eldritch threat. Roll a die and gain that many Clue tokens. If you fail, the book consumes you - mind and soul - lose 2 Sanity and 2 Stamina.",
+          "Science Building": "An archaeology professor shows you an item he recovered in an Egyptian pyramid. If you have 2 or fewer Spells, it glows in your hands and you find yourself outside, still holding it. Not wanting to confront the professor again, you decide to keep it. Gain 1 Unique Item and move to the street. If you have more than 2 Spells, nothing happens."
         },
         {
-          "Administration Building": "",
-          "Library": "",
-          "Science Building": ""
+          "Administration Building": "A student mistakes you for the bursar. If you want to carry on the deception, make a Will (-2) check. If you pass, gain $8 in ill-gotten tuition money. If you fail, you're arrested and taken to the Police Station.",
+          "Library": "Pass a Luck (-2) check to find $5 somone was using as a bookmark.",
+          "Science Building": "You find a student pounding on a strange device that he has hooked up to massive machinery. He states that it is a dimensional beam machine. If you offer to help him, make a Lore (-2) check. If you pass, beams shout out in all directions, disrupting the gates open throughout the board. Roll a die for each open gate one at a time. On a success the gate is closed. However, you may not take it as a trophy, but instead return it to the pile of gate markers. If you fail, the machinery overheats and explodes. Roll a die and lose that much Stamina, then move to St. Mary's Hospital."
         },
         {
-          "Administration Building": "",
-          "Library": "",
-          "Science Building": ""
+          "Administration Building": "You may choose to help an anthropology professor and his students decipher an ancient stone tablet. If so, make a Lore (-2) check. If you pass, you correctly interpret it, draw 1 Spell. If you fail, you mispronounce a word and are Cursed.",
+          "Library": "You doze off and enter the Dreamlands. Have an encounter there, then immediately return here.",
+          "Science Building": "You find a muscular, bored-looking man who challenges you to an arm wrestling match. Lose 2 Stamina if you accept. If this does not knock you unconscious, Sir William Brinton laughs and slaps your shoulder, offering to join your investigation. Take his Ally card. If it is not available, gain $5 instead."
+        }
+      ],
+      "white" : [
+        {
+          "Arkham Asylum": "You hear screaming. When you open a heavy cell door to investigate, a dark shape leaps out at you! It's an insane man in a straightjacket babbling about invisible horrors. Make a Lore (-2) check to glean some useful information from him. If you pass, gain 2 Clue tokens. If you fail, lose 1 Stamina as he attacks you.",
+          "Bank": "A little old lady stands in front of you in line counting out a bag of pennies to deposit. Lose 1 Sanity.",
+          "Independence": "There are gypsies camped in the park. Make a Luck (-1) check if you wish to interact with them. If you pass, an old man has spread several items on a blanket for sale. Draw 1 Unique item and you may buy it for $1 less than the list price. If you fail, a hag comes up to you and tells you that death shadows you. You scoff at her and she cuts the side of your face with her fingernail, drawing blood. Lose 1 Stamina and you are Cursed."
+        },
+        {
+          "Arkham Asylum": "Nurse Heather accidentally injects you with a sleeping draught. You may make a Fight (-2) check to resist. If you fail or choose not to resist, lose your next turn and gain 2 Sanity from the prolonged rest. If you pass, nothing happens.",
+          "Bank": "A teller you've never seen before insists she just saw you come in and make a deposit the day before. She proves it by showing you your signature. Gain $5, but lose 1 Sanity.",
+          "Independence": "You touch Founder's Rock. Make a Luck (-1) check. If you pass, there is an electrifying shock that opens your mind to the elder things of eons past. Lose 1 Stamina, but gain 2 Clue tokens and draw 1 Spell. If you fail, you find a strange carving. As you finger the grooves, a gate opens here and you are drawn through it."
+        },
+        {
+          "Arkham Asylum": "",
+          "Bank": "",
+          "Independence": ""
+        },
+        {
+          "Arkham Asylum": "",
+          "Bank": "",
+          "Independence": ""
+        },
+        {
+          "Arkham Asylum": "",
+          "Bank": "",
+          "Independence": ""
+        },
+        {
+          "Arkham Asylum": "",
+          "Bank": "",
+          "Independence": ""
+        },
+        {
+          "Arkham Asylum": "",
+          "Bank": "",
+          "Independence": ""
         }
       ]
     },
@@ -51,14 +88,14 @@
       "name": "Arkham Asylum",
       "street": "Downtown",
       "stable": true,
-      "color": "yellow"
+      "color": "white"
     },
     "bank": {
       "id": 2,
       "name": "Bank of Arkham",
       "street": "Downtown",
       "stable": true,
-      "color": "yellow"
+      "color": "white"
     },
     "cave": {
       "id": 3,
@@ -107,7 +144,7 @@
       "name": "Independence Square",
       "street": "Downtown",
       "stable": false,
-      "color": "yellow"
+      "color": "white"
     },
     "innersanctum": {
       "id": 10,
