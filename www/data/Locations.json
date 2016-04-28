@@ -1,193 +1,232 @@
 {
   "arkham": {
+    "cards": {
+      "yellow" : [
+        {
+          "Administration Building": "Discuss the opportunity to sell a monograph with the President of the University. Pass a Lore (-1) check to make the sale and gain $5.",
+          "Library": "You look up to see Abigail Foreman leaning over you with hands on hips and a frustrated look on her face. Make a Will (-1) check. If you pass, she helps you find the book you were looking for. Take the first Tome from the Unique Item deck. If you fail, you've made too much noise. She escorts you out of the library. Move to the street.",
+          "Science Building": "As you enter the Department of Alchemy, a professor looks up in horror. He grabs an ancient artifact from a locked drawer in his desk and holds it up before your face, chanting and make symbolic motions with the item. If you are Cursed, discard the Curse. If you are not Cursed, then you are Blessed."
+        },
+        {
+          "Administration Building": "Discuss the opportunity to sell a monograph with the President of the University. Pass a Lore (-1) check to make the sale and gain $5.",
+          "Library": "Overdue book fines of $4. Pay up, or move to the street!",
+          "Science Building": "A professor of the occult asks you to hold a hideous statue that he believes to have strange powers while he reads a scroll. Energy shoots through your body. Make a Luck (-1) check. If you pass, your spirit rises from your body and you feel that you have the power to switch bodies with another investigator. You may choose another investigator from the pile of unused investigators and bring it into play as a new character, discarding your current investigator (along with all of the items, skills, trophies, etc.). If you fail, nothing happens."
+        },
+        {
+          "Administration Building": "The Dean introduces you to an anthropology professor who gives you some insight into your investigation. Gain 1 Clue token.",
+          "Library": "Make a Will (+0) check and consult the chart below: Successes: 0) Abigail tosses you out. Move to the street. 1) Abigail lets you into a private section of the library where you find an ancient tome. Draw 2 Spells and keep whicher one of them you want. 2+) Abigail loans you one of the strange items in the library's display case. Draw 1 Unique Item.",
+          "Science Building": "Assisting a professor in his research, you find a valuable Spell. Draw 1 Spell. However, you must pass a Fight (-1) check or some sticky fingered student steals one of your items. Lose 1 item of your choice."
+        },
+        {
+          "Administration Building": "Your discussions on the Mythos lead campus security to conclude that you are off your rocker, and they escort you off campus. Move to Arkham Asylum and immediately have an encounter there.",
+          "Library": "A book in a shadowy corner of the library begins to whisper terrible things to you. Lose 1 Sanity.",
+          "Science Building": "A chemical brew bubbles on a nearby Bunsen burner. It smells delicious. If you drink it, make a Luck (+0) check. If you pass, the strange liquid fortifies you. Roll a die and gain that many points, split between your Stamina and Sanity however you like. If you fail, the liquid turns out to be coffee. Gain 1 Stamina."
+        },
+        {
+          "Administration Building": "",
+          "Library": "",
+          "Science Building": ""
+        },
+        {
+          "Administration Building": "",
+          "Library": "",
+          "Science Building": ""
+        },
+        {
+          "Administration Building": "",
+          "Library": "",
+          "Science Building": ""
+        }
+      ]
+    },
     "administration": {
       "id": 0,
       "name": "Administration Building",
       "street": "Miskatonic University",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     },
     "asylum": {
       "id": 1,
       "name": "Arkham Asylum",
       "street": "Downtown",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     },
     "bank": {
       "id": 2,
       "name": "Bank of Arkham",
       "street": "Downtown",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     },
     "cave": {
       "id": 3,
       "name": "Black Cave",
       "street": "Rivertown",
       "stable": false,
-      "cards": {}
+      "color": "yellow"
     },
     "curiositie": {
       "id": 4,
       "name": "Curiositie Shoppe",
       "street": "Northside",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     },
     "general": {
       "id": 5,
       "name": "General Store",
       "street": "Rivertown",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     },
     "graveyard": {
       "id": 6,
       "name": "Graveyard",
       "street": "Rivertown",
       "stable": false,
-      "cards": {}
+      "color": "yellow"
     },
     "hibbs": {
       "id": 7,
       "name": "Hibb's Roadhouse",
       "street": "Easttown",
       "stable": false,
-      "cards": {}
+      "color": "yellow"
     },
     "historical": {
       "id": 8,
       "name": "Historical Society",
       "street": "Southside",
       "stable": false,
-      "cards": {}
+      "color": "yellow"
     },
     "independence": {
       "id": 9,
       "name": "Independence Square",
       "street": "Downtown",
       "stable": false,
-      "cards": {}
+      "color": "yellow"
     },
     "innersanctum": {
       "id": 10,
       "name": "Inner Sanctum",
       "street": "French Hill",
       "stable": false,
-      "cards": {}
+      "color": "yellow"
     },
     "library": {
       "id": 11,
       "name": "Library",
       "street": "Miskatonic University",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     },
     "ma": {
       "id": 12,
       "name": "Ma's Boarding House",
       "street": "Southside",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     },
     "newspaper": {
       "id": 13,
       "name": "Newspaper",
       "street": "Northside",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     },
     "police": {
       "id": 14,
       "name": "Police Station",
       "street": "Easttown",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     },
     "docks": {
       "id": 15,
       "name": "River Docks",
       "street": "Merchant District",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     },
     "science": {
       "id": 16,
       "name": "Science Building",
       "street": "Miskatonic University",
       "stable": false,
-      "cards": {}
+      "color": "yellow"
     },
     "lodge": {
       "id": 17,
       "name": "Silver Twilight Lodge",
       "street": "French Hill",
       "stable": false,
-      "cards": {}
+      "color": "yellow"
     },
     "church": {
       "id": 18,
       "name": "South Curch",
       "street": "Southside",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     },
     "hospital": {
       "id": 19,
       "name": "St. Mary's Hospital",
       "street": "Uptown",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     },
     "unnamable": {
       "id": 20,
       "name": "The Unnamable",
       "street": "Merchant District",
       "stable": false,
-      "cards": {}
+      "color": "yellow"
     },
     "witch": {
       "id": 21,
       "name": "The Witch House",
       "street": "French Hill",
       "stable": false,
-      "cards": {}
+      "color": "yellow"
     },
     "train": {
       "id": 22,
       "name": "Train Station",
       "street": "Northside",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     },
     "unvisited": {
       "id": 23,
       "name": "Unvisited Isle",
       "street": "Merchant District",
       "stable": false,
-      "cards": {}
+      "color": "yellow"
     },
     "velmas": {
       "id": 24,
       "name": "Velma's Diner",
       "street": "Easttown",
       "stable": false,
-      "cards": {}
+      "color": "yellow"
     },
     "woods": {
       "id": 25,
       "name": "Woods",
       "street": "Uptown",
       "stable": false,
-      "cards": {}
+      "color": "yellow"
     },
     "magic": {
       "id": 26,
       "name": "Ye Olde Magick Shoppe",
       "street": "Uptown",
       "stable": true,
-      "cards": {}
+      "color": "yellow"
     }
   },
   "dunwich": {}
