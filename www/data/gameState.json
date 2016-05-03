@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "expansions": [],
+  "numPlayers": "1",
+  "foe": "",
+  "herald": "",
+  "players": [
+    {
+      "player": 1,
+      "name": "Mathew",
+      "investigator": "Mandy Thompson",
+      "location": 20,
+      "items": {
+        "clues": 0,
+        "dollars": 4,
+        "skill": [],
+        "common": [],
+        "unique": [],
+        "spell": [],
+        "special": [
+          {
+          "blessing": "Success on a four, five, or six. During the upkeep roll a die, on a 1 discard the Blessing"
+          },
+          {
+          "retainer": "During the upkeep, gain $1 then roll a die. On a 1 discard the Retainer"
+          }
+        ]
+      },
+      "stats": {
+        "stamina": 5,
+        "sanity": 5,
+        "sneak": 1,
+        "speed": 4,
+        "fight": 2,
+        "will": 3,
+        "lore": 4,
+        "luck": 1
+      },
+      "special": {
+        "mission:": true,
+        "gates": 0,
+        "monsters": []
+      }
+    }
+  ]
+}
