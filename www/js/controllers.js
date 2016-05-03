@@ -136,6 +136,7 @@ angular.module('starter.controllers', [])
 
 .controller('newGameCtrl', function($scope, mainInfoFactory) {
   var creator = this;
+  console.log("Does this double as well?");
   creator.game = {
     name: "",
     expansions: [],

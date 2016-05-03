@@ -54,8 +54,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories', 
       url: '/create',
       views: {
         'menuContent': {
-          templateUrl: 'templates/createGame.html',
-          controller: 'newGameCtrl'
+          templateUrl: 'templates/createGame.html'
         }
       }
     })
@@ -74,8 +73,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories', 
       url: '/score',
       views: {
         'menuContent': {
-          templateUrl: 'templates/score.html',
-          controller: 'endGameCtrl'
+          templateUrl: 'templates/score.html'
         }
       }
     })
