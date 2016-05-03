@@ -202,6 +202,7 @@ angular.module('starter.controllers', [])
 .controller('endGameCtrl', function($scope, $state, $ionicHistory, loader) {
   var victory = this;
   victory.playingGame = {name: "None"};
+  victory.allCharacters = $scope.$parent.mainMenu.allCharacters;
 
 
   if (!loader.getCurrentGame()) {
@@ -217,6 +218,7 @@ angular.module('starter.controllers', [])
 
   victory.testPrint = function() {
     console.log(">>>>>>>>", victory.playingGame);
+    console.log("???", victory.allCharacters);
   };
 })
 
