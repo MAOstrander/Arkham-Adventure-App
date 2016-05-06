@@ -7,12 +7,20 @@ angular.module('starter.factories', [])
         return response.data;
     });
 
+    var sketchInfo = $http.get('./data/sketch.json').success(function(answer) {
+        return answer.data;
+    });
+
     var factory = {}; // define factory object
 
     factory.getMainInfo = function() { // define method on factory object
       // console.log("mainInfo", mainInfo);
         return mainInfo; // returning data that was pulled in $http call
 
+    };
+
+    factory.getSketchInfo = function() {
+        return sketchInfo;
     };
 
     return factory; // returning factory to make it ready to be pulled by the controller

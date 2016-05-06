@@ -8,7 +8,7 @@
         </label>
         <label class="item item-input">
           Ancient One Faced:
-          <input ng-model="victory.playingGame.foe" type="text" readonly>
+          <input ng-model="victory.allAncient[victory.playingGame.foe].name" type="text" readonly>
         </label>
         <label class="item">
           Terror Level: {{terrorLevel}}
@@ -17,7 +17,7 @@
       </div>
       <section ng-repeat="player in victory.playingGame.players" ng-if="player.name">
         <ion-item>
-            {{player.name}} played as {{player.char}}
+            {{player.name}} played as {{victory.allCharacters[player.char].name}}
         </ion-item>
         <ion-item>
           <label>
