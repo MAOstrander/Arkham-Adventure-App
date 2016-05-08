@@ -1,0 +1,21 @@
+{
+  "items": {
+  "common" : [
+    {
+      "id": 0,
+      "name": ".18 Derringer",
+      "text": "+2 to Combat Checks. .18 Derringer cannot be lost or stolen unless you choose to allow it",
+      "type": "physical weapon",
+      "hands": 1,
+      "price": 3,
+      "qty": 2,
+    }
+  ],
+  "unique" : [],
+  "spell" : [],
+  "ally": [],
+  "skill" : [],
+  "special" : []
+  },
+  "itemsIndexMap": {}
+}
