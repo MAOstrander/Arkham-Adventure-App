@@ -16,12 +16,14 @@ angular.module('starter.controllers', [])
   testData.success(function(res) {
 
 
-    mainMenu.allCharacters = res.investigators;
-    mainMenu.allAncient = res['ancient ones'];
+    // mainMenu.allCharacters = res.investigators;
+    // mainMenu.allAncient = res['ancient ones'];
   })
 
   secondTestData.success(function(res) {
     console.log("testData2", res);
+    mainMenu.allCharacters = res.investigators;
+    mainMenu.allAncient = res.ancientOnes;
     mainMenu.test = res;
   })
 
@@ -34,7 +36,11 @@ angular.module('starter.controllers', [])
   mainMenu.savedGames = JSON.parse(localStorage.getItem("savedGames")) || {};
 
   mainMenu.quickPick = function(sourceArray, numPlayers) {
-    var choices = Object.keys(sourceArray).slice(0);
+    // var choices = Object.keys(sourceArray).slice(0);
+    var choices = [];
+    for (var i = 0; i < sourceArray.length; i++) {
+      choices[i] = sourceArray[i].name.slice(0);
+    }
     var chosen = randomizer.chooseMe(choices, numPlayers);
     return chosen;
   };
