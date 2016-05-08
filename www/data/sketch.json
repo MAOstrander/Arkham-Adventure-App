@@ -1167,7 +1167,14 @@
   "locationsIndexMap": {},
   "otherworlds": [],
   "otherworldsIndexMap": {},
-  "items": [],
+  "items": {
+    "common" : [],
+    "unique" : [],
+    "spell" : [],
+    "ally": [],
+    "skill" : [],
+    "special" : []
+    },
   "itemsIndexMap": {},
   "mythos": [],
   "mythosIndexMap": {}

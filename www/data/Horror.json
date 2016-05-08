@@ -102,7 +102,7 @@
         "dollars" : 1
       },
       "Random Possessions" : {
-        "common item" : 1,
+        "common" : 1,
         "skill" : 2,
         "spell" : 1,
         "unique" : 1
@@ -166,7 +166,7 @@
         "dollars" : 1
       },
       "Random Possessions" : {
-        "common item" : 1,
+        "common" : 1,
         "skill" : 1,
         "unique" : 1
       },
@@ -227,7 +227,7 @@
         "dollars" : 9
       },
       "Random Possessions" : {
-        "common item" : 2,
+        "common" : 2,
         "skill" : 1,
         "unique" : 2
       },
@@ -289,7 +289,7 @@
         "dollars" : 7
       },
       "Random Possessions" : {
-        "common item" : 2,
+        "common" : 2,
         "skill" : 1,
         "unique" : 2
       },
@@ -352,7 +352,7 @@
         "special" : "Retainer"
       },
       "Random Possessions" : {
-        "common item" : 1,
+        "common" : 1,
         "skill" : 1,
         "unique" : 2
       },
@@ -414,7 +414,7 @@
         "spell" : "Shrivelling"
       },
       "Random Possessions" : {
-        "common item" : 1,
+        "common" : 1,
         "skill" : 1,
         "spell" : 2,
         "unique" : 1
@@ -477,7 +477,7 @@
         "dollars" : 7
       },
       "Random Possessions" : {
-        "common item" : 2,
+        "common" : 2,
         "skill" : 1,
         "spell" : 2
       },
@@ -600,7 +600,7 @@
         "dollars" : 10
       },
       "Random Possessions" : {
-        "common item" : 2,
+        "common" : 2,
         "skill" : 1,
         "spell" : 1,
         "unique" : 1
@@ -660,11 +660,11 @@
     "Joe Diamond" : {
       "Fixed Possessions" : {
         "clues" : 3,
-        "common item" : ".45 Automatic",
+        "common" : ".45 Automatic",
         "dollars" : 8
       },
       "Random Possessions" : {
-        "common item" : 2,
+        "common" : 2,
         "skill" : 1
       },
       "ability" : {
@@ -725,7 +725,7 @@
         "dollars" : 7
       },
       "Random Possessions" : {
-        "common item" : 1,
+        "common" : 1,
         "skill" : 1,
         "spell" : 2,
         "unique" : 1
@@ -789,7 +789,7 @@
         "dollars" : 6
       },
       "Random Possessions" : {
-        "common item" : 2,
+        "common" : 2,
         "skill" : 1,
         "unique" : 1
       },
@@ -847,7 +847,7 @@
     },
     "Michael McGlen" : {
       "Fixed Possessions" : {
-        "common item" : "Tommy Gun",
+        "common" : "Tommy Gun",
         "common item2" : "Dynamite",
         "dollars" : 8
       },
@@ -910,7 +910,7 @@
     "Monterey Jack" : {
       "Fixed Possessions" : {
         "clues" : 1,
-        "common item" : "Bull Whip",
+        "common" : "Bull Whip",
         "common item2" : ".38 Revolver",
         "dollars" : 7
       },
@@ -972,7 +972,7 @@
     },
     "Sister Mary" : {
       "Fixed Possessions" : {
-        "common item" : "Cross",
+        "common" : "Cross",
         "dollars" : 0,
         "unique" : "Holy Water"
       },
@@ -1038,7 +1038,7 @@
         "dollars" : 9
       },
       "Random Possessions" : {
-        "common item" : 2,
+        "common" : 2,
         "skill" : 1,
         "spell" : 2
       },
