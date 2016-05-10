@@ -11,7 +11,16 @@
       "qty": 2,
     }
   ],
-  "unique" : [],
+  "unique" : [
+    {
+      "id": "?", //How am I going to relate the items together? Should each item type start the ids over? or should I just iterate up? How will that work when adding in different expansions?
+      "name": "Pallid Mask",
+      "text": "+2 to Evade Checks",
+      "hands": 0,
+      "price": 4,
+      "qty": 1,
+    }
+  ],
   "spell" : [],
   "ally": [],
   "skill" : [],
