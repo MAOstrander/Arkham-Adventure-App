@@ -236,20 +236,23 @@ angular.module('starter.controllers', [])
     score -= victory.terrorLevel;
 
     for (player in test.players) {
-        console.log("player:", player);
-      if (player.char) {
-        console.log("Name:", player.name);
-        score -= player.eldersigns;
-        console.log("score:", score);
-        score += player.gates;
-        console.log("score:", score);
-        score += Math.floor(player.trophies / 3);
-        console.log("score:", score);
+      if (test.players[player].char) {
+        score -= test.players[player].eldersigns;
+        score += test.players[player].gates;
+        score += Math.floor(test.players[player].trophies / 3);
+
+        if (test.players[player].hasOwnProperty('lived') ) {
+          score += 1;
+        }
+
+        if (test.players[player].hasOwnProperty('loan')) {
+          score -= 1;
+        }
+
       }
     }
-    console.log(">>>>>>>>", test);
-    console.log("???", victory.allCharacters);
-    console.log("Score, not yet complete", score);
+    console.log("Score", score);
+    victory.playingGame.score = score;
   };
 })
 
