@@ -218,6 +218,7 @@ angular.module('starter.controllers', [])
   victory.allAncient = $scope.$parent.mainMenu.test.ancientOnes;
 
 
+
   if (!loader.getCurrentGame()) {
       $ionicHistory.nextViewOptions({
         disableBack: true
@@ -225,13 +226,30 @@ angular.module('starter.controllers', [])
       $state.go('app.home');
   } else {
     victory.playingGame = loader.getCurrentGame();
+    victory.terrorLevel = 0;
     console.log("Current Game is:", loader.getCurrentGame());
     console.log("WHAT?", victory.playingGame);
   }
 
-  victory.testPrint = function() {
-    console.log(">>>>>>>>", victory.playingGame);
+  victory.testPrint = function(test) {
+    var score = victory.allAncient[victory.playingGame.foe].doom;
+    score -= victory.terrorLevel;
+
+    for (player in test.players) {
+        console.log("player:", player);
+      if (player.char) {
+        console.log("Name:", player.name);
+        score -= player.eldersigns;
+        console.log("score:", score);
+        score += player.gates;
+        console.log("score:", score);
+        score += Math.floor(player.trophies / 3);
+        console.log("score:", score);
+      }
+    }
+    console.log(">>>>>>>>", test);
     console.log("???", victory.allCharacters);
+    console.log("Score, not yet complete", score);
   };
 })
 
