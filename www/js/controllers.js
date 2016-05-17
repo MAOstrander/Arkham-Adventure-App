@@ -231,21 +231,21 @@ angular.module('starter.controllers', [])
     console.log("WHAT?", victory.playingGame);
   }
 
-  victory.testPrint = function(test) {
+  victory.scoreGame = function(currentGame) {
     var score = victory.allAncient[victory.playingGame.foe].doom;
     score -= victory.terrorLevel;
 
-    for (player in test.players) {
-      if (test.players[player].char) {
-        score -= test.players[player].eldersigns;
-        score += test.players[player].gates;
-        score += Math.floor(test.players[player].trophies / 3);
+    for (player in currentGame.players) {
+      if (currentGame.players[player].char) {
+        score -= currentGame.players[player].eldersigns;
+        score += currentGame.players[player].gates;
+        score += Math.floor(currentGame.players[player].trophies / 3);
 
-        if (test.players[player].hasOwnProperty('lived') ) {
+        if (currentGame.players[player].hasOwnProperty('lived') ) {
           score += 1;
         }
 
-        if (test.players[player].hasOwnProperty('loan')) {
+        if (currentGame.players[player].hasOwnProperty('loan')) {
           score -= 1;
         }
 
