@@ -140,11 +140,6 @@ angular.module('starter.controllers', [])
 
 })
 
-
-.controller('ResearchCtrl', function($scope) {
-
-})
-
 .controller('newGameCtrl', function($scope, mainInfoFactory) {
   var creator = this;
   console.log("Does this double as well?");

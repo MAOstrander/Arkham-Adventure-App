@@ -44,7 +44,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories', 
       views: {
         'menuContent': {
           templateUrl: 'templates/Research.html',
-          controller: 'ResearchCtrl'
         }
       }
     })
@@ -82,7 +81,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories', 
       views: {
         'menuContent': {
           templateUrl: 'templates/character.html',
-          controller: 'CharCtrl'
         }
       }
     })
@@ -92,7 +90,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.factories', 
       views: {
         'menuContent': {
           templateUrl: 'templates/ancientOne.html',
-          controller: 'AncientCtrl'
         }
       }
     });

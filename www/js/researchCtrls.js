@@ -13,7 +13,6 @@ angular.module('starter.researchCtrls', [])
       var obj = res.investigators[key];
        if (obj.id === parseInt($stateParams.id)) {
           chara.loaded = obj;
-          console.log("HEY!");
         }
       }
     }
@@ -40,7 +39,6 @@ angular.module('starter.researchCtrls', [])
       var obj = res['ancient ones'][key];
        if (obj.id === parseInt($stateParams.id)) {
           foe.loaded = obj;
-          console.log("HEY!");
         }
       }
     }
