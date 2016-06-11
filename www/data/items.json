@@ -386,20 +386,154 @@
   ],
   "spell" : [
     {
-      "id": "?",
-      "name": "Shrivelling",
-      "text": "Any Phase: Cast and exhaust to gain +6 to Combat checks until the end of this combat.",
-      "hands": 1,
+      "id": 0,
+      "name": "Bind Monster",
+      "casting": 4,
+      "cost": 2,
+      "text": "Any Phase: Cast and discard this spell to pass one Combat check. You must roll successes equal to the monster's toughness to cast this spell. This spell doesn't work on Ancient Ones.",
+      "hands": 2,
+      "qty": 2
+    },
+    {
+      "id": 1,
+      "name": "Dread Curse of Azathoth",
+      "casting": -2,
+      "cost": 2,
+      "text": "Any Phase: Cast and exhaust to gain +9 to Combat checks until the end of this combat.",
+      "hands": 2,
+      "qty": 4
+    },
+    {
+      "id": 2,
+      "name": "Enchant Weapon",
+      "casting": 0,
+      "cost": 1,
+      "text": "Any Phase: Cast and exhaust to make one Physical Weapon a Magical Weapon until the end of this combat.",
+      "qty": 3
+    },
+    {
+      "id": 3,
+      "name": "Find Gate",
       "casting": -1,
       "cost": 1,
+      "text": "Movement: Cast and exhaust to immediately return to Arkham from any Other World.",
       "qty": 4
+    },
+    {
+      "id": 4,
+      "name": "Flesh Ward",
+      "casting": -2,
+      "cost": 1,
+      "text": "Any Phase: Cast and exhaust to ignore all Stamina loss being dealt to you from one source. Discard this card if the Ancient One awakens.",
+      "qty": 8
+    },
+    {
+      "id": 5,
+      "name": "Heal",
+      "casting": 1,
+      "cost": 1,
+      "text": "Upkeep: You may cast and exhaust. You or another investigator in your area gains Stamina equal to the successes you rolled on your Spell check. This Stamina cannot be split between multiple investigators.",
+      "qty": 3
+    },
+    {
+      "id": 6,
+      "name": "Mists of Releh",
+      "casting": 0,
+      "cost": 0,
+      "text": "Any Phase: Cast and exhaust to pass an Evade check. The casting modifier is equal to the monster's Awareness.",
+      "qty": 4
+    },
+    {
+      "id": 7,
+      "name": "Red Sign of Shudde M'ell",
+      "casting": -1,
+      "cost": 1,
+      "text": "Any Phase: Cast and exhaust to lower a monster's toughness by 1 (to a minimum of 1) and ignore one of its special abilities other than Magical Immunity until the end of this combat.",
+      "hands": 1,
+      "qty": 2
+    },
+    {
+      "id": 8,
+      "name": "Shrivelling",
+      "casting": -1,
+      "cost": 1,
+      "text": "Any Phase: Cast and exhaust to gain +6 to Combat checks until the end of this combat.",
+      "hands": 1,
+      "qty": 5
+    },
+    {
+      "id": 9,
+      "name": "Voice of Ra",
+      "casting": -1,
+      "cost": 1,
+      "text": "Upkeep: You may cast and exhaust to gain +1 to all skill checks for the rest of this turn.",
+      "qty": 3
+    },
+    {
+      "id": 10,
+      "name": "Wither",
+      "casting": 0,
+      "cost": 0,
+      "text": "Any Phase: Cast and exhaust to gain +3 to Combat checks until the end of this combat.",
+      "hands": 1,
+      "qty": 6
     }
   ],
   "ally": [
     {
-      "id": "?",
+      "id": 0,
       "name": "Anna Kaslow",
       "text": "+2 Luck. Gain 2 Clue tokens when Anna Kaslow joins you."
+    },
+    {
+      "id": 1,
+      "name": "Duke",
+      "text": "+1 Maximum Sanity. Discard to immediately restore your Sanity to its maximum."
+    },
+    {
+      "id": 2,
+      "name": "Eric Colt",
+      "text": "+2 Speed. You take no Sanity loss form the Nightmarish ability."
+    },
+    {
+      "id": 3,
+      "name": "John Legrasse",
+      "text": "+2 Will. You can claim monsters with the Endless ability."
+    },
+    {
+      "id": 4,
+      "name": "Professor Armitage",
+      "text": "+2 Lore. Your attacks are not affected by Magical Resistance."
+    },
+    {
+      "id": 5,
+      "name": "Richard Upton Pickman",
+      "text": "+1 Luck, +1 Speed. Your attacks are not affected by Physical Resistance."
+    },
+    {
+      "id": 6,
+      "name": "Ruby Standish",
+      "text": "+2 Sneak. Draw 1 Unique Item when Ruby Standish joins you."
+    },
+    {
+      "id": 7,
+      "name": "Ryan Dean",
+      "text": "+1 Will, +1 Sneak. Draw 1 Common Item when Ryan Dean joins you."
+    },
+    {
+      "id": 8,
+      "name": "Sir William Brinton",
+      "text": "+1 Maximum Stamina. Discard to immediately restore your Stamina to its maximum."
+    },
+    {
+      "id": 9,
+      "name": "Thomas F. Malone",
+      "text": "+1 Lore, +1 Fight. Draw 1 Spell when Thomas F. Malone joins you."
+    },
+    {
+      "id": 10,
+      "name": "Tom 'Mountain' Murphy",
+      "text": "+2 Fight. You take no Stamina loss from the Overwhelming ability."
     }
   ],
   "skill" : [
