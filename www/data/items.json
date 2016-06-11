@@ -5,20 +5,199 @@
       "id": 0,
       "name": ".18 Derringer",
       "text": "+2 to Combat Checks. .18 Derringer cannot be lost or stolen unless you choose to allow it.",
-      "type": "physical weapon",
+      "type": "Physical Weapon",
       "hands": 1,
       "price": 3,
+      "qty": 2
+    },
+    {
+      "id": 1,
+      "name": ".38 Revolver",
+      "text": "+3 to Combat Checks",
+      "type": "Physical Weapon",
+      "hands": 1,
+      "price": 4,
+      "qty": 2
+    },
+    {
+      "id": 2,
+      "name": ".45 Automatic",
+      "text": "+4 to Combat Checks",
+      "type": "Physical Weapon",
+      "hands": 1,
+      "price": 5,
+      "qty": 2
+    },
+    {
+      "id": 3,
+      "name": "Ancient Tome",
+      "text": "Movement: Exhaust and spend movement points to make a Lore (-1) check. If you pass, draw 1 Spell and discard Ancient Tome. If you fail, nothing happens.",
+      "type": "Tome",
+      "price": 4,
+      "qty": 2
+    },
+    {
+      "id": 4,
+      "name": "Axe",
+      "text": "+2 to Combat Checks (+3 instead if your other hand is empty)",
+      "type": "Physical Weapon",
+      "hands": 1,
+      "price": 3,
+      "qty": 2
+    },
+    {
+      "id": 5,
+      "name": "Bullwhip",
+      "text": "+1 to Combat Checks. Any Phase: Exhaust to re-roll 1 die after making a Combat check.",
+      "type": "Physical Weapon",
+      "hands": 1,
+      "price": 2,
+      "qty": 2
+    },
+    {
+      "id": 6,
+      "name": "Cavalry Saber",
+      "text": "+2 to Combat Checks",
+      "type": "Physical Weapon",
+      "hands": 1,
+      "price": 3,
+      "qty": 2
+    },
+    {
+      "id": 7,
+      "name": "Cross",
+      "text": "+0 to Combat Checks (+3 if opponent is Undead) +1 to Horror checks.",
+      "type": "Magical Weapon",
+      "hands": 1,
+      "price": 3,
+      "qty": 2
+    },
+    {
+      "id": 8,
+      "name": "Dark Cloak",
+      "text": "+1 to Evade Checks",
+      "price": 2,
+      "qty": 2
+    },
+    {
+      "id": 9,
+      "name": "Dynamite",
+      "text": "+8 to Combat Checks (Discard after use)",
+      "type": "Physical Weapon",
+      "hands": 2,
+      "price": 4,
+      "qty": 2
+    },
+    {
+      "id": 10,
+      "name": "Food",
+      "text": "Any Phase: Discard Food to reduce any Stamina loss by 1.",
+      "price": 1,
+      "qty": 2
+    },
+    {
+      "id": 11,
+      "name": "Knife",
+      "text": "+1 to Combat Checks",
+      "type": "Physical Weapon",
+      "hands": 1,
+      "price": 2,
+      "qty": 2
+    },
+    {
+      "id": 12,
+      "name": "Lantern",
+      "text": "+1 to Luck Checks",
+      "price": 3,
+      "qty": 3
+    },
+    {
+      "id": 13,
+      "name": "Lucky Cigarette Case",
+      "text": "Any Phase: Discard Lucky Cigarette Case to re-roll any one skill check.",
+      "price": 1,
+      "qty": 2
+    },
+    {
+      "id": 14,
+      "name": "Map of Arkham",
+      "text": "Movement: Exhaust to get 1 extra movement point.",
+      "price": 2,
+      "qty": 2
+    },
+    {
+      "id": 15,
+      "name": "Motorcycle",
+      "text": "Movement: Exhaust to get 2 extra movement points.",
+      "price": 4,
+      "qty": 2
+    },
+    {
+      "id": 16,
+      "name": "Old Journal",
+      "text": "Movement: Exhaust and spend 1 movement point to make a Lore (-1) check. If you pass, gain 3 Clue tokens and discard Old Journal. If you fail, nothing happens.",
+      "type": "Tome",
+      "price": 1,
+      "qty": 2
+    },
+    {
+      "id": 17,
+      "name": "Research Materials",
+      "text": "Any Phase: Discard Research Materials instead of spending 1 Clue token.",
+      "price": 1,
+      "qty": 2
+    },
+    {
+      "id": 18,
+      "name": "Rifle",
+      "text": "+5 to Combat Checks",
+      "type": "Physical Weapon",
+      "hands": 2,
+      "price": 6,
+      "qty": 2
+    },
+    {
+      "id": 19,
+      "name": "Shotgun",
+      "text": "+4 to Combat Checks. Any Phase: When using Shotgun in Combat, all 6's rolled count as 2 successes.",
+      "type": "Physical Weapon",
+      "hands": 2,
+      "price": 6,
+      "qty": 2
+    },
+    {
+      "id": 20,
+      "name": "Tommy Gun",
+      "text": "+6 to Combat Checks",
+      "type": "Physical Weapon",
+      "hands": 2,
+      "price": 7,
+      "qty": 2
+    },
+    {
+      "id": 21,
+      "name": "Whiskey",
+      "text": "Any Phase: Discard Whiskey to reduce any Sanity loss by 1.",
+      "price": 1,
       "qty": 2
     }
   ],
   "unique" : [
     {
-      "id": "?", //How am I going to relate the items together? Should each item type start the ids over? or should I just iterate up? How will that work when adding in different expansions?
-      "name": "Pallid Mask",
-      "text": "+2 to Evade Checks",
-      "hands": 0,
-      "price": 4,
+      "id": 0,
+      "name": "Alien Statue",
+      "text": "Movement: Exhaust and spend 2 movement points and 1 Sanity to roll a die. If the die is a success, draw 1 Spell or gain 3 Clue tokens. If it is a failure, lose 2 Stamina.",
+      "price": 5,
       "qty": 1
+    },
+    {
+      "id": 1,
+      "name": "Ancient Tablet",
+      "text": "Movement: Spend 3 movement points and discard Ancient Tablet to roll 2 dice. For every success rolled, draw 1 Spell. For every failure rolled, gain 2 Clue tokens.",
+      "type": "Physical Weapon",
+      "hands": 1,
+      "price": 3,
+      "qty": 2
     }
   ],
   "spell" : [
