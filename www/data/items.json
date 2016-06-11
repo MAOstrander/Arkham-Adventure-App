@@ -538,9 +538,64 @@
   ],
   "skill" : [
     {
-      "id": "?",
+      "id": 0,
       "name": "Bravery",
-      "text": "Any Phase: Exhaust to re-roll a Horror check"
+      "text": "Any Phase: Exhaust to re-roll a Horror check.",
+      "qty": 2
+    },
+    {
+      "id": 1,
+      "name": "Expert Occultist",
+      "text": "Any Phase: Exhaust to re-roll a Spell check.",
+      "qty": 2
+    },
+    {
+      "id": 2,
+      "name": "Fight",
+      "text": "+1 Fight. When you spend a Clue token to add any Fight check, add one extra bonus die.",
+      "qty": 2
+    },
+    {
+      "id": 3,
+      "name": "Lore",
+      "text": "+1 Lore. When you spend a Clue token to add any Lore check, add one extra bonus die.",
+      "qty": 2
+    },
+    {
+      "id": 4,
+      "name": "Luck",
+      "text": "+1 Luck. When you spend a Clue token to add any Luck check, add one extra bonus die.",
+      "qty": 2
+    },
+    {
+      "id": 5,
+      "name": "Marksman",
+      "text": "Any Phase: Exhaust to re-roll a Combat check.",
+      "qty": 2
+    },
+    {
+      "id": 6,
+      "name": "Sneak",
+      "text": "+1 Sneak. When you spend a Clue token to add any Sneak check, add one extra bonus die.",
+      "qty": 2
+    },
+    {
+      "id": 7,
+      "name": "Speed",
+      "text": "+1 Speed. When you spend a Clue token to add any Speed check, add one extra bonus die.",
+      "qty": 2
+    },
+    {
+      "id": 8,
+      "name": "Stealth",
+      "text": "Any Phase: Exhaust to re-roll an Evade check.",
+      "qty": 2
+    },
+    {
+      "id": 9,
+      "name": "Will",
+      "text": "+1 Will. When you spend a Clue token to add any Will check, add one extra bonus die.",
+      "qty": 2
     }
   ],
   "special" : [
