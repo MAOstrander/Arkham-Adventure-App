@@ -247,6 +247,7 @@ angular.module('starter.controllers', [])
       }
     }
     console.log("Score", score);
+    alert("Your score was: ", score);
     victory.playingGame.score = score;
   };
 })
