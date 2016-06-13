@@ -142,7 +142,6 @@ angular.module('starter.controllers', [])
 
 .controller('newGameCtrl', function($scope, mainInfoFactory) {
   var creator = this;
-  console.log("Does this double as well?");
   creator.game = {
     name: "",
     expansions: [],
@@ -150,38 +149,14 @@ angular.module('starter.controllers', [])
     foe: "",
     herald: "",
     players: {
-      p1: {
-        name: "",
-        char: ""
-      },
-      p2: {
-        name: "",
-        char: ""
-      },
-      p3: {
-        name: "",
-        char: ""
-      },
-      p4: {
-        name: "",
-        char: ""
-      },
-      p5: {
-        name: "",
-        char: ""
-      },
-      p6: {
-        name: "",
-        char: ""
-      },
-      p7: {
-        name: "",
-        char: ""
-      },
-      p8: {
-        name: "",
-        char: ""
-      }
+      p1: { name: "", char: "" },
+      p2: { name: "", char: "" },
+      p3: { name: "", char: "" },
+      p4: { name: "", char: "" },
+      p5: { name: "", char: "" },
+      p6: { name: "", char: "" },
+      p7: { name: "", char: "" },
+      p8: { name: "", char: "" }
     }
   }
 

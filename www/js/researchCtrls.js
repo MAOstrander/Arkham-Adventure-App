@@ -6,8 +6,6 @@ angular.module('starter.researchCtrls', [])
   var heroCall = mainInfoFactory.getMainInfo();
   heroCall.success(function(res) {
 
-    // console.log("heroCall", res);
-
     for (var key in res.investigators) {
      if (res.investigators.hasOwnProperty(key)) {
       var obj = res.investigators[key];
@@ -17,10 +15,6 @@ angular.module('starter.researchCtrls', [])
       }
     }
 
-    // console.log("chara.loaded", chara.loaded);
-    // console.log("$stateParams", $stateParams);
-    // chara.fixed = chara.loaded['Fixed Possessions'];
-    // console.log("chara.fixed", chara.fixed);
   })
 })
 
@@ -31,9 +25,6 @@ angular.module('starter.researchCtrls', [])
   var foeCall = mainInfoFactory.getMainInfo();
   foeCall.success(function(res) {
 
-    // console.log("foeCall", res);
-    // console.log("Ancient ones?", res['ancient ones']);
-
     for (var key in res['ancient ones']) {
      if (res['ancient ones'].hasOwnProperty(key)) {
       var obj = res['ancient ones'][key];
@@ -43,7 +34,5 @@ angular.module('starter.researchCtrls', [])
       }
     }
 
-    // console.log("foe.loaded", foe.loaded);
-    // console.log("$stateParams", $stateParams);
   })
 });
