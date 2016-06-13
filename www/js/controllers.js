@@ -237,18 +237,22 @@ angular.module('starter.controllers', [])
         score += Math.floor(currentGame.players[player].trophies / 3);
 
         if (currentGame.players[player].hasOwnProperty('lived') ) {
-          score += 1;
+          if (currentGame.players[player].lived === true) {
+            score += 1;
+          }
         }
 
         if (currentGame.players[player].hasOwnProperty('loan')) {
-          score -= 1;
+          if (currentGame.players[player].loan === true) {
+            score -= 1;
+          }
         }
 
       }
     }
     console.log("Score", score);
-    alert("Your score was: ", score);
     victory.playingGame.score = score;
+    alert("Your score was: " + score);
   };
 })
 
