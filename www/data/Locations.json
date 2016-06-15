@@ -266,5 +266,51 @@
       "color": "yellow"
     }
   },
-  "dunwich": {}
+  "otherworld": [
+    {
+      "id": 0,
+      "name": "Another Dimension",
+      "colors": ["red", "blue", "green", "yellow"]
+    },
+    {
+      "id": 1,
+      "name": "Abyss",
+      "colors": ["red", "blue"]
+    },
+    {
+      "id": 2,
+      "name": "City of the Great Race",
+      "colors": ["green", "yellow"]
+    },
+    {
+      "id": 3,
+      "name": "Yuggoth",
+      "colors": ["blue", "yellow"]
+    },
+    {
+      "id": 4,
+      "name": "Great Hall of Celeano",
+      "colors": ["blue", "yellow"]
+    },
+    {
+      "id": 5,
+      "name": "The Dreamlands",
+      "colors": ["red", "blue", "green", "yellow"]
+    },
+    {
+      "id": 6,
+      "name": "Plateau of Leng",
+      "colors": ["red", "green"]
+    },
+    {
+      "id": 7,
+      "name": "R'lyeh",
+      "colors": ["red", "yellow"]
+    }
+  ],
+  "limits": [
+    {"id": 0, "name": "Lost in Time and Space"},
+    {"id": 1, "name": "Outskirts"},
+    {"id": 2, "name": "Sky"}
+  ]
 }
