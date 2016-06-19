@@ -49,9 +49,9 @@
         "Independence": "You touch Founder's Rock. Make a Luck (-1) check. If you pass, there is an electrifying shock that opens your mind to the elder things of eons past. Lose 1 Stamina, but gain 2 Clue tokens and draw 1 Spell. If you fail, you find a strange carving. As you finger the grooves, a gate opens here and you are drawn through it."
       },
       {
-        "Arkham Asylum": "",
-        "Bank": "",
-        "Independence": ""
+        "Arkham Asylum": "The guards of the sanitarium are aware that there is an intruder. Make a Sneak (-1) check to escape. If you pass, move to the street. If you fail, you are arrested and taken to the Police Station.",
+        "Bank": "'This is a stick-up, see? Nobody Move!' Three men armed with tommy guns rob the bank while you're standing in line. Make a Combat (-1) check. If you pass, you drive them off. Nothing happens. If you fail, lose all your money.",
+        "Independence": "A shadow falls across you from no apparent source and you shive rwith more than just cold. Pass a Will (-1) check or lose 1 Stamina and 1 Sanity."
       },
       {
         "Arkham Asylum": "",
