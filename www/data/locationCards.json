@@ -113,14 +113,14 @@
     ],
     "black" : [
       {
-        "Hibb's Roadhouse": "",
-        "Police Station": "",
-        "Velma's Diner": ""
+        "Hibb's Roadhouse": "Prohibition failed to influence the proprietor of Hibb's. You drink heavily while quizzing the locals about the strange goings-on in Arkham. Make a Will (-1) check. If you pass, you hold your liquor and learn something. Gain 2 Clue tokens. If you fail, you pass out. ove to the street and either have 1 item (your choice) or all of your money stolen.",
+        "Police Station": "Sheriff Engle trusts you and asks you to step into his office to discuss the recent strange events. Pass a Luck (-2) check to convince him to take you into his confidence and give you something to help you out. Draw 1 Unique Item.",
+        "Velma's Diner": "You get food poisoning! Pass a Luck (-1) check or lose 2 Stamina."
       },
       {
-        "Hibb's Roadhouse": "",
-        "Police Station": "",
-        "Velma's Diner": ""
+        "Hibb's Roadhouse": "You enter a 'friendly' card game. Make a Luck (-1) check. If you pass, you win $5. If you fail, you lose $3. If you lose and can't pay, the boys rough you up and throw you outside. Lose 1 Stamina and move to the street.",
+        "Police Station": "Deputy Dingby, excitedly cleaning his gun, fires a bullet from the chamber in your direction. Pass a Luck (-1) check to avoid getting shot. If you fail, lose 2 Stamina.",
+        "Velma's Diner": "Velma comments on how skinny you look and gives you a sandwich on the house. You may search the Common Item deck for a Food card and take it."
       },
       {
         "Hibb's Roadhouse": "",
