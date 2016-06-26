@@ -2,39 +2,39 @@
   "cards": {
     "purple" : [
       {
-        "Black Cave": "",
-        "General Store": "",
-        "Graveyard": ""
+        "Black Cave": "Bats! Hundreds of them! Pass a Speed (-1) check to get out of the cave safely. If you fail, lose 1 Stamina.",
+        "General Store": "The shopkeeper notices one of the items you're carrying and his face lights up. 'Say, Ive been looking for one of those. You wouldnt mind parting with it, would ya? I can pay well' You may sell any one of your Common Items for twice its listed price.",
+        "Graveyard": "Descending into a dark mausoleum, you discover a vampire rising to feed. You quickly find yourself fighting for your life. Make a Combat (-2) check. If you pass, you defeat the vampire, gaining 1 Clue token and drawing 1 Unique Item. If you fail, roll a die and lose that much Stamina."
       },
       {
-        "Black Cave": "",
-        "General Store": "",
-        "Graveyard": ""
+        "Black Cave": "A monster appears!",
+        "General Store": "You notice that some of the locals have an odd, fish-like quality to them that sets your teeth on edge. The shopkeeper notices your gaze and nods, 'Marsh stock, from over in Innsmouth. Watch yourself around them.' Shivering, you lose 1 Sanity.",
+        "Graveyard": "You find a man painting a picture of one of the horrible gargoyles lining the walls of the graveyard. Seeing you, he introduces himself as Richard Upton Pickman, a painter visiting from Boston. If you spend monster trophies that have a total of 5 toughness, Pickman takes a liking to you. Take his Ally card. If it is not available, he teaches you an incantation instead. Draw 1 Spell."
       },
       {
-        "Black Cave": "",
-        "General Store": "",
-        "Graveyard": ""
+        "Black Cave": "In the darkness you happen upon the remains of a previous spelunker. Make a Luck (+0) check and consult the chart below: 0 Successes) The body begins to bloat and splits open, releasing the horror within. Lose 1 Sanity and a monster appears. 1 Success) The body has been ripped apart as if shredded by a powerful monster. Lose 1 Sanity. 2+ Successes) Searching the body you find something interesting. Draw 1 Common Item.",
+        "General Store": "Noticing a glint on the floor, you discover a silver dollar someone must have dropped. Gain $1.",
+        "Graveyard": "A monster appears!"
       },
       {
-        "Black Cave": "",
-        "General Store": "",
-        "Graveyard": ""
+        "Black Cave": "You find an old book. If you read it, make a Luck (+0) check and consult the chart below: 0 Successes) Evil forces assault you. Lose 1 Sanity and 1 Stamina. 1 Success) You find the diary of a lost soul who died in the caves long ago. Lose 1 Sanity and gain 1 Clue token as you read his horrible tale. 2+ Successes) The book is a spellbook. Take the first Tome from the Unique Item deck.",
+        "General Store": "'Hey, you dropped this!' A young street urchin hands you an item and then scampers off. You don't recognize the item, but the boy is already gone. Draw 1 Common Item.",
+        "Graveyard": "You find the half-buried corpse of a strange being. Draw a monster from the cup and take it as a monster trophy, even if it has the Endless ability."
       },
       {
-        "Black Cave": "",
-        "General Store": "",
-        "Graveyard": ""
+        "Black Cave": "You are attacked by a shadowy being, but a large man leaps out of the darkness and drives it off. He introduces himself as Tom 'Mountain' Murphy. Make a Luck (-2) check, or discard a Whiskey card to pass it automatically. If you pass, he joins your investigation. Take his Ally card if it's available, otherwise he gives you something to protect yourself with. Search the Common Item deck and take the first weapon you find. If you fail, nothing happens.",
+        "General Store": "A jar on the counter bears a sign proclaiming, 'Guess how many marbles are in the jar and win a prize! $1 entry fee' If you want, you may pay $1 to make a Lore (-2) check. If you pass, you gain $5. If you fail, nothing happens.",
+        "Graveyard": "Entering a stone crypt, you are surprised to find a beautiful fresco and some inspirational words upon the wall. There is an almost magical peace within the chamber. Gain 2 Sanity."
       },
       {
-        "Black Cave": "",
-        "General Store": "",
-        "Graveyard": ""
+        "Black Cave": "You are in a maze of twisty passages, all alike. Pass a Lore (-2) check or become lost. If you fail, lose 1 Stamina and stay here next turn.",
+        "General Store": "Make a Will (-2) check. If you pass, you gain the ear of the shopkeeper. Seeing your valiant cause, he takes you into the back room and offers you some special equipment. Draw 3 Common Items. You may take 1 of them for free as a gift to help thwart the evil in Arkham! Discard the other 2. If you fail, nothing happens.",
+        "Graveyard": "Pass a Luck (-2) to find a valuable clue withing your tombstone rubbings. Gain 2 Clue tokens and you may move to any location or streat area in Arkham. If you move to a location, immediately have an encounter there."
       },
       {
-        "Black Cave": "",
-        "General Store": "",
-        "Graveyard": ""
+        "Black Cave": "The moaning winds in the cave whisper your name. Lose 1 Sanity.",
+        "General Store": "You try talking to the elderly locals gathered around the potbellied stove playing checkers, but you gain nothing but stares and a few befuddled grunts for your trouble. Apparently they don't like outsiders. No encounter.",
+        "Graveyard": "'Testifying' Cooter Falwell latches onto you and rambles on about his spiritual beliefs. Make a Lore (-1) check. If you pass, then somewhere in Cooter's words you find a clue to the Mythos threat. Gain 1 Clue token, but lose 1 Sanity. If you fail, move to the street while you listen to Cooter ramble on about pure nonsense."
       }
     ],
     "red" : [
