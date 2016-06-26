@@ -1,5 +1,190 @@
 {
   "cards": {
+    "purple" : [
+      {
+        "Black Cave": "",
+        "General Store": "",
+        "Graveyard": ""
+      },
+      {
+        "Black Cave": "",
+        "General Store": "",
+        "Graveyard": ""
+      },
+      {
+        "Black Cave": "",
+        "General Store": "",
+        "Graveyard": ""
+      },
+      {
+        "Black Cave": "",
+        "General Store": "",
+        "Graveyard": ""
+      },
+      {
+        "Black Cave": "",
+        "General Store": "",
+        "Graveyard": ""
+      },
+      {
+        "Black Cave": "",
+        "General Store": "",
+        "Graveyard": ""
+      },
+      {
+        "Black Cave": "",
+        "General Store": "",
+        "Graveyard": ""
+      }
+    ],
+    "red" : [
+      {
+        "St. Mary's Hospital": "",
+        "Woods": "",
+        "Ye Olde Magick Shoppe": ""
+      },
+      {
+        "St. Mary's Hospital": "",
+        "Woods": "",
+        "Ye Olde Magick Shoppe": ""
+      },
+      {
+        "St. Mary's Hospital": "",
+        "Woods": "",
+        "Ye Olde Magick Shoppe": ""
+      },
+      {
+        "St. Mary's Hospital": "",
+        "Woods": "",
+        "Ye Olde Magick Shoppe": ""
+      },
+      {
+        "St. Mary's Hospital": "",
+        "Woods": "",
+        "Ye Olde Magick Shoppe": ""
+      },
+      {
+        "St. Mary's Hospital": "",
+        "Woods": "",
+        "Ye Olde Magick Shoppe": ""
+      },
+      {
+        "St. Mary's Hospital": "",
+        "Woods": "",
+        "Ye Olde Magick Shoppe": ""
+      }
+    ],
+    "blue" : [
+      {
+        "Silver Twilight Lodge": "",
+        "Inner Sanctum": "",
+        "The Witch House": ""
+      },
+      {
+        "Silver Twilight Lodge": "",
+        "Inner Sanctum": "",
+        "The Witch House": ""
+      },
+      {
+        "Silver Twilight Lodge": "",
+        "Inner Sanctum": "",
+        "The Witch House": ""
+      },
+      {
+        "Silver Twilight Lodge": "",
+        "Inner Sanctum": "",
+        "The Witch House": ""
+      },
+      {
+        "Silver Twilight Lodge": "",
+        "Inner Sanctum": "",
+        "The Witch House": ""
+      },
+      {
+        "Silver Twilight Lodge": "",
+        "Inner Sanctum": "",
+        "The Witch House": ""
+      },
+      {
+        "Silver Twilight Lodge": "",
+        "Inner Sanctum": "",
+        "The Witch House": ""
+      }
+    ],
+    "brown" : [
+      {
+        "Historical Society": "",
+        "Ma's Boarding House": "",
+        "South Curch": ""
+      },
+      {
+        "Historical Society": "",
+        "Ma's Boarding House": "",
+        "South Curch": ""
+      },
+      {
+        "Historical Society": "",
+        "Ma's Boarding House": "",
+        "South Curch": ""
+      },
+      {
+        "Historical Society": "",
+        "Ma's Boarding House": "",
+        "South Curch": ""
+      },
+      {
+        "Historical Society": "",
+        "Ma's Boarding House": "",
+        "South Curch": ""
+      },
+      {
+        "Historical Society": "",
+        "Ma's Boarding House": "",
+        "South Curch": ""
+      },
+      {
+        "Historical Society": "",
+        "Ma's Boarding House": "",
+        "South Curch": ""
+      }
+    ],
+    "green" : [
+      {
+        "River Docks": "",
+        "The Unnamable": "",
+        "Unvisited Isle": ""
+      },
+      {
+        "River Docks": "",
+        "The Unnamable": "",
+        "Unvisited Isle": ""
+      },
+      {
+        "River Docks": "",
+        "The Unnamable": "",
+        "Unvisited Isle": ""
+      },
+      {
+        "River Docks": "",
+        "The Unnamable": "",
+        "Unvisited Isle": ""
+      },
+      {
+        "River Docks": "",
+        "The Unnamable": "",
+        "Unvisited Isle": ""
+      },
+      {
+        "River Docks": "",
+        "The Unnamable": "",
+        "Unvisited Isle": ""
+      },
+      {
+        "River Docks": "",
+        "The Unnamable": "",
+        "Unvisited Isle": ""
+      }
+    ],
     "yellow" : [
       {
         "Administration Building": "Discuss the opportunity to sell a monograph with the President of the University. Pass a Lore (-1) check to make the sale and gain $5.",
@@ -144,7 +329,7 @@
       },
       {
         "Hibb's Roadhouse": "So, what's your story, frind? A smiling man inquires about your adventures over a glass of gin. You tell him your story. If you spend 3 Clue tokens, he introduces himself as Ryan Dean and asks to join you. Take his Ally card. If it's not available, he gives you some useful items instead. Draw 2 Common Items.",
-        "Police Station": "One of the men in the holding cells tries to intimidate you with stories about the things he's seen. Make a Will (-1) check. If you pass, gain 1 Clue token. If you fail, move to the street and lsoe 1 Sanity as the man laughs at your retreating back.",
+        "Police Station": "One of the men in the holding cells tries to intimidate you with stories about the things he's seen. Make a Will (-1) check. If you pass, gain 1 Clue token. If you fail, move to the street and lose 1 Sanity as the man laughs at your retreating back.",
         "Velma's Diner": "'Whatll it be, hon?' Velma takes your order. Pay up to $6 to gain that many points split between Sanity and Stamina however you like."
       }
     ]
