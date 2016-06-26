@@ -123,29 +123,29 @@
         "Velma's Diner": "Velma comments on how skinny you look and gives you a sandwich on the house. You may search the Common Item deck for a Food card and take it."
       },
       {
-        "Hibb's Roadhouse": "",
-        "Police Station": "",
-        "Velma's Diner": ""
+        "Hibb's Roadhouse": "A horrible monster appears!",
+        "Police Station": "Sheriff Engle notes that you're carrying an awful lot of weapons. Either pay him $5 or discard all of your weapons.",
+        "Velma's Diner": "Velma reads the tea leaves left in your cup. Make a Luck (-1) check. If you pass, you are Blessed. If you fail, the future looks bleak, you are Cursed."
       },
       {
-        "Hibb's Roadhouse": "",
-        "Police Station": "",
-        "Velma's Diner": ""
+        "Hibb's Roadhouse": "Joey 'the Rat' Vigil slips into an empty chair at your table and whispers, 'Psssst! Wanna buy something?' Look at the top 3 cards of the Common Item deck. You may purchase any or all of them for $1 above list price. 'Hey, Ive got overhead!' the Rat explains.",
+        "Police Station": "If you succeed at a Luck (-1) check, then Deputy Dingby absentmindedly leaves you holding his gun. You may search the Common Item deck for a .38 Revolver card and take it.",
+        "Velma's Diner": "You spot a rat leaving the kitchen. Pass a Will (-2) check to convince Velma to bribe you $5 not to tell anyone."
       },
       {
-        "Hibb's Roadhouse": "",
-        "Police Station": "",
-        "Velma's Diner": ""
+        "Hibb's Roadhouse": "Pass a Luck (-1) check or a pickpocket cleans you out! Lose all your money.",
+        "Police Station": "Deputy Dingby accidentally drops a case file as he makes his way past you. Pass a Sneak (+0) check to search the Common Item deck for a Research Materials card and take it.",
+        "Velma's Diner": "You find some money on the floor under the back booth. If you take it, make a Sneak (-1) check. If you pass, roll a die and gain that much money. If you fail, Velma sees you pick up the money. She comes over and swipes it out of your hands screaming. 'Stealing my tips!' so loudly that you flee the diner. Move to the street."
       },
       {
-        "Hibb's Roadhouse": "",
-        "Police Station": "",
-        "Velma's Diner": ""
+        "Hibb's Roadhouse": "A stranger buys you a drink. You may search the Common Item deck for a Whiskey card and take it.",
+        "Police Station": "Pass a Will (-1) check to convince Deputy Dingby to share some files with you that are very interesting. Gain 2 Clue tokens.",
+        "Velma's Diner": "'This must be where pies go when they die.' If you want, pay $1 to enjoy a fine slice of cherry pie. If you do, gain 2 Stamina."
       },
       {
-        "Hibb's Roadhouse": "",
-        "Police Station": "",
-        "Velma's Diner": ""
+        "Hibb's Roadhouse": "So, what's your story, frind? A smiling man inquires about your adventures over a glass of gin. You tell him your story. If you spend 3 Clue tokens, he introduces himself as Ryan Dean and asks to join you. Take his Ally card. If it's not available, he gives you some useful items instead. Draw 2 Common Items.",
+        "Police Station": "One of the men in the holding cells tries to intimidate you with stories about the things he's seen. Make a Will (-1) check. If you pass, gain 1 Clue token. If you fail, move to the street and lsoe 1 Sanity as the man laughs at your retreating back.",
+        "Velma's Diner": "'Whatll it be, hon?' Velma takes your order. Pay up to $6 to gain that many points split between Sanity and Stamina however you like."
       }
     ]
   }
