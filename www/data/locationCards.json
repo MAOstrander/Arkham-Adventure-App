@@ -39,39 +39,39 @@
     ],
     "red" : [
       {
-        "St. Mary's Hospital": "",
-        "Woods": "",
-        "Ye Olde Magick Shoppe": ""
+        "St. Mary's Hospital": "Make a Luck (-1) check. If you pass, you realize that Dr. Mortimote is sneaking up behind you with a hypodermic needle filled with a phosphorescent gel. You avoid his experiment and subdue the mad doctor. The city awards you $3 and you gain 2 Sanity in the process. If you fail, lose 2 Sanity, then you are dumped in the street.",
+        "Woods": "You are bushwhacked by the Sheldon Gang. Pass a Luck (-1) check to avoid their trap. If you fail, lose 2 items of your choice and 2 Stamina.",
+        "Ye Olde Magick Shoppe": "You see an interesting book sitting open on Miriam Beecher's desk. Pass a Lore (-1) check or you peer closely at its pages only to realize too late that the book is Cursed... and now, so are you."
       },
       {
-        "St. Mary's Hospital": "",
-        "Woods": "",
-        "Ye Olde Magick Shoppe": ""
+        "St. Mary's Hospital": "You sneek a peek at the medical records for a recent admission who was involved in a cult ritual. Pass a Lore (+0) check to learn something about the cult's methods. Gain 1 Clue token.",
+        "Woods": "You meet an old wise man in the grove who offers to share his wisdom with you. If you accept, lose your next turn and make a Lore (-2) check. If you pass, you may draw 1 Skill, or draw 2 Spells, or gain 4 Clue tokens. if you fail, nothing happens.",
+        "Ye Olde Magick Shoppe": "Miriam Beecher, the shopkeeper, peers closely at your face, then screams, 'Theyve marked you! Get out! Get out!' and throws you out. Move to the street and lose 1 Sanity from this unsettling incident."
       },
       {
-        "St. Mary's Hospital": "",
-        "Woods": "",
-        "Ye Olde Magick Shoppe": ""
+        "St. Mary's Hospital": "You agree to undergo an experimental treatment. Roll a die. On a 1-3, gain that many Stamina. On a 4-6, nothing happens.",
+        "Woods": "You find a sleeping Sheldon Gang member near the still. Make a Sneak (-2) check to try and swipe the shotgun he has dropped on the ground. If you pass, take a Shotgun from the Common Item deck if there is one. If you fail, the guard awakens. You are caught and beaten, losing 2 Stamina, but you escape with your life. Move to the street.",
+        "Ye Olde Magick Shoppe": "There is an old, locked trunk for sale for $5. If you but it, make a Luck (+0) check and consult the chart below: 0 Successes) Empty! 1 Success) Gold coins! Roll 2 dice, add them together, and gain that much money. 2+ Successes) Jackpot! Draw 2 Unique Items."
       },
       {
-        "St. Mary's Hospital": "",
-        "Woods": "",
-        "Ye Olde Magick Shoppe": ""
+        "St. Mary's Hospital": "The corpse you are examining isn't quite dead yet. It reaches out and grabs you by the throat. Lose 1 Sanity. Then, you must fight the corpse. If you pass a Combat (-1) check, you defeat it and gain 1 Clue token. Otherwise, move to the street.",
+        "Woods": "You have stumbled upon a still owned by the Sheldon Gang. Make a Sneak (-1) check. If you pass, skulk away without being seen. If you fail, lose 2 Stamina as the Sheldon Gang works you over while escorting you from the woods. In either case, move to the street.",
+        "Ye Olde Magick Shoppe": "Looking into a glass ball, you receive a vision of things to come. Turn the top card of one location deck of your choice face up. The next investigator to have an encounter at that locations draws that encounter card."
       },
       {
-        "St. Mary's Hospital": "",
-        "Woods": "",
-        "Ye Olde Magick Shoppe": ""
+        "St. Mary's Hospital": "The Doctor escorts you behind a curtain where the body of some other unfortunate investigator has been laid. The corpse has been torn to shreds. Pass a Will (-1) heck or lose 1 Sanity. If you pass, you may also search the body and find a helpful item. Draw 1 Unique Item. If you fail, you run away screaming. Move to the street.",
+        "Woods": "A gate and a monster appear!",
+        "Ye Olde Magick Shoppe": "Pass a Lore (-1) check to recognize an item that Miriam Beecher has underpriced. If you do so, draw 1 Unique Item. You may purchase if for half its list price (rounded up)."
       },
       {
-        "St. Mary's Hospital": "",
-        "Woods": "",
-        "Ye Olde Magick Shoppe": ""
+        "St. Mary's Hospital": "Nurse Sharon slips something into your hand when the doctor isn't looking. Pass a Sneak (-1) check to keep anyone else from noticing. If you do, you later examine the object and find it to be an old parchment with a spell scratched on it. Draw 1 Spell. If you fail, an orderly takes it away from you and you gain nothing.",
+        "Woods": "You come across a cringing dog. Pass a Speed (-2) check to catch and calm him. If you have Food, you can discard that to automatically pass the check instead of rolling. You see by his collar that he is named Duke. Take his Ally card. If it isn't available, gain $3 as a reward for returning him to his owner instead.",
+        "Ye Olde Magick Shoppe": "Miriam Beecher talks to you for awhile, explaining some very interesting theories she has concerning the Mythos. Gain 1 Clue token."
       },
       {
-        "St. Mary's Hospital": "",
-        "Woods": "",
-        "Ye Olde Magick Shoppe": ""
+        "St. Mary's Hospital": "One of the staff physicians talks some sense into you. You are disabused of certain crazy but accurate notions. Lose 1 Clue token.",
+        "Woods": "You trip over object which turns out to be a rusty lockbox. If you open it, make a Luck (+0) check and consult the following chart: 0 Successes) A rotted human foot. Lose 1 Sanity. 1 Success) Draw 1 Common Item. 2 Successes) Draw 1 Unique Item. 3+ Successes) $10 in jewelry.",
+        "Ye Olde Magick Shoppe": "Looking closely at a mummified head in the shop, you are horrified to find it looking back at you! Lose 1 Sanity."
       }
     ],
     "blue" : [
