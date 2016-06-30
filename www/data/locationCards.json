@@ -44,7 +44,7 @@
         "Ye Olde Magick Shoppe": "You see an interesting book sitting open on Miriam Beecher's desk. Pass a Lore (-1) check or you peer closely at its pages only to realize too late that the book is Cursed... and now, so are you."
       },
       {
-        "St. Mary's Hospital": "You sneek a peek at the medical records for a recent admission who was involved in a cult ritual. Pass a Lore (+0) check to learn something about the cult's methods. Gain 1 Clue token.",
+        "St. Mary's Hospital": "You sneak a peek at the medical records for a recent admission who was involved in a cult ritual. Pass a Lore (+0) check to learn something about the cult's methods. Gain 1 Clue token.",
         "Woods": "You meet an old wise man in the grove who offers to share his wisdom with you. If you accept, lose your next turn and make a Lore (-2) check. If you pass, you may draw 1 Skill, or draw 2 Spells, or gain 4 Clue tokens. if you fail, nothing happens.",
         "Ye Olde Magick Shoppe": "Miriam Beecher, the shopkeeper, peers closely at your face, then screams, 'Theyve marked you! Get out! Get out!' and throws you out. Move to the street and lose 1 Sanity from this unsettling incident."
       },
@@ -76,39 +76,39 @@
     ],
     "blue" : [
       {
-        "Silver Twilight Lodge": "",
-        "Inner Sanctum": "",
-        "The Witch House": ""
+        "Silver Twilight Lodge": "Brushing up against a strange object in the hall, you feel stretched and thin, like your skin is too tight. Pass a Luck (-1) check or you are Cursed.",
+        "Inner Sanctum": "Participating in the monthly ceremony, you witness great power and great evil. Lose up to 3 Sanity and gain that many Clue tokens.",
+        "The Witch House": "You find a banquet laid out in the dining room and feel compelled to sit down and eat. Make a Luck (+0) check and consult the following chart: 0 Successes) You suddenly realize what you've been eating. Lose 3 Sanity. 1 Success) You gorge yourself, unable to stop eating. Stay here next turn. 2 Successes) The food makes you feel sick. Lose 1 Stamina. 3+ Successes) The meal refreshes you. Gain 3 Stamina."
       },
       {
-        "Silver Twilight Lodge": "",
-        "Inner Sanctum": "",
-        "The Witch House": ""
+        "Silver Twilight Lodge": "Make a Sneak (-2) check. If you pass, you slip into the temple area of the Lodge and find 2 items of interest. Roll a die for each item. On a succes, draw a Unique Item, otherwise draw a Common Item.",
+        "Inner Sanctum": "You're invited to take part in a Gating ceremony. If you agree, spend 2 Clue tokens and 1 Sanity to make a Lore (-2) check. If you pass, close one gate of your choice. If you fail, nothing happens.",
+        "The Witch House": "You are overcome by the echoing chants of the long-gone witches who have lived and died here - you pass out. Make a Will (-2) check. If you pass, you learn an ancient spell in your dreams. Draw 1 Spell. If you fail, you are missing half your items when you wake up. Discard half of your items (your choice, round down)."
       },
       {
-        "Silver Twilight Lodge": "",
-        "Inner Sanctum": "",
-        "The Witch House": ""
+        "Silver Twilight Lodge": "You find an old parchment in the study. Pass a Lore (-1) check to draw 2 Spells and keep one of your choice.",
+        "Inner Sanctum": "You are allowed into the vault of Silver Secrets. Pass a Luck (-2) check to steal a very unusual item. Search the Unique Item deck and take any 1 Unique Item you want.",
+        "The Witch House": "'Excuse me, stranger, but have you ever seen this symbol before?' A man standing near the house holds up an occult symbol. Make a Lore (-1) check. If you pass, the man introduces himself as Thomas F. Malone, a police detective visiting Arkham on a case. He's impressed with you and offers to join you. Take his Ally card. If it's not available, he tells you some valuable information instead. Gain 2 Clue tokens. If you fail nothing happens."
       },
       {
-        "Silver Twilight Lodge": "",
-        "Inner Sanctum": "",
-        "The Witch House": ""
+        "Silver Twilight Lodge": "You hear the quiet sounds of an intruder. If you investigate, you find a woman dressed in black. She attacks you as soon as she sees you. Pass a Fight (-1) check to subdue her long enough to explain your investigation. You find out that her name is Ruby Standish and that she was robbing the Lodge. However, upon hearing your tale, she agrees to join you. Take her Ally card. If it is not available, draw a Unique Item instead.",
+        "Inner Sanctum": "The Order of the Silver Twilight casts a banishment spell in their monthly ceremony. Spend 1 Sanity to make a Luck (-1) check. If you pass, claim any one monster on the board as a trophy. If you fail, nothing happens.",
+        "The Witch House": "Pass a Luck (-1) check to find an odd looking item in an old dusty display case. Draw 1 Unique Item."
       },
       {
-        "Silver Twilight Lodge": "",
-        "Inner Sanctum": "",
-        "The Witch House": ""
+        "Silver Twilight Lodge": "'Care to join the Order?' Carl Sanford and several of his henchmen ask. If you accept, pay $3 and take a Silver Twilight Membership. If you decline, pass a Will (-1) check or lose 3 Stamina as the henchmen assist you out the door. Whether you pass or not, move to the street.",
+        "Inner Sanctum": "Pay your monthly dues of $3 or lose 2 Sanity from strange dreams sent to you by Carl Sanford when he kicks you out of the Order. If you are kicked out, lose your Silver Twilight Membership.",
+        "The Witch House": "You feel the house actually breathe and speak your name. Lose 1 Sanity."
       },
       {
-        "Silver Twilight Lodge": "",
-        "Inner Sanctum": "",
-        "The Witch House": ""
+        "Silver Twilight Lodge": "'Care to join the Order?' Carl Sanford and several of his henchmen ask. If you accept, pay $3 and take a Silver Twilight Membership. If you decline, pass a Will (-1) check or lose 3 Stamina as the henchmen assist you out the door. Whether you pass or not, move to the street.",
+        "Inner Sanctum": "You attend a ceremony in which the order opens a gate and a monster bursts out of it before the gate closes once more. A monster appears!",
+        "The Witch House": "In an old journal you learn some horrible eldritch secrets. Roll a die. Lose that much Sanity and gain that many Clue tokens."
       },
       {
-        "Silver Twilight Lodge": "",
-        "Inner Sanctum": "",
-        "The Witch House": ""
+        "Silver Twilight Lodge": "Carl Sanford draws you into the study to talk and you feel the cold creep of dread listening to him. Make a Lore (-1) check. If you pass, your willpower stands up to the test of the ancient wizard and you even learn something of value. Gain 3 Clue tokens. If you fail, his hypnotic tones lull you into a trance. The conversation seems short, but when you leave the study, much time has passed and your thoughts are confused. Lose all your Clue tokens and move to the street.",
+        "Inner Sanctum": "Carl Sanford does not trust you and the climax of the monthly ceremony spits a spell at you. Pass a Luck (-2) check or you are Cursed.",
+        "The Witch House": "A gate and a monster appear!"
       }
     ],
     "brown" : [
