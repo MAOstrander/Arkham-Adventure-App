@@ -113,39 +113,39 @@
     ],
     "brown" : [
       {
-        "Historical Society": "",
-        "Ma's Boarding House": "",
-        "South Curch": ""
+        "Historical Society": "Pass a Luck (-1)[2] check to gain insight into a skill while studying the old volumes of books. Draw 1 Skill, but stay here next turn.",
+        "Ma's Boarding House": "After supper while sitting on the porch you strike up a conversation with another guest: Ryan Dean, a traveling salesman. You may make a Will (+0) check if you want. If you pass, Ryan has a deal for you. You may draw either 1 Common Item or 1 Unique Item and purchase it at list price. If you fail, stay here next turn listening to bawdy stories and tall tales.",
+        "South Curch": "Noticing you eying the holy water, Father Michael tells you, 'Take what you need, my child.' You may search the Unique Item deck for a Holy Water card and take it."
       },
       {
-        "Historical Society": "",
-        "Ma's Boarding House": "",
-        "South Curch": ""
+        "Historical Society": "Perusing the county records, you discover something horrifying about your family tree. Lose 1 Sanity.",
+        "Ma's Boarding House": "The last guest to stay in your room had to leave in a hurry and left something behind. Draw 1 Common Item.",
+        "South Curch": "You enter the confessional. 'Bless me, Father, for I have sinned.' Make a Luck (+0) check and consult the chart below: 0 Successes) 'Father? Are you there?' You hear a scream in the next compartment! Lose 3 Sanity and move to the street. 1 Success) 'Father?' There is no answer. Sighing, you leave. Move to the street. 2+ Successes) 'I dont remember my my last confesion.' Raise your Sanity to its maximum value."
       },
       {
-        "Historical Society": "",
-        "Ma's Boarding House": "",
-        "South Curch": ""
+        "Historical Society": "You notice a creepy man watching you as you peruse the books. With a feeling of dread you try to slip out without being followed. Make a Sneak (-1) check. If you pass, you lose the man, gaining 1 Sanity in the process. If you fail, you are accosted by the man in the street. He is a wizard and he casts a dark spell on you as you flee. Lose 2 Stamina, move to the street, and you are Cursed.",
+        "Ma's Boarding House": "Ma Mathison serves her special soup at supper. Roll a die and gain that much Stamina.",
+        "South Curch": "Father Michael convinces you that there are members of his congregation in greater need than you. Donate either half your money (rounded up) or half your items (your choice, rounded up) to the poor."
       },
       {
-        "Historical Society": "",
-        "Ma's Boarding House": "",
-        "South Curch": ""
+        "Historical Society": "Pay a $3 fee to gain access to the private library. If you refuse, move to the street. If you pay, make a Luck (-1) check. If you pass, you learn an ancient spell from a dusty ledger. Draw 1 Spell. If you fail, you doze off and enter The Dreamlands. Have one encounter there, then immediately return here.",
+        "Ma's Boarding House": "You find a poorly boarded-up passage in the basement that opens into a winding tunnel. If you venture into it, you exit in the Silver Twilight Lodge. Draw 2 cards and encounter one card of your choice, discarding the other.",
+        "South Curch": "Knowing that you are engaged in God's work, Father Michael Blesses you."
       },
       {
-        "Historical Society": "",
-        "Ma's Boarding House": "",
-        "South Curch": ""
+        "Historical Society": "You meet Cindy Fleming, a young geology professor at the University. She offers to show you some interesting formations at the Black Cave. If you accept, move to the Black Cave and draw 2 cards, encountering one card of your choice and discarding the other.",
+        "Ma's Boarding House": "Ma Mathison tells you that the best room in the house is available for the night. If you want, pay $3 to spend the night there. Gain 4 points split between Sanity and Stamina however you choose.",
+        "South Curch": "Upon entering the church. you are attacked by Father Michael with a giant cross, who for some reason believes you to be in league with the devil. Make a Speed (-1) check. If you pass, you escape. If you fail, lose 2 Stamina. In either case, move to the street."
       },
       {
-        "Historical Society": "",
-        "Ma's Boarding House": "",
-        "South Curch": ""
+        "Historical Society": "You encounter a friendly old professor from Miskatonic University. If you spend 1 gate trophy, he introduces himself as Professor Armitage and offers to join forces with you. Take his Ally card if it is available, otherwise draw 1 Unique Item.",
+        "Ma's Boarding House": "Chanting neighbors keep you up all night. Pass a Luck (-1) check or lose your choice of either 1 Stamina or 1 Sanity.",
+        "South Curch": "You join in the morning mass. Spend 1 Clue token to ask for heavenly aid. If you do so, roll a die. On a success, your prayers are answered. Remove 1 doom token from the Ancient One's doom track."
       },
       {
-        "Historical Society": "",
-        "Ma's Boarding House": "",
-        "South Curch": ""
+        "Historical Society": "The Society members are bird watching in the woods. The janitor offers you a ride there. If you accept, move to the Woods and draw 2 cards, encountering one card of your choice and discarding the other.",
+        "Ma's Boarding House": "Staring at a painting in one of the rooms, you find yourself drawn into it. Make a Luck (+0) check. If you pass, move to The Dreamlands. Have one encounter there and immediately return here. If you fail, move to the Abyss. Have one encounter there and immediately return here.",
+        "South Curch": "You could swear a drain pipe gargoyle moved. Lose 1 Sanity."
       }
     ],
     "green" : [
