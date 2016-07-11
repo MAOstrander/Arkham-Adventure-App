@@ -1,0 +1,18 @@
+{
+  "red": [
+    {
+      "locations": ["Abyss", "Plateu of Leng"],
+      "Abyss": "",
+      "Plateu of Leng": "",
+      "Other": ""
+    }
+  ],
+  "blue": [],
+  "green": [],
+  "yellow": [],
+  "white": [
+    {
+      "locations": [],
+      "Other": "The Stars are Right: Shuffle the Gate deck and keep drawing until you get an encounter of the right color."}
+  ]
+}
