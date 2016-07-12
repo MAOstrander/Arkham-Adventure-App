@@ -2,12 +2,85 @@
   "red": [
     {
       "locations": ["Abyss", "Plateu of Leng"],
-      "Abyss": "",
-      "Plateu of Leng": "",
+      "Abyss": "You are disturbed by unsettling echoes. Pass a Sneak (-1) check to quiet them or lose 2 Sanity.",
+      "Plateu of Leng": "The loathsome villagers send out their strongest warrior to fight you in unarmed combat. Pass a Fight (-1)[2] check to defeat him and draw 1 Unique item and gain 1 Clue token. Otherwise lose 1 Sanity and 2 Stamina.",
+      "Other": "You push yourself to the limit. Roll 1 die for each point of Stamina you have. Lose 1 Stamina for each die that does not roll a success. If you do not fall unconscious, gain 1 Clue token for each die that rolled a success."
+    },
+    {
+      "locations": ["R'lyeh", "Abyss"],
+      "R'lyeh": "A slimy monster appears!",
+      "Abyss": "Pass a Speed (-1) check to avoid a monstrous mass. If you fail, you are lost in time and space.",
+      "Other": "The colors are blinding. Pass a Lore (-1) check or stay here next turn."
+    },
+    {
+      "locations": ["Abyss", "The Dreamlands"],
+      "Abyss": "A monster appears!",
+      "The Dreamlands": "The shantak claws at you as it swoops past overhead. Pass a Speed (-2) check or lose 2 Stamina as its claws rake your cehst.",
+      "Other": "You sleep, fitfully, and awaken to the sound of your own voice, chanting something. Make a Luck (-2) check. If you pass, you are able to retain what you are saying. Draw 1 Spell and gain 2 Clue tokens. If you fail, the chant attracts something unsavory. A monster appears!"
+    },
+    {
+      "locations": ["Abyss", "The Dreamlands"],
+      "Abyss": "The stone arch breaks! Pass a Speed (-1) check to dive out of the way or roll a die and lose that much Stamina.",
+      "The Dreamlands": "The ice bridge begins to crack. Pass a luck (-1) check or fall into the icy depths. If you fall, you are lost in time and space.",
+      "Other": "The humidity and heat is exhausting. Lose 1 Stamina."
+    },
+    {
+      "locations": ["Abyss", "Plateu of Leng"],
+      "Abyss": "Starving, you consider eating some of the glowing mushrooms. If you decide to do so, make a Luck (-1) check. If you fail, roll a die and lose that much Stamina. If you succeed, roll a die and gain that much Stamina.",
+      "Plateu of Leng": "A monster appears from the shadows!",
+      "Other": "The pinkish rays nearly get you. Pass a Sneak (+0) check or lose 2 Stamina."
+    },
+    {
+      "locations": ["R'lyeh", "The Dreamlands"],
+      "R'lyeh": "The shadow tries to force its way between your lips. Pass a Fight (-2) check or lose 2 Stamina and stay here next turn.",
+      "The Dreamlands": "While wandering the phosphorescent woods, you are surrounded by hungry zoogs! Make a Luck (-2) check. If you pass, they take a liking to you and give you a gourd of moon-tree wine. Gain 1 Sanity and 1 Clue token. If you fail, the zoogs close in around you, their teeth gleaming. You are lost in time and space.",
+      "Other": "Pass a Luck (-1) check to find a quiet spot to rest. Gain 2 Stamina and 2 Sanity."
+    },
+    {
+      "locations": ["Plateu of Leng", "The Dreamlands"],
+      "Plateu of Leng": "While you are climbing a high cliff, you begin to slip. Pass a Speed (-1) check or crash down the mountain, losing 2 Stamina.",
+      "The Dreamlands": "Avalanche! Pass a Speed (-1) check or lose 3 Stamina.",
+      "Other": "The shadowy entity gives up the chase. Lose 1 Stamina from exhaustion."
+    },
+    {
+      "locations": ["R'lyeh", "The Dreamlands"],
+      "R'lyeh": "Hurricane winds smash you against the cyclopean stones. Pass a Fight (-1) check or lose 3 Stamina.",
+      "The Dreamlands": "The wind increases, and you feel your feet go numb. Pass a Fight (-1) check or lose 2 Stamina.",
+      "Other": "A lurking monster appears!"
+    },
+    {
+      "locations": ["Plateu of Leng", "The Dreamlands"],
+      "Plateu of Leng": "The villagers leap around a bonfire on the hoary plain. Pass a Sneak (-1) check or yo uare captured and subjected to terrible rites. Lose 3 Sanity and 3 Stamina, then stay here next turn.",
+      "The Dreamlands": "In the valley of Pnoth, where the dholes crawl and burrow nastily, you hear a slithering among the mountains of bone. Make a Sneak (-1) check. If you fail, you are devoured. If you pass, gain 3 Clue tokens and return immediately to Arkham.",
+      "Other": "Pass a Speed (-1) check to grab the carving before it falls. Draw 1 Spell."
+    },
+    {
+      "locations": ["R'lyeh", "Abyss"],
+      "R'lyeh": "Pass a Speed (-1) check or you slip and slide down a barnacled surface, slashing your skin to ribbons. Lose 3 Stamina.",
+      "Abyss": "Pass a Luck (-1) check or you are faced with an enourmous mountain with a strange symbol carved into it, as if by the claw of a gigantic creature. The world swims around you and you lose 3 Sanity.",
+      "Other": "The obsidian door refuses to open. Pass a Fight (-1) check or stay here next turn, struggling with it."
+    },
+    {
+      "locations": ["R'lyeh", "Plateu of Leng"],
+      "R'lyeh": "Slip on wet stones and slide into a pit. Pass a Luck (+0) check to climb out. If you fail, lsoe 1 Sanity and stay here next turn.",
+      "Plateu of Leng": "A vast stirring rumbles through the plateu. Pass a Sneak (+0) check or roll a die and lose that much Stamina.",
+      "Other": "There is nothing here but barren wastes. No encounter."
+    },
+    {
+      "locations": ["R'lyeh", "Plateu of Leng"],
+      "R'lyeh": "You become tangled in the damp seaweed. Pass a Luck (-1) check to pull free before something finds you while you're helpless. If you fail, roll a die and lose that much Stamina.",
+      "Plateu of Leng": "You are taken to a prehistoric monastery, where a high priest in a yellow silken mask questions you. Pass a Lore (-2) check to answer him to his satisfaction. Gain your freedom and 1 Spell. Otherwise, you are lost in time and space.",
+      "Other": "Pass a Luck (-1) check to discover a useful object in your wanderings. Draw 1 Unique Item."
+    }
+  ],
+  "blue": [
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
       "Other": ""
     }
   ],
-  "blue": [],
   "green": [],
   "yellow": [],
   "white": [
