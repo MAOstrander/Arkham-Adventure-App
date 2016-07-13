@@ -75,13 +75,86 @@
   ],
   "blue": [
     {
+      "locations": ["The Dreamlands", "Yuggoth"],
+      "The Dreamlands": "A thief attempts to rob you. Pass a Sneak (+0) check to notice him. If you fail, lose half your items (your choice) and half your money (rounded up).",
+      "Yuggoth": "You're dizzy from the strange ray. Pass a Will (-2) check or lose 1 item of your choice.",
+      "Other": "The strain is too much for your mind. Lose 1 Sanity."
+    },
+    {
+      "locations": ["Yuggoth", "Celeano"],
+      "Yuggoth": "Exposure and fear weaken your mind. Pass a Will (-2) check or you must either lose 2 Spells of your choice or lose 2 Sanity.",
+      "Celeano": "A lurking monster appears!",
+      "Other": "Monsters lurk everywhere. Pass a Sneak (-2) check or stay here next turn."
+    },
+    {
+      "locations": ["Yuggoth", "Celeano"],
+      "Yuggoth": "A monster appears from the darkness!",
+      "Celeano": "Pass a Luck (-1) check or the book is a prison. If you fail, roll a die. On a failure, a monster appears from the book. On a success, you are drawn into the book for a time. Stay here next turn.",
+      "Other": "Pass a Luck (-1) check to find something to defend yourself with. Take the first Weapon from the Common Item deck."
+    },
+    {
+      "locations": ["The Dreamlands", "Abyss"],
+      "The Dreamlands": "You drink impure water from the River Kra. Pass a Luck (-1) check or lose 1 Stamina and stay here next turn due to illness.",
+      "Abyss": "You are lost in the darkness. Pass a Luck (-2) check or lose 1 Sanity and stay here next turn.",
+      "Other": "You are lost in a labyrinth of high walls. Pass a Lore (-1) check or stay here nest turn."
+    },
+    {
+      "locations": ["Abyss", "Celeano"],
+      "Abyss": "The caverns split. Make a Luck (+1) check and consult the chart below: 0-1 Successes) Move to the Black Cave. 2 Successes) Move to The Dreamlands. 3+ Successes) You enter a dark temple. Pass a Luck (-1) check to draw a Unique Item.",
+      "Celeano": "The huge book opens noiselessly at your approach. If you choose, you may read it, in which case you must pass a Fight (-1)[2] check to defeat its guardian. If you do, draw 3 Spells and keep 2 of them. If you fail, lose 3 Stamina.",
+      "Other": "A monster appears!"
+    },
+    {
+      "locations": ["The Dreamlands", "Celeano"],
+      "The Dreamlands": "As you are climbing the cliffs in the underworld, your pocket gets caught and tears open. Pass a Speed (-1) check or lose all your money.",
+      "Celeano": "As you read the page, you realize that you have stumbled into a written trap. Pass a Lore (-1) check or you are Cursed.",
+      "Other": "A hideous monster appears!"
+    },
+    {
+      "locations": ["The Dreamlands", "Abyss"],
+      "The Dreamlands": "You wander the frozen wastes. No encounter.",
+      "Abyss": "You rest a bit beside a small, glowing pool filled with black, blind fish. Pass a Luck (-1) check to notice an unusual object in the water. Fishing it out, you draw 1 Unique Item and gain $3.",
+      "Other": "Pass a Luck (-1) check to discover a cache of ancient papers containing valuable information about the Mythos. Gain 1 Clue token for every success you rolled on your Luck check."
+    },
+    {
+      "locations": ["Abyss", "Yuggoth"],
+      "Abyss": "You are bewildered. Pass a Lore (-1) check or stay here next turn.",
+      "Yuggoth": "Pass a Sneak (-1) check or the creatures capture and experiment on you. Lose half of your items, then immediately return to Arkham with no memory of the experiments.",
+      "Other": "The insanity of this place finally hits you. Lose 1 Sanity."
+    },
+    {
+      "locations": ["The Dreamlands", "Celeano"],
+      "The Dreamlands": "At the south gates of Thran, you are stopped by a red-robed sentry until you can tell three dreams beyond belief. Pass a Luck (-1) check to tour the golden spires of Thran, gaining 2 Clue tokens in the process. If you fail, stay here next turn.",
+      "Celeano": "The symbol above the doorway glows. Make a Luck (-1) check. If you pass, gain 2 Stamina and 2 Sanity. If you fail, discard 2 items of your choice.",
+      "Other": "Pass a Fight (-2) check to lever back the lid of the stone chest. Inside, you find $8. If you fail, lose 1 Stamina."
+    },
+    {
+      "locations": ["Abyss", "Celeano"],
+      "Abyss": "A glowing light ahead draws you towards it. Make a Luck (-1) check. If you pass, the glow is a way home. Return to Arkham. If you fail, the light is a trap set by one of the creatures that lives here: A monster appears!",
+      "Celeano": "That's it! That's the document you need! Quietly, you reach for it, trying not to disturb its guardian. Make a Sneak (-2) check. If you pass, search the Spell deck and take 1 Spell of your choice. If you fail, lose 2 Stamina.",
+      "Other": "Pass a Fight (-1) check to hang on to your prize despite the wind. Draw 1 Spell."
+    },
+    {
+      "locations": ["Abyss", "Yuggoth"],
+      "Abyss": "The feeble glow and warmth of the candle is enough to restore you a bit. Gain 1 Stamina.",
+      "Yuggoth": "The creature's grip is like steel! Pass a Fight (-2) check to break free and escape. If you fail, the creature's grip tightens with a sickening pop. You are lost in time and space.",
+      "Other": "You've completed your task, but now you must escape before the portal closes! Pass a Speed (-2) check to return to Arkham. If you fail, your are lost in time and space. In either event, you automatically close the gate you entered through."
+    },
+    {
+      "locations": ["The Dreamlands", "Yuggoth"],
+      "The Dreamlands": "Pass a Lore (+0) check to fight off your desire to sleep. If you fail, you freeze in the night. You are lost in time and space. If you succeed, return to Arkham.",
+      "Yuggoth": "The stone creature pursues you. Pass a Speed (-1) check to escape with the statue, gaining $5 and 2 Clue tokens. If you fail, the creature smashes you off the cliff. You are lost in time and space.",
+      "Other": "Luck is with you. You stumble on a cache of supplies. Draw 1 Common Item."
+    }
+  ],
+  "green": [
+    {
       "locations": ["place1", "place2"],
       "place1": "",
       "place2": "",
       "Other": ""
     }
   ],
-  "green": [],
   "yellow": [],
   "white": [
     {
