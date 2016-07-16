@@ -168,58 +168,58 @@
       "Other": "Carefully, you avoid the gaze of a gigantic eye watching an altar. You may try to pass a Sneak (-1) check to steal a scroll from the dais. Draw 1 Spell . If you fail, you are wracked by pain and lose 3 Sanity."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["The Dreamlands", "Celeano"],
+      "The Dreamlands": "Make a Luck (-1) check. If you pass, then, waving goodbye, the happy villagers bestow a gift upon you. Draw 1 Common Item.",
+      "Celeano": "Pass a Luck (-2) check to find a book small enough to carry. Search the Unique Item deck and take the first Tome you find.",
+      "Other": "You find a quiet spot to rest and recuperate. Gain 1 Stamina."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["City of the Great Race", "Plateu of Leng"],
+      "City of the Great Race": "You must have that device if you are to escape from this accursed city. Pass a Sneak (-1)[2] check to draw 1 Unique Item and return to Arkham. If you fail, your captors are none too kind. Lose 3 Sanity and 1 Stamina.",
+      "Plateu of Leng": "The hooved, wide-mouthed traders of this land are wealthy, but dangerous. You may make a Lore (-2) check to trade with them. If you pass, gain $6. If you fail, you are lost in time and space.",
+      "Other": "Pass a Luck (-1) check to discover a vital document. Gain 2 Clue tokens."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["The Dreamlands", "Plateu of Leng"],
+      "The Dreamlands": "Pass a Luck (-1) check to come across a riding zebra and save some traveling time. If you are in the first area of The Dreamlands, move to the second area. If you are in the second area, return to Arkham.",
+      "Plateu of Leng": "The rickety bridge collapses as you cross it. Pass a Fight (-1) check to hang on, finding a relic on the other side. Draw 1 Unique Item. If you fail, you plummet into darkness. You are lost in time and space.",
+      "Other": "You come across a slaughtered craeture. Pass a Luck (-1) check to claim a monster trophy from the cup (even if it is Endless) and gain 2 Clue tokens."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["The Dreamlands", "City of the Great Race"],
+      "The Dreamlands": "You encounter the talking cats of Ulthar. Pass a Will (+0) check to draw 1 Spell.",
+      "City of the Great Race": "Pass a Luck (-1) check to find something useful among the incomprehensible artifacts. If so, draw 1 Unique Item.",
+      "Other": "A glimpse of home gives you hope. Gain 1 Sanity."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["City of the Great Race", "Plateu of Leng"],
+      "City of the Great Race": "You may choose to try and infiltrate one of the angled structures. If so, make a Sneak (-1) check. If you pass, draw 2 Unique Items and keep 1 of them. If you fail, you are lost in time and space.",
+      "Plateu of Leng": "Your peril clears your mind. Pass a Will (+0) check to restore your Sanity to its maximum value.",
+      "Other": "You are beginning to understand the strange creatures here. Gain 1 Clue token."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["Plateu of Leng", "Celeano"],
+      "Plateu of Leng": "You wander the frozen wastes. No encounter",
+      "Celeano": "An old professor from Earth teaches you a thing or two. Pass a Luck (-1)[2] check to draw 1 Skill.",
+      "Other": "You come across a sleeping horror with a tentacle draped across a small gold idol. Silence is of the essence as you attempt to gently ease the idol out from under the creature's pseudopod. Make a Sneak (-1) check. If you pass, gain $3. If you fail, lose 2 Stamina."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["City of the Great Race", "Celeano"],
+      "City of the Great Race": "The conical entity tries to teach you some magic. Pass a Lore (-2)[2] check to draw 2 Spells.",
+      "Celeano": "You find secret lore hidden in the mosaics on the wall. Make a Lore (+2) check and gain Clue tokens equal to your successes.",
+      "Other": "You find some valuable items that you can sell back in Arkham. Gain $3."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["The Dreamlands", "Plateu of Leng"],
+      "The Dreamlands": "Pass a Will (-1) check to convince the Rulers of Rokol share their wealth with you. If so, roll two dice and add them together. Gain that much money.",
+      "Plateu of Leng": "Pass a Luck (-2) check to find some useful things among bones. If so, draw 1 Common Item and 1 Spell.",
+      "Other": "Pass a Luck (-1) check to find the gate back. If so, immediately return to Arkham."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["City of the Great Race", "Celeano"],
+      "City of the Great Race": "You find yourself in an ancient and abandoned temple. Pass a Luck (-1) check to find a golden statue worth $10. However, if you take it, you are Cursed.",
+      "Celeano": "Your red-eyed reflection in the mirror captures your attention. Stay here next turn.",
+      "Other": "The rope seems to extend upwards forever, but it's the only way out of the crevasse you find yourself in. Pass a Fight (-1) check to climb it and return to Arkham. If you fail, you fall, losing 2 Stamina and staying here next turn."
     }
   ],
   "yellow": [
