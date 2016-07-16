@@ -165,7 +165,19 @@
       "locations": ["The Dreamlands", "City of the Great Race"],
       "The Dreamlands": "Touring the perfumed jungles of Kie, you come across an ancient ivory palace. Pass a Luck (-1) check to explore it without getting caught. Draw 1 Spell. If you fail the check lose 1 item of your choice.",
       "City of the Great Race": "Sometimes, violence is the answer. Pass a Fight (-1) check to break free of your captors and return to Arkham.",
-      "Other": "Carefully, you avoid the gaze of a gigantic eye watching an altar. You may try to pa"
+      "Other": "Carefully, you avoid the gaze of a gigantic eye watching an altar. You may try to pass a Sneak (-1) check to steal a scroll from the dais. Draw 1 Spell . If you fail, you are wracked by pain and lose 3 Sanity."
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
     },
     {
       "locations": ["place1", "place2"],
@@ -210,7 +222,80 @@
       "Other": ""
     }
   ],
-  "yellow": [],
+  "yellow": [
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    }
+  ],
   "white": [
     {
       "locations": [],
