@@ -149,6 +149,61 @@
   ],
   "green": [
     {
+      "locations": ["The Dreamlands", "Celeano"],
+      "The Dreamlands": "Pass a Luck (-1) check to chance across one of the little red singing birds of Celephais. Its song brings solace and strength to your heart. Restore your Sanity and Stamina to their maximum values.",
+      "Celeano": "You come across a wizened old creature who debates with you for some time. If you pass a Lore (-1) check, the creature is amused by your discussion and you are Blessed.",
+      "Other": "Pass a Fight (-2) check to pry open a grate you find built into the wall. Inside, you find something fascinating. Draw 1 Unique Item."
+    },
+    {
+      "locations": ["Plateu of Leng", "Celeano"],
+      "Plateu of Leng": "Your mind and body are toughened by your experiences. Pass a Will (+0)[2] check to draw 1
+      Skill.",
+      "Celeano": "Pass a Luck (-2) check to find a valuable book. If so, search the  Unique Item deck and take the first Tome you find.",
+      "Other": "Wedged beneath a fallen stone is a scroll. Draw 1 Spell."
+    },
+    {
+      "locations": ["The Dreamlands", "City of the Great Race"],
+      "The Dreamlands": "Touring the perfumed jungles of Kie, you come across an ancient ivory palace. Pass a Luck (-1) check to explore it without getting caught. Draw 1 Spell. If you fail the check lose 1 item of your choice.",
+      "City of the Great Race": "Sometimes, violence is the answer. Pass a Fight (-1) check to break free of your captors and return to Arkham.",
+      "Other": "Carefully, you avoid the gaze of a gigantic eye watching an altar. You may try to pa"
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
+      "locations": ["place1", "place2"],
+      "place1": "",
+      "place2": "",
+      "Other": ""
+    },
+    {
       "locations": ["place1", "place2"],
       "place1": "",
       "place2": "",
