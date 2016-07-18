@@ -1,0 +1,30 @@
+{
+  "arkham": [
+    {
+      "title": "The Story Continues...",
+      "type": "I cannot remember, I must not remember what I saw on that dark and foreboding night...",
+      "text": "Shuffle the Mythos deck, being sure to include this card in it. After the deck is shuffled, draw a new Mythos card for the turn."
+    },
+    {
+      "title": "Good Work Undone",
+      "type": "Rumor",
+      "text": "When this card enters play, place 6 Clue tokens on it. Any player may spend Clue tokens during the Arkham Encounter Phase while in the Easttown streets to discard Clue tokens from this card on a 1-for-1 basis.",
+      "effect": "Roll two dice at the end of every Mythos Phase while this card is in play (beginning the turn after it entered play). For every 1 or 2 rolled, place 1 Clue token on this card.",
+      "pass": "If there are no Clue tokens on this card, return it to the box. Each player draws 1 Unique Item.",
+      "fail": "If there are 10 Clue tokens on this card, return it to the box. All elder sign tokens are removed from the board.",
+      "activity": "Easttown Streets",
+      "gate": "Unvisited Isle",
+      "move-black": ["hexagon"],
+      "move-white": ["slash", "triangle", "star"]
+    },
+    {
+      "title": "",
+      "type": "",
+      "text": "",
+      "gate": "",
+      "clue": "",
+      "move-black": [],
+      "move-white": []
+    }
+  ]
+}

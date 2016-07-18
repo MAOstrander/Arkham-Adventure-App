@@ -1,0 +1,13 @@
+{
+  "moves": [
+    "circle",
+    "slash",
+    "triangle",
+    "square",
+    "diamond",
+    "hexagon",
+    "star",
+    "plus",
+    "moon"
+  ]
+}
