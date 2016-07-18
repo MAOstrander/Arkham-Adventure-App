@@ -236,64 +236,64 @@
       "Other": "The sky is spinning. Pass a Will (-2) check or pass out and stay here next turn."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["City of the Great Race", "The Dreamlands"],
+      "City of the Great Race": "You wander the empty streets of the city. No encounter.",
+      "The Dreamlands": "You come across an abandoned onyx quarry whose chiselled vacancies are so vast that it staggers your mind. Pass a Lore (-1) check to avoid awakening anything here, or else lose 3 Sanity.",
+      "Other": "The unending blackness terrifies you. Pass a Will (-1) check or lose 1 Sanity and 1 Stamina from fear and exhaustion."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["Yuggoth", "The Dreamlands"],
+      "Yuggoth": "Your only hope is to steal a byakhee and some space mead! Pass a Sneak (-2) check to escape. Return to Arkham and gain 2 Clue tokens. If you fail, you are lost in time and space.",
+      "The Dreamlands": "The golden city of your dreams is threatening to become an obsession. Pass a Luck (-1) check or stay here next turn to hunt for it.",
+      "Other": "You stare into the face of madness. Roll 1 die for each point of Sanity you have. Lose 1 Sanity for each die that does not roll a success. If you do not go insane, gain 1 Clue token for each die that rolled a success."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["R'lyeh", "The Dreamlands"],
+      "R'lyeh": "A horrible visage captures your gaze. Pass a Will (+0) check to look away or lose 1 Stamina and stay here next turn.",
+      "The Dreamlands": "Pass a Luck (+0) check or stumble into a spider's web. Lose 2 Sanity and stay here next turn while struggling to get free.",
+      "Other": "Suddenly, the things you've seen make sense! Gain 1 Clue token."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["City of the Great Race", "The Dreamlands"],
+      "City of the Great Race": "Glancing behind you, you see that the beasts are still chasing you. Pass a Speed (-1) check or be lost in time and space.",
+      "The Dreamlands": "The stone face reveals to you one of the deepest secrets of the Dreamlands. Pass a Lore (-1)[2] check to gain 4 Clue tokens. If you fail the check, however, the sight claims your last shred of sanity. Lose all your Sanity.",
+      "Other": "Suddenly you notice something that you had previously missed. Gain 1 Clue token."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["R'lyeh", "The Dreamlands"],
+      "R'lyeh": "You trip over a stone outcropping that shouldn't be there. Pass a Speed (-1) check or you are lost in time and space.",
+      "The Dreamlands": "The meeping of the ghouls in the tunnels echoes in your ears. Pass a Will (-2) check or lose 2 Sanity.",
+      "Other": "A monster appears from the shadows!"
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["City of the Great Race", "Yuggoth"],
+      "City of the Great Race": "The odd plant has you in its clutches. Pass a Fight (-1) check to break free. If you fail, lose 1 Stamina and 1 Sanity as it partially digests you.",
+      "Yuggoth": "An alien mind forces its way into your body. Pass a Luck (-2) check to guess a way to drive it out, gaining 2 Clue tokens in the process, or else stay here next turn, serving as its host body.",
+      "Other": "A glimmer of gold catches your eye. Gain $2."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["R'lyeh", "Yuggoth"],
+      "R'lyeh": "You run for the boat. Pass a Speed (-1)[2] check to reach it in time. If you do, you escape with vital information. Gain 5 Clue tokens. If you fail, stay here next turn, hiding from your pursuer.",
+      "Yuggoth": "Breathing hard, you stay huddled against the rock until the sounds of pursuit fade into the distance. No encounter.",
+      "Other": "Your mind is flooded with knowledge. Make a Lore (-2) check. If you pass it, draw 1 Spell, but lose 1 Sanity."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["R'lyeh", "City of the Great Race"],
+      "R'lyeh": "The stink of this place is unbearable. Pass a Will (-1) check or lose 1 Stamina, 1 Sanity, and your lunch.",
+      "City of the Great Race": "In a flash of insight, you realize the purpose of the bladed artifact. Shivering, you put it back where you found it. Lose 1 Sanity but gain 1 Clue token.",
+      "Other": "Time and space bend around you. Make a Luck (-1) check. If you pass, return to Arkham. If you fail, stay here next turn."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["City of the Great Race", "Yuggoth"],
+      "City of the Great Race": "The buzzing language of your captors begins to make sense to you. Gain 2 Clue tokens. Then you must pass a Luck (-1) check to avoid hearing about the origins of mankind and thereby losing 2 Sanity.",
+      "Yuggoth": "The cylindered head mocks your hopes. 'Youll never return home!' it cackles. Pass a Will (-2) check or lose 2 Sanity.",
+      "Other": "A monster appears!"
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["R'lyeh", "Yuggoth"],
+      "R'lyeh": "The city is filled with unnerving aliend angles. Pass a Speed (-1) check to avoid touching them or lose 1 Sanity.",
+      "Yuggoth": "A strange creature stares at you with burning eyes. It is as if its gaze were stealing your soul. Pass a Luck (-1) check or roll a die and subtract 2 from it (minimum of 0), then lose that much Stamina and Sanity.",
+      "Other": "You are not safe here. A monster appears!"
     }
   ],
   "white": [
