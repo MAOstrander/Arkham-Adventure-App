@@ -224,16 +224,16 @@
   ],
   "yellow": [
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["Yuggoth", "The Dreamlands"],
+      "Yuggoth": "Fear grabs you as the buzzing entities approach. Pass a Will (-1) check or lose 2 Sanity.",
+      "The Dreamlands": "You see the mountains move. Lose 1 Sanity from terror.",
+      "Other": "A ripple in the air passes over you. Pass a Lore (-1) check or lose 1 Spell of your choice as it is burned from your mind."
     },
     {
-      "locations": ["place1", "place2"],
-      "place1": "",
-      "place2": "",
-      "Other": ""
+      "locations": ["R'lyeh", "City of the Great Race"],
+      "R'lyeh": "The night stars change and the brazen temple doors open, pouring forth a vast, black corpulence. Roll a die and lose that much Sanity.",
+      "City of the Great Race": "The hideous whistling fills your ears. Pass a Will (-1) check or lose 2 Sanity.",
+      "Other": "The sky is spinning. Pass a Will (-2) check or pass out and stay here next turn."
     },
     {
       "locations": ["place1", "place2"],
