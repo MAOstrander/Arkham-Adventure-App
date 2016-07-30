@@ -18,6 +18,18 @@
       "move-white": ["slash", "triangle", "star"]
     },
     {
+      "title": "The Terrible Experiment",
+      "type": "Rumor",
+      "text": "When this card enters play, place 5 monsters from the cup on it. Any player may choose to fight one or more of these monsters while in the Miskatonic U. streets durign the Arkham Encounter Phase. If defeated, they are claimed as monster trophies. These monsters do not move, are not considered to be on teh board, and do not count against the monster limit.",
+      "effect": "Place a monster on this card at the end of every Mythos Phase (beginning the turn after it entered play).",
+      "pass": "If there are no monsters on this card, return it to the box. Each player draws 1 Skill.",
+      "fail": "If there are 8 monsters on this card, return it to the box. Raise the terror level to 10 and place the monsters that were on it into play in the Miskatonic U. streets.",
+      "activity": "Miskatonic U. Streets",
+      "gate": "Unvisited Isle",
+      "move-black": ["hexagon"],
+      "move-white": ["slash", "triangle", "star"]
+    },
+    {
       "title": "",
       "type": "",
       "text": "",
