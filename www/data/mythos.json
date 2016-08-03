@@ -30,6 +30,18 @@
       "move-white": ["slash", "triangle", "star"]
     },
     {
+      "title": "The Southside Strangler Strikes",
+      "type": "Rumor",
+      "text": "The Southside Strangler has struck again!",
+      "effect": "Return one Ally from the Ally deck to the box at random at the end of every Mythos Phase (beginning the turn after it entered play).",
+      "pass": "If a single player discards 5 Clue tokens while in Ma's Boarding House during the Arkham Encounter Phae, return this card to the box. Each player gains $5 as a reward from the police.",
+      "fail": "If there are no Allies to return to the box at the end of the Mythos Phase, return this card to the box. Each player must lower either their maximum Sanity or Stamina (their choice) by 1 for the rest of the game.",
+      "activity": "Southside Streets",
+      "gate": "Independence Square",
+      "move-black": ["hexagon"],
+      "move-white": ["slash", "triangle", "star"]
+    },
+    {
       "title": "",
       "type": "",
       "text": "",
